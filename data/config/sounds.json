@@ -1,0 +1,49 @@
+{
+	"music": {
+		"music_ibo_teiwaz_neutral": [
+			{
+				"source": "sounds/music/",
+				"volume": 0.2,
+				"files": [
+					"024-Teiwaz-Gundam_IBO.ogg"
+				]
+			}
+		],
+		"music_ibo_teiwaz_market_hostile": [
+			{
+				"source": "sounds/music/",
+				"volume": 0.2,
+				"files": [
+					"035-Human_or_Not-Gundam_IBO.ogg"
+				]
+			}
+		],
+		"music_ibo_teiwaz_market_frendly": [
+			{
+				"source": "sounds/music/",
+				"volume": 0.2,
+				"files": [
+					"007-Habitat-Gundam_IBO.ogg"
+				]
+			}
+		],
+		"music_ibo_teiwaz_enc_hostile": [
+			{
+				"source": "sounds/music/",
+				"volume": 0.2,
+				"files": [
+					"022-Military_Scheme-Gundam_IBO.ogg"
+				]
+			}
+		],
+		"music_ibo_teiwaz_enc_frendly": [
+			{
+				"source": "sounds/music/",
+				"volume": 0.2,
+				"files": [
+					"065-Tenderfeet-Gundam_IBO.ogg"
+				]
+			}
+		]
+	}
+}
