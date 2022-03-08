@@ -13,9 +13,13 @@ import com.fs.starfarer.api.campaign.RepLevel;
 import com.fs.starfarer.api.campaign.SectorAPI;
 import com.fs.starfarer.api.campaign.SectorGeneratorPlugin;
 
+import org.json.JSONObject;
+
 import data.scripts.world.systems.TeiwazSaisei;
 
 public class IBOFGen implements SectorGeneratorPlugin {
+
+  JSONObject options;
 
   @Override
   public void generate(SectorAPI sector) {
