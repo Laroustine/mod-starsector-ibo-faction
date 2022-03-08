@@ -1,0 +1,5 @@
+source.txt
+build
+*.class
+.vscode
+.idea

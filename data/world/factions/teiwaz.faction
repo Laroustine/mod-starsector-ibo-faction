@@ -14,36 +14,31 @@
 	"shipNameSources": {
 		"JAPANESE": 2,
 		"BRITISH_NAVY": 1,
-		"GENERAL": 1,
+		"GENERAL": 1
 	},
 	"names": {
 		"gundam": 3,
 		"teiwaz": 2,
 		"modern": 1,
-		"future": 1,
+		"future": 1
 	},
-
-	# variantOverrides restricts hulls to listed variants and adjusts their probability
 	"variantOverrides": {},
-	
-	# multiplier for how often hulls show up in the faction's fleets
 	"hullFrequency": {
 		"tags": {
 			"heg_aux_bp": 2,
-			"XIV_bp": 0.25,
+			"XIV_bp": 0.25
 		},
 		"hulls": {
-			"buffalo2": 0, # just say no
-		},
+			"buffalo2": 0
+		}
 	},
-	# ships the faction gets access to when importing S&W out-of-faction
 	"shipsWhenImporting": {
 		"tags": [
 			"base_bp",
 			"heg_aux_bp",
 			"lowtech_bp"
 		],
-		"hulls": [],
+		"hulls": []
 	},
 	"knownShips": {
 		"tags": [
@@ -64,10 +59,9 @@
 			"eagle",
 			"valkyrie",
 			"vanguard",
-			"manticore",
-		],
+			"manticore"
+		]
 	},
-	# listing ships here will make the faction mostly use them even if other hulls become available
 	"priorityShips": {
 		"tags": [],
 		"hulls": [
@@ -75,8 +69,8 @@
 			"mora",
 			"legion",
 			"onslaught",
-			"onslaught_xiv",
-		],
+			"onslaught_xiv"
+		]
 	},
 	"knownFighters": {
 		"tags": [
@@ -87,12 +81,12 @@
 		],
 		"fighters": [
 			"thunder_wing",
-			"hoplon_wing",
-		],
+			"hoplon_wing"
+		]
 	},
 	"priorityFighters": {
 		"tags": [],
-		"fighters": [],
+		"fighters": []
 	},
 	"knownWeapons": {
 		"tags": [
@@ -114,12 +108,12 @@
 			"sabotpod",
 			"phasecl",
 			"cyclone",
-			"hurricane",
-		],
+			"hurricane"
+		]
 	},
 	"priorityWeapons": {
 		"tags": [],
-		"weapons": [],
+		"weapons": []
 	},
 	"knownHullMods": {
 		"tags": [
@@ -145,34 +139,34 @@
 			"operations_center",
 			"fluxbreakers",
 			"stabilizedshieldemitter",
-			"frontshield",  # makeshift
+			"frontshield",
 			"surveying_equipment",
 			"efficiency_overhaul",
 			"converted_fighterbay",
 			"ballistic_rangefinder",
-			"shield_shunt",
-		],
+			"shield_shunt"
+		]
 	},
 	"factionDoctrine": {
-		"warships": 4,
-		"carriers": 2,
+		"warships": 1,
+		"carriers": 5,
 		"phaseShips": 1,
-		"officerQuality": 5,
-		"shipQuality": 1,
+		"officerQuality": 3,
+		"shipQuality": 3,
 		"numShips": 1,
-		"shipSize": 4,
+		"shipSize": 3,
 		"aggression": 2,
-		"combatFreighterProbability": 0.1,      				# instead of some portion of the freighters in a fleet
-		"combatFreighterCombatUseFraction": 0,  				# as part of the normal combat lineup
-		"combatFreighterCombatUseFractionWhenPriority": 0,   # as part of normal combat lineup, when marked as priority ship
+		"combatFreighterProbability": 0.1,
+		"combatFreighterCombatUseFraction": 0,
+		"combatFreighterCombatUseFractionWhenPriority": 0,
 		"autofitRandomizeProbability": 0.1,
 		"commanderSkillsShuffleProbability": 1,
 		"commanderSkills": [
 			"crew_training",
 			"officer_training",
 			"coordinated_maneuvers",
-			"support_doctrine",
-		],
+			"support_doctrine"
+		]
 	},
 	"illegalCommodities": [],
 	"music": {
@@ -185,9 +179,6 @@
 		"encounter_friendly": "music_ibo_teiwaz_enc_frendly",
 	},
 	"internalComms": "hegemony_internal",
-	#"tariffFraction": 0.4,
-	#"tollFraction": 0.1,
-	#"fineFraction": 0.25,
 	"portraits": {
 		"standard_male": [
 			"graphics/portraits/naze.png",
@@ -196,7 +187,7 @@
 		],
 		"standard_female": [
 			"graphics/portraits/amida.png",
-		],
+		]
 	},
 	"ranks": {
 		"ranks": {
@@ -248,10 +239,10 @@
 		"hostilityImpactOnGrowth": true,
 		"caresAboutAtrocities": true,
 		"punitiveExpeditionData": {
-			"vsCompetitors": false,
+			"vsCompetitors": true,
 			"vsFreePort": true,
 			"canBombard": false,
-			"territorial": true,
+			"territorial": false,
 		},
 	},
 }

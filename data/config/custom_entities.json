@@ -1,0 +1,26 @@
+{
+	"station_saisei": {
+		"defaultName": "The Saisei",
+		"defaultRadius": 45,
+		"customDescriptionId": "orbital_station_saisei",
+		"interactionImage": "graphics/illustrations/orbital_saisei.png",
+		"icon": "graphics/icons/station0.png",
+		"iconWidth": 20,
+		"iconHeight": 20,
+		"sprite": "graphics/stations/station_saisei.png",
+		"spriteWidth": 80,
+		"spriteHeight": 80,
+		"renderShadow": true,
+		"useLightColor": true,
+		"showInCampaign": true,
+		"showIconOnMap": true,
+		"showNameOnMap": false,
+		"scaleNameWithZoom": false,
+		"scaleIconWithZoom": true,
+		"tags": [
+			"station"
+		],
+		"layers": [STATIONS
+		]
+	}
+}
