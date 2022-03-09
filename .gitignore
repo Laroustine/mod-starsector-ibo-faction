@@ -1,5 +1,6 @@
 source.txt
-build
 *.class
+*~
+build
 .vscode
 .idea
