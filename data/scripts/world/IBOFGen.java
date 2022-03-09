@@ -30,7 +30,15 @@ public class IBOFGen implements SectorGeneratorPlugin {
 
   public static void initFactionRelationships(SectorAPI sector) {
     FactionAPI teiwaz = sector.getFaction("teiwaz");
+    FactionAPI gjallarhorn = sector.getFaction("gjallarhorn");
 
+    // Teiwaz
     teiwaz.setRelationship("pirates", RepLevel.HOSTILE);
+    // Gjallarhorn
+    gjallarhorn.setRelationship("pirates", RepLevel.HOSTILE);
+    gjallarhorn.setRelationship("luddic_path", RepLevel.HOSTILE);
+    gjallarhorn.setRelationship("tritachyon", RepLevel.HOSTILE);
+    gjallarhorn.setRelationship("hegemony", RepLevel.WELCOMING);
+    gjallarhorn.setRelationship("persean", RepLevel.WELCOMING);
   }
 }
