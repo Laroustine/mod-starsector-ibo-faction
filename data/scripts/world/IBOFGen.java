@@ -15,6 +15,7 @@ import com.fs.starfarer.api.campaign.SectorGeneratorPlugin;
 
 import org.json.JSONObject;
 
+import data.scripts.world.systems.GjaTest;
 import data.scripts.world.systems.TeiwazSaisei;
 
 public class IBOFGen implements SectorGeneratorPlugin {
@@ -26,6 +27,7 @@ public class IBOFGen implements SectorGeneratorPlugin {
     initFactionRelationships(sector);
     //load systems
     new TeiwazSaisei().generate(sector);
+    new GjaTest().generate(sector);
   }
 
   public static void initFactionRelationships(SectorAPI sector) {
@@ -38,6 +40,7 @@ public class IBOFGen implements SectorGeneratorPlugin {
     gjallarhorn.setRelationship("pirates", RepLevel.HOSTILE);
     gjallarhorn.setRelationship("luddic_path", RepLevel.HOSTILE);
     gjallarhorn.setRelationship("tritachyon", RepLevel.HOSTILE);
+    gjallarhorn.setRelationship("player", RepLevel.SUSPICIOUS);
     gjallarhorn.setRelationship("hegemony", RepLevel.WELCOMING);
     gjallarhorn.setRelationship("persean", RepLevel.WELCOMING);
   }

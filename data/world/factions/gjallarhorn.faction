@@ -17,7 +17,8 @@
 		"GENERAL": 1
 	},
 	"names": {
-		"gundam": 3,
+		"gundam": 1,
+		"gjallarhorn": 1,
 		"modern": 1,
 		"future": 1
 	},
@@ -168,10 +169,9 @@
 		]
 	},
 	"illegalCommodities": [
-		"drugs",
-		"organs",
-		"hand_weapons",
 		"marines",
+		"hand_weapons",
+		"organs",
 		"ai_cores",
 	],
 	"music": {
@@ -222,8 +222,8 @@
 		"offersCommissions": true,
 		"engagesInHostilities": true,
 		"buysAICores": true,
-		"AICoreValueMult": 1,
-		"AICoreRepMult": 2,
+		"AICoreValueMult": 3,
+		"AICoreRepMult": 3,
 		"buysSurveyData": true,
 		"hostilityImpactOnGrowth": true,
 		"caresAboutAtrocities": true,

@@ -17,8 +17,8 @@
 		"GENERAL": 1
 	},
 	"names": {
-		"gundam": 3,
-		"teiwaz": 2,
+		"gundam": 1,
+		"teiwaz": 1,
 		"modern": 1,
 		"future": 1
 	},
@@ -236,7 +236,7 @@
 		"AICoreValueMult": 1,
 		"AICoreRepMult": 2,
 		"buysSurveyData": true,
-		"hostilityImpactOnGrowth": true,
+		"hostilityImpactOnGrowth": false,
 		"caresAboutAtrocities": true,
 		"punitiveExpeditionData": {
 			"vsCompetitors": true,
