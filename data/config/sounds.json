@@ -1,6 +1,6 @@
 {
 	"music": {
-		"music_ibo_teiwaz_neutral": [
+		"ibo_teiwaz_theme": [
 			{
 				"source": "sounds/music/",
 				"volume": 0.2,
@@ -9,7 +9,7 @@
 				]
 			}
 		],
-		"music_ibo_teiwaz_market_hostile": [
+		"ibo_teiwaz_market_hostile": [
 			{
 				"source": "sounds/music/",
 				"volume": 0.2,
@@ -18,7 +18,7 @@
 				]
 			}
 		],
-		"music_ibo_teiwaz_market_frendly": [
+		"ibo_teiwaz_market_frendly": [
 			{
 				"source": "sounds/music/",
 				"volume": 0.2,
@@ -27,7 +27,7 @@
 				]
 			}
 		],
-		"music_ibo_teiwaz_enc_hostile": [
+		"ibo_teiwaz_enc_hostile": [
 			{
 				"source": "sounds/music/",
 				"volume": 0.2,
@@ -36,7 +36,7 @@
 				]
 			}
 		],
-		"music_ibo_teiwaz_enc_frendly": [
+		"ibo_teiwaz_enc_frendly": [
 			{
 				"source": "sounds/music/",
 				"volume": 0.2,
@@ -44,6 +44,71 @@
 					"065-Tenderfeet-Gundam_IBO.ogg"
 				]
 			}
-		]
+		],
+		"ibo_gja_theme": [
+			{
+				"source": "sounds/music/",
+				"volume": 0.2,
+				"files": [
+					"069-Suite_of_the_seven_stars-Gundam_IBO.ogg"
+				]
+			},
+			{
+				"source": "sounds/music/",
+				"volume": 0.2,
+				"files": [
+					"073-The_lord-Gundam_IBO.ogg"
+				]
+			}
+		],
+		"ibo_gja_market_hostile": [
+			{
+				"source": "sounds/music/",
+				"volume": 0.2,
+				"files": [
+					"097-Confliction-Gundam_IBO.ogg"
+				]
+			},
+			{
+				"source": "sounds/music/",
+				"volume": 0.2,
+				"files": [
+					"098-Betrayal-Gundam_IBO.ogg"
+				]
+			}
+		],
+		"ibo_gja_enc_hostile": [
+			{
+				"source": "sounds/music/",
+				"volume": 0.2,
+				"files": [
+					"107-All_out-Gundam_IBO.ogg"
+				]
+			},
+			{
+				"source": "sounds/music/",
+				"volume": 0.2,
+				"files": [
+					"101-The_dignity_of_Lords-Gundam_IBO.ogg"
+				]
+			},
+			{
+				"source": "sounds/music/",
+				"volume": 0.2,
+				"files": [
+					"070-Battle_of_the_seven_stars-Gundam_IBO.ogg"
+				]
+			}
+		],
+		"ibo_gja_enc_neutral": [
+			{
+				"source": "sounds/music/",
+				"volume": 0.2,
+				"files": [
+					"104-The_path_to_the_end-Gundam_IBO.ogg"
+				]
+			}
+		],
 	}
+}
 }

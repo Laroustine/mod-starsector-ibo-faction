@@ -175,13 +175,13 @@
 		"ai_cores",
 	],
 	"music": {
-		"theme": "music_ibo_teiwaz_neutral",
-		"market_neutral": "music_ibo_teiwaz_neutral",
-		"market_hostile": "music_ibo_teiwaz_market_hostile",
-		"market_friendly": "music_ibo_teiwaz_market_frendly",
-		"encounter_neutral": "music_ibo_teiwaz_neutral",
-		"encounter_hostile": "music_ibo_teiwaz_enc_hostile",
-		"encounter_friendly": "music_ibo_teiwaz_enc_frendly",
+		"theme": "ibo_gja_theme",
+		"market_neutral": "ibo_gja_theme",
+		"market_hostile": "ibo_gja_market_hostile",
+		"market_friendly": "ibo_gja_theme",
+		"encounter_neutral": "ibo_gja_enc_neutral",
+		"encounter_hostile": "ibo_gja_enc_hostile",
+		"encounter_friendly": "ibo_gja_enc_neutral",
 	},
 	"internalComms": "hegemony_internal",
 	"portraits": {
@@ -197,26 +197,10 @@
 	"ranks": {
 		"ranks": {
 			"factionLeader": {
-				"name": "Representative"
-			},
-			"spaceCommander": {
-				"name": "Head of Security"
+				"name": "Seven Stars"
 			},
 		},
-		"posts": {
-			"factionLeader": {
-				"name": "Representative"
-			},
-			"patrolCommander": {
-				"name": "Head of Local Security"
-			},
-			"fleetCommander": {
-				"name": "Security Administrator"
-			},
-			"baseCommander": {
-				"name": "Local Representative"
-			},
-		},
+		"posts": {},
 	},
 	"voices": {
 		"LOW": {
