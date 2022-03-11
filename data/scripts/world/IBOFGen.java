@@ -1,9 +1,9 @@
 /*
  * Author: Laroustine
  * Project: IBO Faction
- * Version: 1.0.0a
+ * Version: 1.1.0a
  * Game Version: 0.95.1a-RC6
- * File Created: 07/03/2022
+ * File Created: 09/03/2022
  */
 
 package data.scripts.world;
@@ -15,7 +15,7 @@ import com.fs.starfarer.api.campaign.SectorGeneratorPlugin;
 
 import org.json.JSONObject;
 
-import data.scripts.world.systems.GjaTest;
+import data.scripts.world.systems.GjaHome;
 import data.scripts.world.systems.TeiwazSaisei;
 
 public class IBOFGen implements SectorGeneratorPlugin {
@@ -27,7 +27,8 @@ public class IBOFGen implements SectorGeneratorPlugin {
     initFactionRelationships(sector);
     //load systems
     new TeiwazSaisei().generate(sector);
-    new GjaTest().generate(sector);
+    new GjaStationList().generate(sector);
+    new GjaHome().generate(sector);
   }
 
   public static void initFactionRelationships(SectorAPI sector) {

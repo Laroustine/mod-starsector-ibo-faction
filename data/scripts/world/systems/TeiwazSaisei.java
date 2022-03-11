@@ -39,7 +39,7 @@ public class TeiwazSaisei {
     );
     MarketAPI market = Global
       .getFactory()
-      .createMarket("saisei_market", "Saisei", 3);
+      .createMarket("saisei_market", "Saisei", 4);
 
     saisei.setCircularOrbitPointingDown(
       system.getEntityById(planetId),
