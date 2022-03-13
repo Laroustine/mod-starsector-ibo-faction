@@ -8,8 +8,6 @@
 
 package data.scripts.world.systems;
 
-import java.util.Random;
-
 import com.fs.starfarer.api.Global;
 import com.fs.starfarer.api.campaign.SectorAPI;
 import com.fs.starfarer.api.campaign.SectorEntityToken;
@@ -18,6 +16,7 @@ import com.fs.starfarer.api.campaign.econ.MarketAPI;
 import com.fs.starfarer.api.impl.campaign.ids.Conditions;
 import com.fs.starfarer.api.impl.campaign.ids.Industries;
 import com.fs.starfarer.api.impl.campaign.ids.Submarkets;
+import java.util.Random;
 
 public class GjaStationMaker {
 
@@ -36,7 +35,7 @@ public class GjaStationMaker {
       .createMarket(
         "st_gja_" + starSystem.toLowerCase(),
         "Admiministrative Station",
-        4
+        3
       );
 
     station.setCircularOrbitPointingDown(
@@ -50,19 +49,17 @@ public class GjaStationMaker {
     market.setFactionId(faction);
     market.getTariff().modifyFlat("generator", 0.35f);
     market.setPlanetConditionMarketOnly(false);
-    market.addCondition(Conditions.POPULATION_4);
-    market.addSubmarket(Submarkets.SUBMARKET_STORAGE);
+    market.addCondition(Conditions.POPULATION_3);
     market.addSubmarket(Submarkets.GENERIC_MILITARY);
     market.addIndustry(Industries.BATTLESTATION_MID);
-    market.addIndustry(Industries.PATROLHQ);
     market.addIndustry(Industries.HIGHCOMMAND);
     market.addIndustry(Industries.POPULATION);
-    market.addIndustry(Industries.MEGAPORT);
+    market.addIndustry(Industries.SPACEPORT);
     market.addIndustry(Industries.WAYSTATION);
     market.getUpkeepMult().modifyFlat("generator", 0);
 
     station.setMarket(market);
-    Global.getSector().getEconomy().addMarket(market, true);
+    sector.getEconomy().addMarket(market, true);
 
     system.updateAllOrbits();
   }
