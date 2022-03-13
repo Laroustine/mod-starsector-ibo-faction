@@ -1,7 +1,7 @@
 {
 	"station_saisei": {
 		"defaultName": "The Saisei",
-		"defaultRadius": 40,
+		"defaultRadius": 50,
 		"customDescriptionId": "orbital_station_saisei",
 		"interactionImage": "graphics/illustrations/orbital_saisei.png",
 		"icon": "graphics/icons/station0.png",
@@ -9,6 +9,30 @@
 		"iconHeight": 20,
 		"sprite": "graphics/stations/station_saisei.png",
 		"spriteWidth": 40,
+		"spriteHeight": 80,
+		"renderShadow": false,
+		"useLightColor": true,
+		"showInCampaign": true,
+		"showIconOnMap": true,
+		"showNameOnMap": false,
+		"scaleNameWithZoom": false,
+		"scaleIconWithZoom": true,
+		"tags": [
+			"station"
+		],
+		"layers": [STATIONS
+		]
+	},
+	"station_gja": {
+		"defaultName": "Gja - Station",
+		"defaultRadius": 60,
+		"customDescriptionId": "station_gjallarhorn",
+		"interactionImage": "graphics/illustrations/orbital_gjallarhorn.png",
+		"icon": "graphics/icons/station0.png",
+		"iconWidth": 20,
+		"iconHeight": 20,
+		"sprite": "graphics/stations/station_side02.png",
+		"spriteWidth": 80,
 		"spriteHeight": 80,
 		"renderShadow": false,
 		"useLightColor": true,

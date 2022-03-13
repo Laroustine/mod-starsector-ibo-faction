@@ -24,8 +24,9 @@ import com.fs.starfarer.api.impl.campaign.ids.Submarkets;
 
 public class TeiwazSaisei {
 
-  String starSystem = "Valhalla";
-  String planetId = "yggdrasil";
+  final String starSystem = "Valhalla";
+  final String planetId = "yggdrasil";
+  final String faction = "teiwaz";
 
   public void generate(SectorAPI sector) {
     PersonAPI mc = makeAdmin();
@@ -34,11 +35,11 @@ public class TeiwazSaisei {
       null,
       null,
       "station_saisei",
-      "teiwaz"
+      faction
     );
     MarketAPI market = Global
       .getFactory()
-      .createMarket("saisei_market", "Saisei", 3);
+      .createMarket("saisei_market", "Saisei", 4);
 
     saisei.setCircularOrbitPointingDown(
       system.getEntityById(planetId),
@@ -50,17 +51,17 @@ public class TeiwazSaisei {
     mc.setMarket(market);
 
     market.setPrimaryEntity(saisei);
-    market.setFactionId("teiwaz");
+    market.setFactionId(faction);
     market.getTariff().modifyFlat("generator", 0.05f);
     market.setPlanetConditionMarketOnly(false);
     market.addCondition(Conditions.POPULATION_4);
+    market.addCondition(Conditions.FREE_PORT);
     market.addSubmarket(Submarkets.SUBMARKET_OPEN);
     market.addSubmarket(Submarkets.GENERIC_MILITARY);
     market.addSubmarket(Submarkets.LOCAL_RESOURCES);
     market.addIndustry(Industries.POPULATION);
     market.addIndustry(Industries.MEGAPORT);
     market.addIndustry(Industries.TECHMINING);
-    market.addIndustry(Industries.HIGHCOMMAND);
     market.addIndustry(Industries.WAYSTATION);
     market.addIndustry(Industries.ORBITALWORKS);
     market.setAdmin(mc);
@@ -74,7 +75,7 @@ public class TeiwazSaisei {
   private PersonAPI makeAdmin() {
     PersonAPI mc = Global.getSettings().createPerson();
 
-    mc.setFaction("teiwaz");
+    mc.setFaction(faction);
     mc.setName(new FullName("McMurdo", "Barriston", Gender.MALE));
     mc.setPortraitSprite("graphics/portraits/mcmurdo.png");
     mc.setPersonality(Personalities.CAUTIOUS);

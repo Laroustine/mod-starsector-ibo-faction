@@ -1,24 +1,24 @@
 {
-	id: "teiwaz",
+	id: "gjallarhorn",
 	"color": [
-		83,
-		104,
-		114,
+		255,
+		255,
+		255,
 		255
 	],
-	"displayName": "Teiwaz",
-	"displayNameWithArticle": "Teiwaz",
-	"logo": "graphics/factions/teiwaz.png",
-	"crest": "graphics/factions/crest_teiwaz.png",
-	"shipNamePrefix": "JEE",
+	"displayName": "Gjallarhorn",
+	"displayNameWithArticle": "Gjallarhorn",
+	"logo": "graphics/factions/gjallarhorn.png",
+	"crest": "graphics/factions/crest_gjallarhorn.png",
+	"shipNamePrefix": "GPF",
 	"shipNameSources": {
-		"JAPANESE": 2,
+		"NORSE": 2,
 		"BRITISH_NAVY": 1,
 		"GENERAL": 1
 	},
 	"names": {
 		"gundam": 1,
-		"teiwaz": 1,
+		"gjallarhorn": 1,
 		"modern": 1,
 		"future": 1
 	},
@@ -168,50 +168,39 @@
 			"support_doctrine"
 		]
 	},
-	"illegalCommodities": [],
+	"illegalCommodities": [
+		"marines",
+		"hand_weapons",
+		"organs",
+		"ai_cores",
+	],
 	"music": {
-		"theme": "ibo_teiwaz_theme",
-		"market_neutral": "ibo_teiwaz_theme",
-		"market_hostile": "ibo_teiwaz_market_hostile",
-		"market_friendly": "ibo_teiwaz_market_frendly",
-		"encounter_neutral": "ibo_teiwaz_theme",
-		"encounter_hostile": "ibo_teiwaz_enc_hostile",
-		"encounter_friendly": "ibo_teiwaz_enc_frendly",
+		"theme": "ibo_gja_theme",
+		"market_neutral": "ibo_gja_theme",
+		"market_hostile": "ibo_gja_market_hostile",
+		"market_friendly": "ibo_gja_theme",
+		"encounter_neutral": "ibo_gja_enc_neutral",
+		"encounter_hostile": "ibo_gja_enc_hostile",
+		"encounter_friendly": "ibo_gja_enc_neutral",
 	},
 	"internalComms": "hegemony_internal",
 	"portraits": {
 		"standard_male": [
-			"graphics/portraits/naze.png",
-			"graphics/portraits/jasley.png",
-			"graphics/portraits/mcmurdo.png",
+			"graphics/portraits/gjallarhorn_m.png",
+			"graphics/portraits/rustal.png",
 		],
 		"standard_female": [
-			"graphics/portraits/amida.png",
+			"graphics/portraits/gjallarhorn_f.png",
+			"graphics/portraits/carta.png",
 		]
 	},
 	"ranks": {
 		"ranks": {
 			"factionLeader": {
-				"name": "Representative"
-			},
-			"spaceCommander": {
-				"name": "Head of Security"
+				"name": "Seven Stars"
 			},
 		},
-		"posts": {
-			"factionLeader": {
-				"name": "Representative"
-			},
-			"patrolCommander": {
-				"name": "Head of Local Security"
-			},
-			"fleetCommander": {
-				"name": "Security Administrator"
-			},
-			"baseCommander": {
-				"name": "Local Representative"
-			},
-		},
+		"posts": {},
 	},
 	"voices": {
 		"LOW": {
@@ -233,16 +222,16 @@
 		"offersCommissions": true,
 		"engagesInHostilities": true,
 		"buysAICores": true,
-		"AICoreValueMult": 1,
-		"AICoreRepMult": 2,
+		"AICoreValueMult": 3,
+		"AICoreRepMult": 3,
 		"buysSurveyData": true,
-		"hostilityImpactOnGrowth": false,
+		"hostilityImpactOnGrowth": true,
 		"caresAboutAtrocities": true,
 		"punitiveExpeditionData": {
 			"vsCompetitors": true,
 			"vsFreePort": true,
-			"canBombard": false,
-			"territorial": false,
+			"canBombard": true,
+			"territorial": true,
 		},
 	},
 }
