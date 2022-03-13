@@ -55,13 +55,13 @@ public class TeiwazSaisei {
     market.getTariff().modifyFlat("generator", 0.05f);
     market.setPlanetConditionMarketOnly(false);
     market.addCondition(Conditions.POPULATION_4);
+    market.addCondition(Conditions.FREE_PORT);
     market.addSubmarket(Submarkets.SUBMARKET_OPEN);
     market.addSubmarket(Submarkets.GENERIC_MILITARY);
     market.addSubmarket(Submarkets.LOCAL_RESOURCES);
     market.addIndustry(Industries.POPULATION);
     market.addIndustry(Industries.MEGAPORT);
     market.addIndustry(Industries.TECHMINING);
-    market.addIndustry(Industries.HIGHCOMMAND);
     market.addIndustry(Industries.WAYSTATION);
     market.addIndustry(Industries.ORBITALWORKS);
     market.setAdmin(mc);
