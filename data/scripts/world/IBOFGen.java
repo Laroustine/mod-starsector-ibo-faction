@@ -15,7 +15,7 @@ import com.fs.starfarer.api.campaign.SectorGeneratorPlugin;
 
 import org.json.JSONObject;
 
-import data.scripts.world.systems.GjaHome;
+import data.scripts.world.systems.Don;
 import data.scripts.world.systems.TeiwazSaisei;
 
 public class IBOFGen implements SectorGeneratorPlugin {
@@ -28,7 +28,7 @@ public class IBOFGen implements SectorGeneratorPlugin {
     //load systems
     new TeiwazSaisei().generate(sector);
     new GjaStationList().generate(sector);
-    new GjaHome().generate(sector);
+    new Don().generate(sector);
   }
 
   public static void initFactionRelationships(SectorAPI sector) {
