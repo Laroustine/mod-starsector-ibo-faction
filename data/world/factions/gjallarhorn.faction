@@ -10,7 +10,7 @@
 	"displayNameWithArticle": "Gjallarhorn",
 	"logo": "graphics/factions/gjallarhorn.png",
 	"crest": "graphics/factions/crest_gjallarhorn.png",
-	"shipNamePrefix": "GPF",
+	"shipNamePrefix": "GDS",
 	"shipNameSources": {
 		"NORSE": 2,
 		"BRITISH_NAVY": 1,
@@ -24,64 +24,35 @@
 	},
 	"variantOverrides": {},
 	"hullFrequency": {
-		"tags": {
-			"heg_aux_bp": 2,
-			"XIV_bp": 0.25
-		},
-		"hulls": {
-			"buffalo2": 0
-		}
+		"tags": {},
+		"hulls": {}
 	},
 	"shipsWhenImporting": {
-		"tags": [
-			"base_bp",
-			"heg_aux_bp",
-			"lowtech_bp"
-		],
+		"tags": [],
 		"hulls": []
 	},
 	"knownShips": {
-		"tags": [
-			"base_bp",
-			"heg_aux_bp",
-			"lowtech_bp",
-			"midline_bp",
-			"XIV_bp",
-			"hegemony"
-		],
+		"tags": [],
 		"hulls": [
-			"atlas",
-			"monitor",
 			"prometheus",
-			"legion",
-			"onslaught",
-			"gryphon",
-			"eagle",
-			"valkyrie",
-			"vanguard",
-			"manticore"
+			"conquest",
+			"astral",
+			"odyssey"
 		]
 	},
 	"priorityShips": {
 		"tags": [],
-		"hulls": [
-			"condor",
-			"mora",
-			"legion",
-			"onslaught",
-			"onslaught_xiv"
-		]
+		"hulls": []
 	},
 	"knownFighters": {
-		"tags": [
-			"base_bp",
-			"lowtech_bp",
-			"midline_bp",
-			"hegemony"
-		],
+		"tags": [],
 		"fighters": [
-			"thunder_wing",
-			"hoplon_wing"
+			"claw_wing",
+			"cobra_wing",
+			"dagger_wing",
+			"trident_wing",
+			"longbow_wing",
+			"xyphos_wing"
 		]
 	},
 	"priorityFighters": {
@@ -89,26 +60,9 @@
 		"fighters": []
 	},
 	"knownWeapons": {
-		"tags": [
-			"base_bp",
-			"lowtech_bp",
-			"midline_bp",
-			"hightech_bp",
-			"missile_bp",
-			"hegemony"
-		],
+		"tags": [],
 		"weapons": [
-			"railgun",
-			"dualflak",
-			"heavymauler",
-			"hveldriver",
-			"gauss",
-			"mjolnir",
-			"breachpod",
-			"sabotpod",
-			"phasecl",
-			"cyclone",
-			"hurricane"
+			"lightmg"
 		]
 	},
 	"priorityWeapons": {
@@ -116,10 +70,7 @@
 		"weapons": []
 	},
 	"knownHullMods": {
-		"tags": [
-			"base_bp",
-			"hegemony"
-		],
+		"tags": [],
 		"hullMods": [
 			"advancedshieldemitter",
 			"turretgyros",
@@ -148,14 +99,14 @@
 		]
 	},
 	"factionDoctrine": {
-		"warships": 1,
-		"carriers": 5,
+		"warships": 4,
+		"carriers": 2,
 		"phaseShips": 1,
-		"officerQuality": 3,
+		"officerQuality": 1,
 		"shipQuality": 3,
-		"numShips": 1,
-		"shipSize": 3,
-		"aggression": 2,
+		"numShips": 3,
+		"shipSize": 5,
+		"aggression": 3,
 		"combatFreighterProbability": 0.1,
 		"combatFreighterCombatUseFraction": 0,
 		"combatFreighterCombatUseFractionWhenPriority": 0,

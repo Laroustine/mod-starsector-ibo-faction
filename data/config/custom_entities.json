@@ -24,7 +24,7 @@
 		]
 	},
 	"station_gja": {
-		"defaultName": "Gja - Station",
+		"defaultName": "GJAS",
 		"defaultRadius": 60,
 		"customDescriptionId": "station_gjallarhorn",
 		"interactionImage": "graphics/illustrations/orbital_gjallarhorn.png",

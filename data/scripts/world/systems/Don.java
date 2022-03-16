@@ -27,8 +27,8 @@ public class Don {
       "don",
       StarTypes.ORANGE,
       700,
-      -5500,
-      -7000,
+      -4500,
+      -8500,
       100
     );
     // Agriculture
