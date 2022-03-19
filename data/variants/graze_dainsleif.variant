@@ -1,0 +1,27 @@
+{
+  "displayName": "Assault",
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "hullId": "graze_dainsleif",
+  "hullMods": [
+    
+  ],
+  "quality": 0,
+  "variantId": "graze_dainsleif",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "graze_dainsleif_head"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {        
+        "WS0002": "dainsleif"
+	  }
+    },
+  ]
+}

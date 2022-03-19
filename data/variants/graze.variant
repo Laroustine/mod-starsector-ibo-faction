@@ -1,0 +1,27 @@
+{
+  "displayName": "Assault",
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "hullId": "graze",
+  "hullMods": [
+    
+  ],
+  "quality": 0,
+  "variantId": "graze",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "graze_head"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {        
+        "WS0002": "graze_right"
+	  }
+    },
+  ]
+}

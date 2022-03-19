@@ -1,0 +1,27 @@
+{
+  "displayName": "Assault",
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "hullId": "shiden_bazooka_p",
+  "hullMods": [
+    
+  ],
+  "quality": 0,
+  "variantId": "shiden_bazooka_p",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "shiden_head_p"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {        
+        "WS0002": "shiden_bazooka_right_p"
+	  }
+    },
+  ]
+}

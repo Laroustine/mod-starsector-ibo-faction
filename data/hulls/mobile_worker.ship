@@ -1,0 +1,113 @@
+{
+  "bounds": [
+    4.5,
+    -2,
+    3,
+    -4,
+    -2.5,
+    -4,
+    -5,
+    -2,
+    -5,
+    2,
+    -2.5,
+    4,
+    3,
+    4,
+    4.5,
+    2
+  ],
+  "builtInMods": [
+    "av_system"
+  ],
+  "center": [
+    23.5,
+    27.5
+  ],
+  "collisionRadius": 7.5,
+  "engineSlots": [
+    {
+      "angle": -168.5,
+      "contrailSize": 2.876847,
+      "length": 4.053509,
+      "location": [
+        -1,
+        -2
+      ],
+      "style": "LOW_TECH",
+      "width": 2.876847
+    },
+    {
+      "angle": 168.5,
+      "contrailSize": 2.876847,
+      "length": 4.053509,
+      "location": [
+        -1,
+        2
+      ],
+      "style": "LOW_TECH",
+      "width": 2.876847
+    },
+    {
+      "angle": -14,
+      "contrailSize": 2.876847,
+      "length": 4.053509,
+      "location": [
+        3.5,
+        -1.5
+      ],
+      "style": "LOW_TECH",
+      "width": 2.876847
+    },
+    {
+      "angle": 14,
+      "contrailSize": 2.876847,
+      "length": 4.053509,
+      "location": [
+        3.5,
+        1.5
+      ],
+      "style": "LOW_TECH",
+      "width": 2.876847
+    }
+  ],
+  "height": 57,
+  "hullId": "mobile_worker",
+  "hullName": "mobile_worker",
+  "hullSize": "FIGHTER",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 7,
+  "spriteName": "graphics/ships/mobile_worker.png",
+  "style": "LOW_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS0002",
+      "locations": [
+        -0.5,
+        -3
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": -0,
+      "arc": 0,
+      "id": "WS0001",
+      "locations": [
+        -0.5,
+        3
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    }
+  ],
+  "width": 48
+}
