@@ -56,7 +56,9 @@
         340,
         20
     ],
-    "builtInMods": [],
+    "builtInMods": [
+        "nano_armor"
+    ],
     "builtInWeapons": {
         "STH01": "vulcan",
         "STH02": "vulcan",

@@ -1,0 +1,2 @@
+name,id,tier,rarity,tech/manufacturer,tags,uiTags,base value,unlocked,hidden,hiddenEverywhere,cost_frigate,cost_dest,cost_cruiser,cost_capital,script,desc,short,sprite,
+Nanolaminate Armor,nano_armor,1,,,"defensive, ibo",Defenses,2800,,,,4,8,12,16,data.hullmods.NanolaminateArmor,A special metal paint that reacts to Ahab Particles is vapor-deposited onto the surface of the armor of Mobile Suits and ships. Reduce Energy effect by %s.,Reduce Energy effect by %s.,graphics/hullmods/nano_armor.png,,
