@@ -24,35 +24,41 @@
 	},
 	"variantOverrides": {},
 	"hullFrequency": {
-		"tags": {},
-		"hulls": {}
+		"tags": {
+			"gjallarhorn": 1
+		},
+		"hulls": {
+			"halfbeack": 1
+		}
 	},
 	"shipsWhenImporting": {
 		"tags": [],
 		"hulls": []
 	},
 	"knownShips": {
-		"tags": [],
-		"hulls": [
-			"prometheus",
-			"conquest",
-			"astral",
-			"odyssey"
-		]
+		"tags": [
+			"base_bp",
+			"midline_bp",
+			"hightech_bp",
+			"gja_bp"
+		],
+		"hulls": []
 	},
 	"priorityShips": {
 		"tags": [],
-		"hulls": []
+		"hulls": [
+			"halfbeack"
+		]
 	},
 	"knownFighters": {
-		"tags": [],
+		"tags": [
+			"base_bp",
+			"midline_bp",
+			"hightech_bp"
+		],
 		"fighters": [
 			"claw_wing",
-			"cobra_wing",
-			"dagger_wing",
-			"trident_wing",
-			"longbow_wing",
-			"xyphos_wing"
+			"dagger_wing"
 		]
 	},
 	"priorityFighters": {
@@ -60,17 +66,23 @@
 		"fighters": []
 	},
 	"knownWeapons": {
-		"tags": [],
-		"weapons": [
-			"lightmg"
-		]
+		"tags": [
+			"base_bp",
+			"midline_bp",
+			"hightech_bp"
+		],
+		"weapons": []
 	},
 	"priorityWeapons": {
 		"tags": [],
 		"weapons": []
 	},
 	"knownHullMods": {
-		"tags": [],
+		"tags": [
+			"base_bp",
+			"midline_bp",
+			"hightech_bp"
+		],
 		"hullMods": [
 			"advancedshieldemitter",
 			"turretgyros",
@@ -95,7 +107,6 @@
 			"efficiency_overhaul",
 			"converted_fighterbay",
 			"ballistic_rangefinder",
-			"shield_shunt"
 		]
 	},
 	"factionDoctrine": {
@@ -177,6 +188,8 @@
 		"AICoreRepMult": 3,
 		"buysSurveyData": true,
 		"hostilityImpactOnGrowth": true,
+		"worthInvestigatingPlayerForGoodRepWith": true,
+		"investigatesPlayerForGoodRepWithOtherFactions": false,
 		"caresAboutAtrocities": true,
 		"punitiveExpeditionData": {
 			"vsCompetitors": true,

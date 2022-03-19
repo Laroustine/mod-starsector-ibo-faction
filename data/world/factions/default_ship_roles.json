@@ -1,0 +1,213 @@
+{
+	# should be a copy of "combatSmall", minus variants that are annoying to fight in low numbers
+	# for example, no Hyperions or fast beam-based kiting loadouts, or ships with damper field
+	"combatSmallForSmallFleet": {
+		"fallback": {
+			"combatSmall": 1
+		},
+	},
+	"combatSmall": {
+		"fallback": {
+			"combatMedium": 0.5
+		},
+	},
+	"combatMedium": {
+		"fallback": {
+			"combatSmall": 1
+		},
+	},
+	"combatLarge": {
+		"halfbeack_Original": 15,
+		"halfbeack_Cannon": 15,
+		"fallback": {
+			"combatMedium": 1
+		},
+	},
+	"combatCapital": {
+		"fallback": {
+			"combatLarge": 1
+		},
+	},
+	
+	
+	# hybrid ships with good combat and cargo capacity
+	"combatFreighterSmall": {
+		"fallback": {
+			"freighterSmall": 1
+		},
+	},
+	"combatFreighterMedium": {
+		"fallback": {
+			"combatFreighterSmall": 1
+		},
+	},
+	"combatFreighterLarge": {
+		"fallback": {
+			"combatFreighterMedium": 1
+		},
+	},
+	"civilianRandom": {},
+
+	# carriers
+	"carrierSmall": {
+		"fallback": {
+			"carrierMedium": 0.5
+		},
+		"fallback2": {
+			"carrierLarge": 0.25
+		},
+	},
+	"carrierMedium": {
+		"fallback": {
+			"carrierSmall": 1
+		},
+		"fallback2": {
+			"carrierLarge": 0.5
+		},
+	},
+	"carrierLarge": {
+		"fallback": {
+			"carrierMedium": 1
+		},
+		"fallback2": {
+			"carrierSmall": 1
+		},
+	},
+
+	# phase ships
+	"phaseSmall": {
+		"fallback": {
+			"phaseMedium": 0.5
+		},
+		"fallback2": {
+			"phaseLarge": 0.25
+		},
+	},
+	"phaseMedium": {
+		"fallback": {
+			"phaseSmall": 1
+		},
+		"fallback2": {
+			"phaseLarge": 0.5
+		},
+	},
+	"phaseLarge": {
+		"fallback": {
+			"phaseMedium": 1
+		},
+		"fallback2": {
+			"phaseSmall": 1
+		},
+	},
+	"phaseCapital": {},
+
+	# freighters and such
+	"freighterSmall": {
+		"fallback": {
+			"freighterMedium": 0.5
+		},
+		"fallback2": {
+			"freighterLarge": 0.25
+		},
+	},
+	"freighterMedium": {
+		"fallback": {
+			"freighterSmall": 1
+		},
+		"fallback2": {
+			"freighterLarge": 0.5
+		},
+	},
+	"freighterLarge": {
+		"fallback": {
+			"freighterMedium": 1
+		},
+		"fallback2": {
+			"freighterSmall": 1
+		},
+	},
+	"tankerSmall": {
+		"fallback": {
+			"tankerMedium": 0.5
+		},
+		"fallback2": {
+			"tankerLarge": 0.25
+		},
+	},
+	"tankerMedium": {
+		"fallback": {
+			"tankerSmall": 1
+		},
+		"fallback2": {
+			"tankerLarge": 0.5
+		},
+	},
+	"tankerLarge": {
+		"fallback": {
+			"tankerMedium": 1
+		},
+		"fallback2": {
+			"tankerSmall": 1
+		},
+	},
+	"personnelSmall": {
+		"fallback": {
+			"personnelMedium": 0.5
+		},
+		"fallback2": {
+			"personnelLarge": 0.25
+		},
+	},
+	"personnelMedium": {
+		"fallback": {
+			"personnelSmall": 1
+		},
+		"fallback2": {
+			"personnelLarge": 0.5
+		},
+	},
+	"personnelLarge": {
+		"fallback": {
+			"personnelMedium": 1
+		},
+		"fallback2": {
+			"personnelSmall": 1
+		},
+	},
+	"linerSmall": {
+		"fallback": {
+			"linerMedium": 0.5
+		},
+		"fallback2": {
+			"linerLarge": 0.25
+		},
+	},
+	"linerMedium": {
+		"fallback": {
+			"linerSmall": 1
+		},
+		"fallback2": {
+			"linerLarge": 0.5
+		},
+	},
+	"linerLarge": {
+		"fallback": {
+			"linerMedium": 1
+		},
+		"fallback2": {
+			"linerSmall": 1
+		},
+	},
+	
+	# utility ships
+	"tug": {
+		"fallback": {
+			"utility": 1
+		},
+	},
+	"crig": {
+		"fallback": {
+			"utility": 1
+		},
+	},
+}
