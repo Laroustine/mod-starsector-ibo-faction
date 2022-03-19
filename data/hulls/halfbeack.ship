@@ -1,0 +1,301 @@
+{
+    "height": 540,
+    "width": 172,
+    "hullId": "halfbeack",
+    "hullName": "Halfbeack",
+    "hullSize": "DESTROYER",
+    "bounds": [
+        370, # TH
+        0,  # TW
+        340,
+        -20,
+        200,
+        -40,
+        135,
+        -40,
+        135,
+        -62,
+        67,
+        -62,
+        28,
+        -86,
+        -114,
+        -86,
+        -116,
+        -72,
+        -86,
+        -65,
+        -90,
+        -45,
+        -116,
+        -25,
+        -170, # BRH
+        -5, # BRW
+        -170, # BLH
+        5, # BLW
+        -116,
+        25,
+        -90,
+        45,
+        -86,
+        65,
+        -116,
+        72,
+        -114,
+        86,
+        28,
+        86,
+        67,
+        62,
+        135,
+        62,
+        135,
+        40,
+        200,
+        40,
+        340,
+        20
+    ],
+    "builtInMods": [],
+    "builtInWeapons": {
+        "STH01": "vulcan",
+        "STH02": "vulcan",
+        "STH03": "vulcan",
+        "STH04": "vulcan",
+        "SMH01": "swarmer",
+        "SMH02": "swarmer"
+    },
+    "center": [
+        86,
+        170
+    ],
+    "collisionRadius": 340,
+    "coversColor": "255,255,255,255",
+    "engineSlots": [
+        {
+            "angle": 180,
+            "contrailSize": 130,
+            "length": 96,
+            "location": [
+                -170,
+                0
+            ],
+            "style": "HIGH_TECH",
+            "width": 32
+        }
+    ],
+    "shieldCenter": [
+        0,
+        0
+    ],
+    "shieldRadius": 0,
+    "spriteName": "graphics/ships/halfbeack/halfbeack_00.png",
+    "style": "HIGH_TECH",
+    "viewOffset": 0,
+    "weaponSlots": [
+        {
+            "angle": 0,
+            "arc": 200,
+            "id": "BW01",
+            "locations": [
+                97.5,
+                0
+            ],
+            "mount": "TURRET",
+            "size": "LARGE",
+            "type": "BALLISTIC"
+        },
+        {
+            "angle": 0,
+            "arc": 200,
+            "id": "BW02",
+            "locations": [
+                145,
+                0
+            ],
+            "mount": "TURRET",
+            "size": "LARGE",
+            "type": "BALLISTIC"
+        },
+        {
+            "angle": 0,
+            "arc": 200,
+            "id": "BW03",
+            "locations": [
+                193,
+                0
+            ],
+            "mount": "TURRET",
+            "size": "LARGE",
+            "type": "BALLISTIC"
+        },
+        {
+            "angle": 0,
+            "arc": 15,
+            "id": "MM01",
+            "locations": [
+                78,
+                49
+            ],
+            "mount": "HARDPOINT",
+            "size": "MEDIUM",
+            "type": "MISSILE"
+        },
+        {
+            "angle": 0,
+            "arc": 15,
+            "id": "MM02",
+            "locations": [
+                78,
+                -49
+            ],
+            "mount": "HARDPOINT",
+            "size": "MEDIUM",
+            "type": "MISSILE"
+        },
+        {
+            "angle": 90,
+            "arc": 45,
+            "id": "STH01",
+            "locations": [
+                -37,
+                41
+            ],
+            "mount": "HIDDEN",
+            "size": "SMALL",
+            "type": "BUILT_IN"
+        },
+        {
+            "angle": -90,
+            "arc": 45,
+            "id": "STH02",
+            "locations": [
+                -37,
+                -41
+            ],
+            "mount": "HIDDEN",
+            "size": "SMALL",
+            "type": "BUILT_IN"
+        },
+        {
+            "angle": 90,
+            "arc": 45,
+            "id": "STH03",
+            "locations": [
+                -7,
+                41
+            ],
+            "mount": "HIDDEN",
+            "size": "SMALL",
+            "type": "BUILT_IN"
+        },
+        {
+            "angle": -90,
+            "arc": 45,
+            "id": "STH04",
+            "locations": [
+                -7,
+                -41
+            ],
+            "mount": "HIDDEN",
+            "size": "SMALL",
+            "type": "BUILT_IN"
+        },
+        {
+            "angle": 0,
+            "arc": 15,
+            "id": "SMH01",
+            "locations": [
+                346,
+                -4
+            ],
+            "mount": "HIDDEN",
+            "size": "SMALL",
+            "type": "BUILT_IN"
+        },
+        {
+            "angle": 0,
+            "arc": 15,
+            "id": "SMH02",
+            "locations": [
+                346,
+                4
+            ],
+            "mount": "HIDDEN",
+            "size": "SMALL",
+            "type": "BUILT_IN"
+        },
+        {
+            "angle": 90,
+            "arc": 45,
+            "id": "ST01",
+            "locations": [
+                -22,
+                59
+            ],
+            "mount": "TURRET",
+            "size": "SMALL",
+            "type": "BALLISTIC"
+        },
+        {
+            "angle": -90,
+            "arc": 45,
+            "id": "ST02",
+            "locations": [
+                -22,
+                -59
+            ],
+            "mount": "TURRET",
+            "size": "SMALL",
+            "type": "BALLISTIC"
+        },
+        {
+            "angle": 90,
+            "arc": 45,
+            "id": "ST03",
+            "locations": [
+                8,
+                56
+            ],
+            "mount": "TURRET",
+            "size": "SMALL",
+            "type": "BALLISTIC"
+        },
+        {
+            "angle": -90,
+            "arc": 45,
+            "id": "ST04",
+            "locations": [
+                8,
+                -56
+            ],
+            "mount": "TURRET",
+            "size": "SMALL",
+            "type": "BALLISTIC"
+        },
+        {
+            "angle": 135,
+            "arc": 45,
+            "id": "ST05",
+            "locations": [
+                -50,
+                57
+            ],
+            "mount": "TURRET",
+            "size": "SMALL",
+            "type": "BALLISTIC"
+        },
+        {
+            "angle": -135,
+            "arc": 45,
+            "id": "ST06",
+            "locations": [
+                -50,
+                -57
+            ],
+            "mount": "TURRET",
+            "size": "SMALL",
+            "type": "BALLISTIC"
+        }
+    ]
+}

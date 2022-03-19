@@ -8,6 +8,8 @@
 
 package data.scripts.world.systems;
 
+import java.util.Random;
+
 import com.fs.starfarer.api.Global;
 import com.fs.starfarer.api.campaign.SectorAPI;
 import com.fs.starfarer.api.campaign.SectorEntityToken;
@@ -16,7 +18,6 @@ import com.fs.starfarer.api.campaign.econ.MarketAPI;
 import com.fs.starfarer.api.impl.campaign.ids.Conditions;
 import com.fs.starfarer.api.impl.campaign.ids.Industries;
 import com.fs.starfarer.api.impl.campaign.ids.Submarkets;
-import java.util.Random;
 
 public class GjaStationMaker {
 
@@ -50,6 +51,7 @@ public class GjaStationMaker {
     market.getTariff().modifyFlat("generator", 0.35f);
     market.setPlanetConditionMarketOnly(false);
     market.addCondition(Conditions.POPULATION_3);
+    market.addCondition(Conditions.OUTPOST);
     market.addSubmarket(Submarkets.GENERIC_MILITARY);
     market.addIndustry(Industries.BATTLESTATION_MID);
     market.addIndustry(Industries.HIGHCOMMAND);

@@ -10,7 +10,7 @@
 	"displayNameWithArticle": "Gjallarhorn",
 	"logo": "graphics/factions/gjallarhorn.png",
 	"crest": "graphics/factions/crest_gjallarhorn.png",
-	"shipNamePrefix": "GPF",
+	"shipNamePrefix": "GDS",
 	"shipNameSources": {
 		"NORSE": 2,
 		"BRITISH_NAVY": 1,
@@ -25,63 +25,40 @@
 	"variantOverrides": {},
 	"hullFrequency": {
 		"tags": {
-			"heg_aux_bp": 2,
-			"XIV_bp": 0.25
+			"gjallarhorn": 1
 		},
 		"hulls": {
-			"buffalo2": 0
+			"halfbeack": 1
 		}
 	},
 	"shipsWhenImporting": {
-		"tags": [
-			"base_bp",
-			"heg_aux_bp",
-			"lowtech_bp"
-		],
+		"tags": [],
 		"hulls": []
 	},
 	"knownShips": {
 		"tags": [
 			"base_bp",
-			"heg_aux_bp",
-			"lowtech_bp",
 			"midline_bp",
-			"XIV_bp",
-			"hegemony"
+			"hightech_bp",
+			"gja_bp"
 		],
-		"hulls": [
-			"atlas",
-			"monitor",
-			"prometheus",
-			"legion",
-			"onslaught",
-			"gryphon",
-			"eagle",
-			"valkyrie",
-			"vanguard",
-			"manticore"
-		]
+		"hulls": []
 	},
 	"priorityShips": {
 		"tags": [],
 		"hulls": [
-			"condor",
-			"mora",
-			"legion",
-			"onslaught",
-			"onslaught_xiv"
+			"halfbeack"
 		]
 	},
 	"knownFighters": {
 		"tags": [
 			"base_bp",
-			"lowtech_bp",
 			"midline_bp",
-			"hegemony"
+			"hightech_bp"
 		],
 		"fighters": [
-			"thunder_wing",
-			"hoplon_wing"
+			"claw_wing",
+			"dagger_wing"
 		]
 	},
 	"priorityFighters": {
@@ -91,25 +68,10 @@
 	"knownWeapons": {
 		"tags": [
 			"base_bp",
-			"lowtech_bp",
 			"midline_bp",
-			"hightech_bp",
-			"missile_bp",
-			"hegemony"
+			"hightech_bp"
 		],
-		"weapons": [
-			"railgun",
-			"dualflak",
-			"heavymauler",
-			"hveldriver",
-			"gauss",
-			"mjolnir",
-			"breachpod",
-			"sabotpod",
-			"phasecl",
-			"cyclone",
-			"hurricane"
-		]
+		"weapons": []
 	},
 	"priorityWeapons": {
 		"tags": [],
@@ -118,7 +80,8 @@
 	"knownHullMods": {
 		"tags": [
 			"base_bp",
-			"hegemony"
+			"midline_bp",
+			"hightech_bp"
 		],
 		"hullMods": [
 			"advancedshieldemitter",
@@ -144,18 +107,17 @@
 			"efficiency_overhaul",
 			"converted_fighterbay",
 			"ballistic_rangefinder",
-			"shield_shunt"
 		]
 	},
 	"factionDoctrine": {
-		"warships": 1,
-		"carriers": 5,
+		"warships": 4,
+		"carriers": 2,
 		"phaseShips": 1,
-		"officerQuality": 3,
+		"officerQuality": 1,
 		"shipQuality": 3,
-		"numShips": 1,
-		"shipSize": 3,
-		"aggression": 2,
+		"numShips": 3,
+		"shipSize": 5,
+		"aggression": 3,
 		"combatFreighterProbability": 0.1,
 		"combatFreighterCombatUseFraction": 0,
 		"combatFreighterCombatUseFractionWhenPriority": 0,
@@ -226,6 +188,8 @@
 		"AICoreRepMult": 3,
 		"buysSurveyData": true,
 		"hostilityImpactOnGrowth": true,
+		"worthInvestigatingPlayerForGoodRepWith": true,
+		"investigatesPlayerForGoodRepWithOtherFactions": false,
 		"caresAboutAtrocities": true,
 		"punitiveExpeditionData": {
 			"vsCompetitors": true,

@@ -1,0 +1,47 @@
+{
+    "displayName": "Original",
+    "fluxCapacitors": 10,
+    "fluxVents": 2,
+    "goalVariant": true,
+    "hullId": "halfbeack",
+    "hullMods": [
+        "heavyarmor"
+    ],
+    "permaMods": [],
+    "variantId": "halfbeack_Original",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "BW01": "devastator",
+                "BW02": "devastator",
+                "BW03": "devastator"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "MM01": "annihilatorpod",
+                "MM02": "annihilatorpod"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "ST01": "lightmg",
+                "ST02": "lightmg",
+                "ST03": "vulcan",
+                "ST04": "vulcan",
+                "ST05": "vulcan",
+                "ST06": "vulcan"
+            }
+        }
+    ],
+    "wings": [
+        "claw_wing",
+        "claw_wing"
+    ]
+}

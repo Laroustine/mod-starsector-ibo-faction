@@ -1,0 +1,47 @@
+{
+    "displayName": "Cannon",
+    "fluxCapacitors": 5,
+    "fluxVents": 14,
+    "goalVariant": false,
+    "hullId": "halfbeack",
+    "hullMods": [
+        "ballistic_rangefinder"
+    ],
+    "permaMods": [],
+    "variantId": "halfbeack_Cannon",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "BW01": "mjolnir",
+                "BW02": "mjolnir",
+                "BW03": "mjolnir"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "MM01": "swarmer",
+                "MM02": "swarmer"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "ST01": "lightdualmg",
+                "ST02": "lightdualmg",
+                "ST03": "lightneedler",
+                "ST04": "lightneedler",
+                "ST05": "lightmortar",
+                "ST06": "lightmortar"
+            }
+        }
+    ],
+    "wings": [
+        "talon_wing",
+        "talon_wing"
+    ]
+}
