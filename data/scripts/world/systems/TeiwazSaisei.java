@@ -56,6 +56,7 @@ public class TeiwazSaisei {
     market.setPlanetConditionMarketOnly(false);
     market.addCondition(Conditions.POPULATION_4);
     market.addCondition(Conditions.FREE_PORT);
+    market.addCondition(Conditions.OUTPOST);
     market.addSubmarket(Submarkets.SUBMARKET_OPEN);
     market.addSubmarket(Submarkets.GENERIC_MILITARY);
     market.addSubmarket(Submarkets.LOCAL_RESOURCES);

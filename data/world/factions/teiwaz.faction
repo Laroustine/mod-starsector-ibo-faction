@@ -43,11 +43,8 @@
 	"knownShips": {
 		"tags": [
 			"base_bp",
-			"heg_aux_bp",
 			"lowtech_bp",
 			"midline_bp",
-			"XIV_bp",
-			"hegemony"
 		],
 		"hulls": [
 			"atlas",
@@ -65,11 +62,7 @@
 	"priorityShips": {
 		"tags": [],
 		"hulls": [
-			"condor",
-			"mora",
-			"legion",
-			"onslaught",
-			"onslaught_xiv"
+			"atlas",
 		]
 	},
 	"knownFighters": {
@@ -77,11 +70,8 @@
 			"base_bp",
 			"lowtech_bp",
 			"midline_bp",
-			"hegemony"
 		],
 		"fighters": [
-			"thunder_wing",
-			"hoplon_wing"
 		]
 	},
 	"priorityFighters": {
@@ -93,9 +83,6 @@
 			"base_bp",
 			"lowtech_bp",
 			"midline_bp",
-			"hightech_bp",
-			"missile_bp",
-			"hegemony"
 		],
 		"weapons": [
 			"railgun",
@@ -118,7 +105,8 @@
 	"knownHullMods": {
 		"tags": [
 			"base_bp",
-			"hegemony"
+			"lowtech_bp",
+			"midline_bp",
 		],
 		"hullMods": [
 			"advancedshieldemitter",
