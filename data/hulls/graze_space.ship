@@ -59,7 +59,7 @@
     -0
   ],
   "shieldRadius": 24,
-  "spriteName": "graphics/ships/graze_space.png",
+  "spriteName": "graphics/ships/graze/graze_space.png",
   "style": "MIDLINE",
   "viewOffset": 0,
   "weaponSlots": [

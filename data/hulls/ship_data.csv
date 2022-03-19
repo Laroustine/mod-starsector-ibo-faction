@@ -1,7 +1,7 @@
 name,id,designation,tech/manufacturer,system id,fleet pts,hitpoints,armor rating,max flux,8/6/5/4%,flux dissipation,ordnance points,fighter bays,max speed,acceleration,deceleration,max turn rate,turn acceleration,mass,shield type,defense id,shield arc,shield upkeep,shield efficiency,phase cost,phase upkeep,min crew,max crew,cargo,fuel,fuel/ly,range,max burn,base value,cr %/day,CR to deploy,peak CR sec,CR loss/sec,supplies/rec,supplies/mo,c/s,c/f,f/s,f/f,crew/s,crew/f,hints,tags,rarity,breakProb,minPieces,maxPieces,travel drive,number
 Mobile Worker,mobile_worker,Fighter,,,,150,65,500,,100,0,,185,135,100,90,180,30,NONE,,,,,,,1,1,,,,,10,,3,5,,,2,2,,,,,,,,,,0,0,0,,1
-Man Rodi,man_rodi,Fighter,,,,1250,265,900,,150,0,,165,125,100,90,180,30,NONE,,,,,,,1,1,,,,,10,,3,5,,,2,2,,,,,,,,,,0.25,0,2,,2
-Landman Rodi,landman_rodi,Fighter,,,,1250,265,900,,150,0,,165,125,100,90,180,30,NONE,,,,,,,1,1,,,,,10,,3,5,,,2,2,,,,,,,,,,0.25,0,2,,3
+Man Rodi,rodi_man,Fighter,,,,1250,265,900,,150,0,,165,125,100,90,180,30,NONE,,,,,,,1,1,,,,,10,,3,5,,,2,2,,,,,,,,,,0.25,0,2,,2
+Landman Rodi,rodi_landman,Fighter,,,,1250,265,900,,150,0,,165,125,100,90,180,30,NONE,,,,,,,1,1,,,,,10,,3,5,,,2,2,,,,,,,,,,0.25,0,2,,3
 Ryusei-Go,ryusei_go,Fighter,,maneuveringjets,,1650,215,2000,,250,0,,275,175,100,90,180,30,NONE,,,,,,,1,1,,,,,10,,3,5,,,2,2,,,,,,,,,,0.25,0,2,,4
 Shiden,shiden,Fighter,,,,1150,190,700,,140,0,,175,125,100,90,180,30,NONE,,,,,,,1,1,,,,,10,,3,5,,,2,2,,,,,,,,,,0.25,0,2,,5
 Shiden Custom,shiden_custom,Fighter,,maneuveringjets,,1450,210,2000,,250,0,,265,165,100,90,180,30,NONE,,,,,,,1,1,,,,,10,,3,5,,,2,2,,,,,,,,,,0.25,0,2,,6

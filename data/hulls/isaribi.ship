@@ -119,7 +119,7 @@
     -0
   ],
   "shieldRadius": 172,
-  "spriteName": "graphics/ships/isaribi.png",
+  "spriteName": "graphics/ships/isaribi/isaribi.png",
   "style": "MIDLINE",
   "viewOffset": 0,
   "weaponSlots": [

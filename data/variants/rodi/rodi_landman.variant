@@ -2,12 +2,10 @@
   "displayName": "Assault",
   "fluxCapacitors": 0,
   "fluxVents": 0,
-  "hullId": "landman_rodi",
-  "hullMods": [
-    
-  ],
+  "hullId": "rodi_landman",
+  "hullMods": [],
   "quality": 0,
-  "variantId": "landman_rodi",
+  "variantId": "rodi_landman",
   "weaponGroups": [
     {
       "autofire": false,
@@ -19,16 +17,16 @@
     {
       "autofire": false,
       "mode": "LINKED",
-      "weapons": {        
+      "weapons": {
         "WS0002": "landman_rodi_right"
-	  }
+      }
     },
     {
       "autofire": false,
       "mode": "LINKED",
-      "weapons": {        
+      "weapons": {
         "WS0003": "landman_rodi_left"
-	  }
+      }
     }
   ]
 }

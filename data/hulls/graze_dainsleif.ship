@@ -63,7 +63,7 @@
     -0
   ],
   "shieldRadius": 34,
-  "spriteName": "graphics/ships/graze_dainsleif.png",
+  "spriteName": "graphics/ships/graze/graze_dainsleif.png",
   "style": "LOW_TECH",
   "viewOffset": 0,
   "weaponSlots": [

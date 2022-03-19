@@ -47,15 +47,15 @@
     }
   ],
   "height": 43,
-  "hullId": "landman_rodi",
-  "hullName": "Landman_Rodi",
+  "hullId": "rodi_landman",
+  "hullName": "Landman Rodi",
   "hullSize": "FIGHTER",
   "shieldCenter": [
     0,
     -0
   ],
   "shieldRadius": 22.5,
-  "spriteName": "graphics/ships/landman_rodi.png",
+  "spriteName": "graphics/ships/rodi/rodi_landman.png",
   "style": "LOW_TECH",
   "viewOffset": 0,
   "weaponSlots": [

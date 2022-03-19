@@ -2,12 +2,10 @@
   "displayName": "Assault",
   "fluxCapacitors": 0,
   "fluxVents": 0,
-  "hullId": "man_rodi",
-  "hullMods": [
-    
-  ],
+  "hullId": "rodi_man",
+  "hullMods": [],
   "quality": 0,
-  "variantId": "man_rodi",
+  "variantId": "rodi_man",
   "weaponGroups": [
     {
       "autofire": false,
@@ -19,16 +17,16 @@
     {
       "autofire": false,
       "mode": "LINKED",
-      "weapons": {        
+      "weapons": {
         "WS0002": "man_rodi_right"
-	  }
+      }
     },
     {
       "autofire": false,
       "mode": "LINKED",
-      "weapons": {        
+      "weapons": {
         "WS0003": "man_rodi_left"
-	  }
+      }
     }
   ]
 }

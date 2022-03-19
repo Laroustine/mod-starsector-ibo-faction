@@ -47,15 +47,15 @@
     }
   ],
   "height": 43,
-  "hullId": "man_rodi",
-  "hullName": "Man_Rodi",
+  "hullId": "rodi_man",
+  "hullName": "Man Rodi",
   "hullSize": "FIGHTER",
   "shieldCenter": [
     0,
     -0
   ],
   "shieldRadius": 22.5,
-  "spriteName": "graphics/ships/man_rodi.png",
+  "spriteName": "graphics/ships/rodi/rodi_man.png",
   "style": "LOW_TECH",
   "viewOffset": 0,
   "weaponSlots": [

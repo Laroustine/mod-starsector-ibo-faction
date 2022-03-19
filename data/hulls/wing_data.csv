@@ -1,7 +1,7 @@
 id,variant,tags,tier,rarity,fleet pts,op cost,formation,range,attackRunRange,num,role,role desc,refit,base value,Column,Column [1],Column [2],Column [3],Column [4],Column [5],Column [6],Column [7],Column [8],Column [9],Column [10],Column [11],number
 graze_custom,graze_custom,"fighter4, interceptor, mid",3,0.25,12,10,V,5000,500,1,FIGHTER,Multirole Fighter,10,8000,,,,,,,,,,,,,1192
-man_rodi,man_rodi,"fighter2, interceptor, mid",0,,9,7,V,4000,500,2,FIGHTER,Multirole Fighter,15,3000,,,,,,,,,,,,,1193
-landman_rodi,landman_rodi,"fighter2, interceptor, mid",0,,9,7,V,4000,500,2,FIGHTER,Multirole Fighter,15,3000,,,,,,,,,,,,,1194
+rodi_man,rodi_man,"fighter2, interceptor, mid",0,,9,7,V,4000,500,2,FIGHTER,Multirole Fighter,15,3000,,,,,,,,,,,,,1193
+rodi_landman,rodi_landman,"fighter2, interceptor, mid",0,,9,7,V,4000,500,2,FIGHTER,Multirole Fighter,15,3000,,,,,,,,,,,,,1194
 graze,graze,"fighter2, interceptor, mid",0,,8,5,V,4000,500,3,FIGHTER,Multirole Fighter,25,2000,,,,,,,,,,,,,1195
 mobile_worker,mobile_worker,"fighter1, escort, mid",0,,0,0,BOX,4000,500,6,FIGHTER,Fighter,35,800,,,,,,,,,,,,,1195
 ryusei_go,ryusei_go,"fighter4, interceptor, mid",3,0.05,12,10,V,5000,500,1,FIGHTER,Multirole Fighter,10,8000,,,,,,,,,,,,,1196

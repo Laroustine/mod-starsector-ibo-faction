@@ -80,7 +80,7 @@
     -0
   ],
   "shieldRadius": 0,
-  "spriteName": "graphics/ships/graze_custom.png",
+  "spriteName": "graphics/ships/graze/graze_custom.png",
   "style": "LOW_TECH",
   "viewOffset": 0,
   "weaponSlots": [
