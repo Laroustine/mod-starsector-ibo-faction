@@ -1,3 +1,11 @@
+/*
+ * Author: Laroustine
+ * Project: IBO Faction
+ * Version: 1.3.0a
+ * Game Version: 0.95.1a-RC6
+ * File Created: 19/03/2022
+ */
+
 package data.hullmods;
 
 import com.fs.starfarer.api.combat.BaseHullMod;
