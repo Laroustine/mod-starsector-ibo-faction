@@ -2,12 +2,14 @@
   "id": "IBO Faction",
   "name": "IBO - Faction",
   "author": "Laroustine",
-  "version": "v1.1.0a",
+  "version": "v1.2.0a",
   "description": "Adds various elements from Iron-Blooded Orphans",
   "gameVersion": "0.95.1a-RC6",
   "modPlugin": "data.scripts.IBOFPlugin",
   "jars": [
     "jars/ibo-faction.jar"
   ],
-  "replace": []
+  "replace": [
+    "data/config/title_screen_variants.csv"
+  ]
 }

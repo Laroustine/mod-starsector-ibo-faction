@@ -240,14 +240,17 @@ public class Don {
     market.setPlanetConditionMarketOnly(false);
     market.getTariff().modifyFlat("generator", 0.35f);
     market.addCondition(Conditions.POPULATION_6);
+    market.addCondition(Conditions.REGIONAL_CAPITAL);
+    market.addCondition(Conditions.URBANIZED_POLITY);
+    market.addCondition(Conditions.FREE_PORT);
     market.addCondition(Conditions.HABITABLE);
     market.addCondition(Conditions.HIGH_GRAVITY);
     market.addCondition(Conditions.WATER_SURFACE);
-    market.addCondition(Conditions.POOR_LIGHT);
     market.addCondition(Conditions.VOLTURNIAN_LOBSTER_PENS);
     market.addSubmarket(Submarkets.SUBMARKET_STORAGE);
     market.addSubmarket(Submarkets.SUBMARKET_BLACK);
     market.addSubmarket(Submarkets.SUBMARKET_OPEN);
+    market.addSubmarket(Submarkets.GENERIC_MILITARY);
     market.addIndustry(Industries.POPULATION);
     market.addIndustry(Industries.HIGHCOMMAND);
     market.addIndustry(Industries.MEGAPORT);
@@ -271,10 +274,10 @@ public class Don {
     market.addCondition(Conditions.HABITABLE);
     market.addCondition(Conditions.FARMLAND_BOUNTIFUL);
     market.addCondition(Conditions.ORGANICS_ABUNDANT);
-    market.addCondition(Conditions.HIGH_GRAVITY);
+    market.addCondition(Conditions.EXTREME_WEATHER);
     market.addSubmarket(Submarkets.SUBMARKET_STORAGE);
     market.addSubmarket(Submarkets.SUBMARKET_BLACK);
-    market.addSubmarket(Submarkets.SUBMARKET_OPEN);
+    market.addSubmarket(Submarkets.GENERIC_MILITARY);
     market.addIndustry(Industries.POPULATION);
     market.addIndustry(
       Industries.MINING,
@@ -294,16 +297,14 @@ public class Don {
     market.setPlanetConditionMarketOnly(false);
     market.getTariff().modifyFlat("generator", 0.35f);
     market.addCondition(Conditions.POPULATION_5);
-    market.addCondition(Conditions.COLD);
     market.addCondition(Conditions.NO_ATMOSPHERE);
-    market.addCondition(Conditions.EXTREME_WEATHER);
+    market.addCondition(Conditions.COLD);
     market.addCondition(Conditions.ORE_ABUNDANT);
     market.addCondition(Conditions.RARE_ORE_RICH);
     market.addCondition(Conditions.VOLATILES_TRACE);
     market.addCondition(Conditions.VOLATILES_TRACE);
-    market.addSubmarket(Submarkets.SUBMARKET_STORAGE);
+    market.addSubmarket(Submarkets.GENERIC_MILITARY);
     market.addSubmarket(Submarkets.SUBMARKET_BLACK);
-    market.addSubmarket(Submarkets.SUBMARKET_OPEN);
     market.addIndustry(Industries.POPULATION);
     market.addIndustry(Industries.MEGAPORT);
     market.addIndustry(Industries.MINING);
