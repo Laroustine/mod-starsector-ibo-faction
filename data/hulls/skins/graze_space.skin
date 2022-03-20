@@ -1,0 +1,21 @@
+{
+    "baseHullId": "graze",
+    "skinHullId": "graze_space",
+    "hullName": "Graze Space Type",
+    "descriptionId": "graze",
+    "descriptionPrefix": "A Graze unit equipped with a boost unit on it's back for high speed movement in space.",
+    "spriteName": "graphics/ships/graze/graze_space.png",
+    "systemId": "maneuveringjets",
+    "removeBuiltInWeapons": [],
+    "builtInWeapons": {
+        "HEAD": "graze_space_head"
+    },
+    "engineSlotChanges": {
+        "0": {
+            "style": "MIDLINE"
+        },
+        "1": {
+            "style": "MIDLINE"
+        }
+    }
+}

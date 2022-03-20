@@ -3,25 +3,14 @@
   "fluxCapacitors": 0,
   "fluxVents": 0,
   "hullId": "shiden",
-  "hullMods": [
-    
-  ],
-  "quality": 0,
   "variantId": "shiden",
   "weaponGroups": [
     {
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0001": "shiden_head"
+        "WP": "shiden_right"
       }
-    },
-    {
-      "autofire": false,
-      "mode": "LINKED",
-      "weapons": {        
-        "WS0002": "shiden_right"
-	  }
     },
   ]
 }

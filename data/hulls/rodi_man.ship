@@ -58,23 +58,31 @@
   "spriteName": "graphics/ships/rodi/rodi_man.png",
   "style": "LOW_TECH",
   "viewOffset": 0,
+  "builtInMods": [
+    "av_system"
+  ],
+  "builtInWeapons": {
+    "HEAD": "man_rodi_head",
+    "RWP": "man_rodi_right",
+    "LWP": "man_rodi_left",
+  },
   "weaponSlots": [
     {
       "angle": 0,
       "arc": 106,
-      "id": "WS0001",
+      "id": "HEAD",
       "locations": [
         0,
         -0
       ],
       "mount": "TURRET",
       "size": "SMALL",
-      "type": "BUILT_IN"
+      "type": "DECORATIVE"
     },
     {
       "angle": 0,
       "arc": 50,
-      "id": "WS0002",
+      "id": "RWP",
       "locations": [
         5,
         -14.5
@@ -86,7 +94,7 @@
     {
       "angle": -0,
       "arc": 50,
-      "id": "WS0003",
+      "id": "LWP",
       "locations": [
         5,
         14.5

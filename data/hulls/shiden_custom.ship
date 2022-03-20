@@ -62,26 +62,30 @@
     -0
   ],
   "shieldRadius": 24,
-  "spriteName": "graphics/ships/shiden_custom.png",
+  "spriteName": "graphics/ships/shiden/shiden_custom.png",
   "style": "LOW_TECH",
   "viewOffset": 0,
+  "builtInWeapons": {
+    "HEAD": "shiden_custom_head",
+    "WP": "shiden_custom_right"
+  },
   "weaponSlots": [
     {
       "angle": 0,
       "arc": 106,
-      "id": "WS0001",
+      "id": "HEAD",
       "locations": [
         1.5,
         -0
       ],
       "mount": "TURRET",
       "size": "SMALL",
-      "type": "BUILT_IN"
+      "type": "DECORATIVE"
     },
     {
       "angle": 0,
       "arc": 53,
-      "id": "WS0002",
+      "id": "WP",
       "locations": [
         3,
         -12

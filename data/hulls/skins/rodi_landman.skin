@@ -1,0 +1,13 @@
+{
+    "baseHullId": "rodi_man",
+    "skinHullId": "rodi_landman",
+    "hullName": "Landman Rodi",
+    "descriptionId": "rodi_landman",
+    "spriteName": "graphics/ships/rodi/rodi_landman.png",
+    "removeBuiltInWeapons": [],
+    "builtInWeapons": {
+        "HEAD": "landman_rodi_head",
+        "RWP": "landman_rodi_right",
+        "LWP": "landman_rodi_left",
+    },
+}

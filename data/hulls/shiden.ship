@@ -52,33 +52,36 @@
   ],
   "height": 36,
   "hullId": "shiden",
-  "hullName": "shiden",
+  "hullName": "Shiden",
   "hullSize": "FIGHTER",
   "shieldCenter": [
     0,
     -0
   ],
   "shieldRadius": 24,
-  "spriteName": "graphics/ships/shiden.png",
+  "spriteName": "graphics/ships/shiden/shiden.png",
   "style": "LOW_TECH",
   "viewOffset": 0,
+  "builtInWeapons": {
+    "HEAD": "shiden_head",
+  },
   "weaponSlots": [
     {
       "angle": 0,
       "arc": 106,
-      "id": "WS0001",
+      "id": "HEAD",
       "locations": [
         0,
         -0
       ],
       "mount": "TURRET",
       "size": "SMALL",
-      "type": "BUILT_IN"
+      "type": "DECORATIVE"
     },
     {
       "angle": 0,
       "arc": 62,
-      "id": "WS0002",
+      "id": "WP",
       "locations": [
         2.5,
         -11.5
