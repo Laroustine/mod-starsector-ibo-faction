@@ -59,7 +59,8 @@
   "style": "LOW_TECH",
   "viewOffset": 0,
   "builtInMods": [
-    "av_system"
+    "av_system",
+    "nano_armor"
   ],
   "builtInWeapons": {
     "HEAD": "man_rodi_head",

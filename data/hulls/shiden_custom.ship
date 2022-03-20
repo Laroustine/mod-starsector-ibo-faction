@@ -22,7 +22,8 @@
     -0.5
   ],
   "builtInMods": [
-    "av_system"
+    "av_system",
+    "nano_armor"
   ],
   "center": [
     20,

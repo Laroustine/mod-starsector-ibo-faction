@@ -26,7 +26,8 @@
     4.5
   ],
   "builtInMods": [
-    "av_system"
+    "av_system",
+    "nano_armor"
   ],
   "builtInWeapons": {
     "WS0001": "ryusei_go_head"

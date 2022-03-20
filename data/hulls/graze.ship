@@ -62,6 +62,9 @@
   "spriteName": "graphics/ships/graze/graze.png",
   "style": "LOW_TECH",
   "viewOffset": 0,
+  "builtInMods": [
+    "nano_armor"
+  ],
   "builtInWeapons": {
     "HEAD": "graze_head",
   },
