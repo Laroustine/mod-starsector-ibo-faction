@@ -1,14 +1,15 @@
 {
     "displayName": "Original",
-    "fluxCapacitors": 10,
-    "fluxVents": 2,
+    "fluxCapacitors": 6,
+    "fluxVents": 12,
     "goalVariant": true,
     "hullId": "halfbeack",
     "hullMods": [
         "heavyarmor"
     ],
     "permaMods": [],
-    "variantId": "halfbeack_Original",
+    "sMods": [],
+    "variantId": "halfbeack_original",
     "weaponGroups": [
         {
             "autofire": false,
@@ -38,10 +39,40 @@
                 "ST05": "vulcan",
                 "ST06": "vulcan"
             }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "STH03": "vulcan"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "SMH01": "swarmer"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "STH04": "vulcan"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "SMH02": "swarmer",
+                "STH01": "vulcan",
+                "STH02": "vulcan"
+            }
         }
     ],
     "wings": [
-        "claw_wing",
-        "claw_wing"
+        "graze",
+        "graze"
     ]
 }

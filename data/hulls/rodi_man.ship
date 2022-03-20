@@ -1,0 +1,108 @@
+{
+  "bounds": [
+    -14.5,
+    12.5,
+    -17,
+    2.5,
+    -14,
+    -13,
+    1.5,
+    -15.5,
+    13,
+    -11.5,
+    18.5,
+    0.5,
+    12.5,
+    13,
+    -1.5,
+    17.5
+  ],
+  "center": [
+    21,
+    20.5
+  ],
+  "collisionRadius": 23.5,
+  "engineSlots": [
+    {
+      "angle": -164.5,
+      "contrailSize": 8.575212,
+      "length": 12.604222,
+      "location": [
+        -14,
+        -5.5
+      ],
+      "style": "LOW_TECH",
+      "width": 8.575212
+    },
+    {
+      "angle": 164.5,
+      "contrailSize": 8.575212,
+      "length": 12.604222,
+      "location": [
+        -14,
+        5.5
+      ],
+      "style": "LOW_TECH",
+      "width": 8.575212
+    }
+  ],
+  "height": 43,
+  "hullId": "rodi_man",
+  "hullName": "Man Rodi",
+  "hullSize": "FIGHTER",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 22.5,
+  "spriteName": "graphics/ships/rodi/rodi_man.png",
+  "style": "LOW_TECH",
+  "viewOffset": 0,
+  "builtInMods": [
+    "av_system"
+  ],
+  "builtInWeapons": {
+    "HEAD": "man_rodi_head",
+    "RWP": "man_rodi_right",
+    "LWP": "man_rodi_left",
+  },
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 106,
+      "id": "HEAD",
+      "locations": [
+        0,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": 0,
+      "arc": 50,
+      "id": "RWP",
+      "locations": [
+        5,
+        -14.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": -0,
+      "arc": 50,
+      "id": "LWP",
+      "locations": [
+        5,
+        14.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    }
+  ],
+  "width": 42
+}

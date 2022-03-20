@@ -1,0 +1,20 @@
+{
+	id: "hegemony",
+	"variantOverrides": {
+		"graze_h": 100,
+		"graze_bazooka_h": 100,
+		"isaribi_strike_h": 100,
+	},
+	"knownFighters": {
+		"tags": [
+			"graze"
+		],
+		"fighters": [],
+	},
+	"priorityFighters": {
+		"tags": [
+			"graze"
+		],
+		"fighters": [],
+	},
+},

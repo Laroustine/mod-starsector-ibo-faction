@@ -2,13 +2,13 @@
     "displayName": "Cannon",
     "fluxCapacitors": 5,
     "fluxVents": 14,
-    "goalVariant": false,
     "hullId": "halfbeack",
     "hullMods": [
         "ballistic_rangefinder"
     ],
     "permaMods": [],
-    "variantId": "halfbeack_Cannon",
+    "sMods": [],
+    "variantId": "halfbeack_cannon",
     "weaponGroups": [
         {
             "autofire": false,
@@ -31,17 +31,47 @@
             "autofire": false,
             "mode": "LINKED",
             "weapons": {
-                "ST01": "lightdualmg",
-                "ST02": "lightdualmg",
+                "ST01": "vulcan",
+                "ST02": "vulcan",
                 "ST03": "lightneedler",
                 "ST04": "lightneedler",
                 "ST05": "lightmortar",
                 "ST06": "lightmortar"
             }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "STH03": "vulcan"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "SMH01": "swarmer"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "STH04": "vulcan"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "SMH02": "swarmer",
+                "STH01": "vulcan",
+                "STH02": "vulcan"
+            }
         }
     ],
     "wings": [
-        "talon_wing",
-        "talon_wing"
+        "graze_bazooka",
+        "graze_bazooka"
     ]
 }

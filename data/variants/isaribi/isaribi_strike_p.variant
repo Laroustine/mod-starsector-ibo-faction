@@ -1,0 +1,26 @@
+{
+  "displayName": "Isaribi (P)",
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "hullId": "isaribi_p",
+  "hullMods": [],
+  "quality": 0,
+  "variantId": "isaribi_strike_p",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "typhoon",
+        "WS0004": "typhoon",
+        "WS0005": "anti-aircraft_gun",
+        "WS0006": "anti-aircraft_gun",
+        "WS0007": "autocannon_rear"
+            }
+        }
+    ],
+    "wings": [
+        "shiden_p",
+		"shiden_bazooka_p"
+    ]
+}

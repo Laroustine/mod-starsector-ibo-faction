@@ -1,0 +1,290 @@
+{
+  "bounds": [
+    79.5,
+    -2.5,
+    75.5,
+    -8.5,
+    72,
+    -13.5,
+    66,
+    -19,
+    59.5,
+    -21.5,
+    53,
+    -22,
+    40.5,
+    -34,
+    37.5,
+    -43.5,
+    -3,
+    -44.5,
+    -20.5,
+    -43,
+    -19,
+    -29.5,
+    -62.5,
+    -19,
+    -172.5,
+    -10.5,
+    -172.5,
+    10.5,
+    -62.5,
+    19,
+    -19,
+    29.5,
+    -20.5,
+    43,
+    -3,
+    44.5,
+    37.5,
+    43.5,
+    40.5,
+    34,
+    53,
+    22,
+    59.5,
+    21.5,
+    66,
+    19,
+    72,
+    13.5,
+    75.5,
+    8.5,
+    79.5,
+    2.5
+  ],
+  "builtInWeapons": {
+    "WS0001": "autocannon_fixed",
+    "WS0002": "autocannon_fixed",
+    "WS0003": "typhoon",
+    "WS0004": "typhoon"
+  },
+  "center": [
+    48.5,
+    170.5
+  ],
+  "collisionRadius": 178.5,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 12,
+      "length": 28,
+      "location": [
+        -36.5,
+        -20
+      ],
+      "style": "MIDLINE",
+      "width": 12
+    },
+    {
+      "angle": -180,
+      "contrailSize": 12,
+      "length": 28,
+      "location": [
+        -36.5,
+        20
+      ],
+      "style": "MIDLINE",
+      "width": 12
+    },
+    {
+      "angle": -166,
+      "contrailSize": 2.918712,
+      "length": 6.54754,
+      "location": [
+        -148.5,
+        -9.5
+      ],
+      "style": "MIDLINE",
+      "width": 2.918712
+    },
+    {
+      "angle": 166,
+      "contrailSize": 2.918712,
+      "length": 6.54754,
+      "location": [
+        -148.5,
+        9.5
+      ],
+      "style": "MIDLINE",
+      "width": 2.918712
+    }
+  ],
+  "height": 272,
+  "hullId": "isaribi",
+  "hullName": "isaribi",
+  "hullSize": "DESTROYER",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 172,
+  "spriteName": "graphics/ships/isaribi/isaribi.png",
+  "style": "MIDLINE",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS0001",
+      "locations": [
+        33.5,
+        -26
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": -0,
+      "arc": 0,
+      "id": "WS0002",
+      "locations": [
+        33.5,
+        26
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS0003",
+      "locations": [
+        65.5,
+        -17.5
+      ],
+      "mount": "HIDDEN",
+      "size": "MEDIUM",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": -0,
+      "arc": 0,
+      "id": "WS0004",
+      "locations": [
+        65.5,
+        17.5
+      ],
+      "mount": "HIDDEN",
+      "size": "MEDIUM",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": -90,
+      "arc": 201,
+      "id": "WS0005",
+      "locations": [
+        3.5,
+        -14.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 90,
+      "arc": 201,
+      "id": "WS0006",
+      "locations": [
+        3.5,
+        14.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 180,
+      "arc": 108,
+      "id": "WS0007",
+      "locations": [
+        -15.5,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 180,
+      "arc": 0,
+      "id": "WS0008",
+      "locations": [
+        -151,
+        -0.5
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "SYSTEM"
+    },
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "WS0009",
+      "locations": [
+        11,
+        -29,
+        11,
+        29,
+        1.5,
+        -28.5,
+        1.5,
+        29.5
+      ],
+      "mount": "HIDDEN",
+      "size": "MEDIUM",
+      "type": "LAUNCH_BAY"
+    },
+    {
+      "angle": -63.5,
+      "arc": 0,
+      "id": "WS0010",
+      "locations": [
+        26,
+        -44
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "SYSTEM"
+    },
+    {
+      "angle": 63.5,
+      "arc": 0,
+      "id": "WS0011",
+      "locations": [
+        26,
+        44
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "SYSTEM"
+    },
+    {
+      "angle": -150.5,
+      "arc": 0,
+      "id": "WS0012",
+      "locations": [
+        -93,
+        -15.5
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "SYSTEM"
+    },
+    {
+      "angle": 150.5,
+      "arc": 0,
+      "id": "WS0013",
+      "locations": [
+        -93,
+        15.5
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "SYSTEM"
+    }
+  ],
+  "width": 97
+}

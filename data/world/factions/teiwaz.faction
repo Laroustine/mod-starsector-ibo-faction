@@ -22,7 +22,11 @@
 		"modern": 1,
 		"future": 1
 	},
-	"variantOverrides": {},
+	"variantOverrides": {
+		"shiden": 100,
+		"shiden_bazooka": 100,
+		"shiden_custom": 100,
+	},
 	"hullFrequency": {
 		"tags": {
 			"heg_aux_bp": 2,
@@ -68,14 +72,15 @@
 	"knownFighters": {
 		"tags": [
 			"base_bp",
-			"lowtech_bp",
 			"midline_bp",
+			"shiden"
 		],
-		"fighters": [
-		]
+		"fighters": []
 	},
 	"priorityFighters": {
-		"tags": [],
+		"tags": [
+			"shiden"
+		],
 		"fighters": []
 	},
 	"knownWeapons": {
@@ -84,19 +89,7 @@
 			"lowtech_bp",
 			"midline_bp",
 		],
-		"weapons": [
-			"railgun",
-			"dualflak",
-			"heavymauler",
-			"hveldriver",
-			"gauss",
-			"mjolnir",
-			"breachpod",
-			"sabotpod",
-			"phasecl",
-			"cyclone",
-			"hurricane"
-		]
+		"weapons": []
 	},
 	"priorityWeapons": {
 		"tags": [],

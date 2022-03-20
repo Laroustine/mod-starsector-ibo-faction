@@ -1,0 +1,16 @@
+{
+  "displayName": "Assault",
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "hullId": "shiden_p",
+  "variantId": "shiden_p",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WP": "shiden_right_p"
+      }
+    },
+  ]
+}

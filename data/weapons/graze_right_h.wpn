@@ -1,0 +1,42 @@
+{
+  "animationType": "MUZZLE_FLASH",
+  "barrelMode": "ALTERNATING",
+  "displayArcRadius": 450,
+  "fireSoundTwo": "light_machinegun_fire",
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    13,
+    -1
+  ],
+  "hardpointSprite": "graphics/weapons/graze_right_h.png",
+  "id": "graze_right_h",
+  "muzzleFlashSpec": {
+    "length": 34,
+    "particleColor": [
+      199,
+      93,
+      76,
+      215
+    ],
+    "particleCount": 12,
+    "particleDuration": 0.02,
+    "particleSizeMin": 18,
+    "particleSizeRange": 24,
+    "spread": 10
+  },
+  "projectileSpecId": "lightmg_shot",
+  "size": "SMALL",
+  "specClass": "projectile",
+  "textureType": ROUGH,
+  "turretAngleOffsets": [
+    0
+  ],
+  "turretOffsets": [
+    13,
+    -1
+  ],
+  "turretSprite": "graphics/weapons/graze_right_h.png",
+  "type": "BALLISTIC"
+}
