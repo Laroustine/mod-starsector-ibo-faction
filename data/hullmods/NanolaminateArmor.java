@@ -14,6 +14,7 @@ public class NanolaminateArmor extends BaseHullMod {
     String id
   ) {
     stats.getEnergyDamageTakenMult().modifyPercent(id, 100 - BEAM_REDUCTION);
+    stats.getBeamDamageTakenMult().modifyPercent(id, 100 - BEAM_REDUCTION);
   }
 
   public String getDescriptionParam(int index, HullSize hullSize) {
