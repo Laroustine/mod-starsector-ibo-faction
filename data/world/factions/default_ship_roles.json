@@ -17,8 +17,8 @@
 		},
 	},
 	"combatLarge": {
-		"halfbeack_Original": 15,
-		"halfbeack_Cannon": 15,
+		"halfbeack_original": 15,
+		"halfbeack_cannon": 15,
 		"fallback": {
 			"combatMedium": 1
 		},
