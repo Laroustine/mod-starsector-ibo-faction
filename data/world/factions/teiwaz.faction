@@ -68,15 +68,19 @@
 	"knownFighters": {
 		"tags": [
 			"base_bp",
-			"lowtech_bp",
-			"midline_bp",
+			"midline_bp"
 		],
 		"fighters": [
+			"shiden",
+			"shiden_bazooka",
+			"shiden_custom"
 		]
 	},
 	"priorityFighters": {
 		"tags": [],
-		"fighters": []
+		"fighters": [
+			"shiden"
+		]
 	},
 	"knownWeapons": {
 		"tags": [
@@ -84,19 +88,7 @@
 			"lowtech_bp",
 			"midline_bp",
 		],
-		"weapons": [
-			"railgun",
-			"dualflak",
-			"heavymauler",
-			"hveldriver",
-			"gauss",
-			"mjolnir",
-			"breachpod",
-			"sabotpod",
-			"phasecl",
-			"cyclone",
-			"hurricane"
-		]
+		"weapons": []
 	},
 	"priorityWeapons": {
 		"tags": [],

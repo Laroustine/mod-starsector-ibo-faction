@@ -51,19 +51,21 @@
 		]
 	},
 	"knownFighters": {
-		"tags": [
-			"base_bp",
-			"midline_bp",
-			"hightech_bp"
-		],
+		"tags": [],
 		"fighters": [
-			"claw_wing",
-			"dagger_wing"
+			"graze",
+			"graze_space",
+			"graze_bazooka",
+			"graze_space_bazooka",
+			"graze_dainsleif",
 		]
 	},
 	"priorityFighters": {
 		"tags": [],
-		"fighters": []
+		"fighters": [
+			"graze",
+			"graze_space"
+		]
 	},
 	"knownWeapons": {
 		"tags": [
