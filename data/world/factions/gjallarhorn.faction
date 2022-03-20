@@ -22,7 +22,10 @@
 		"modern": 1,
 		"future": 1
 	},
-	"variantOverrides": {},
+	"variantOverrides": {
+		"graze": 100,
+		"graze_bazooka": 100
+	},
 	"hullFrequency": {
 		"tags": {
 			"gjallarhorn": 1
@@ -51,21 +54,18 @@
 		]
 	},
 	"knownFighters": {
-		"tags": [],
-		"fighters": [
+		"tags": [
 			"graze",
-			"graze_space",
-			"graze_bazooka",
-			"graze_space_bazooka",
-			"graze_dainsleif",
-		]
+			"gja_bp"
+		],
+		"fighters": []
 	},
 	"priorityFighters": {
-		"tags": [],
-		"fighters": [
+		"tags": [
 			"graze",
-			"graze_space"
-		]
+			"gja_bp"
+		],
+		"fighters": []
 	},
 	"knownWeapons": {
 		"tags": [

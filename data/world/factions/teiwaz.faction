@@ -22,7 +22,11 @@
 		"modern": 1,
 		"future": 1
 	},
-	"variantOverrides": {},
+	"variantOverrides": {
+		"shiden": 100,
+		"shiden_bazooka": 100,
+		"shiden_custom": 100,
+	},
 	"hullFrequency": {
 		"tags": {
 			"heg_aux_bp": 2,
@@ -68,19 +72,16 @@
 	"knownFighters": {
 		"tags": [
 			"base_bp",
-			"midline_bp"
+			"midline_bp",
+			"shiden"
 		],
-		"fighters": [
-			"shiden",
-			"shiden_bazooka",
-			"shiden_custom"
-		]
+		"fighters": []
 	},
 	"priorityFighters": {
-		"tags": [],
-		"fighters": [
+		"tags": [
 			"shiden"
-		]
+		],
+		"fighters": []
 	},
 	"knownWeapons": {
 		"tags": [

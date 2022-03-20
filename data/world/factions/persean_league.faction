@@ -1,0 +1,21 @@
+{
+	"variantOverrides": {
+		"shiden_p": 100,
+		"shiden_bazooka_p": 100,
+		"shiden_custom_p": 100,
+		"isaribi_elite_p": 50,
+		"isaribi_strike_p": 50,
+	},
+	"knownFighters": {
+		"tags": [
+			"shiden",
+		],
+		"fighters": [],
+	},
+	"priorityFighters": {
+		"tags": [
+			"shiden",
+		],
+		"fighters": [],
+	},
+}

@@ -1,0 +1,21 @@
+{
+	id: "sindrian_diktat",
+    "variantOverrides": {
+        "isaribi_strike_p": 50,
+        "isaribi_strike_h": 50,
+    },
+    "knownFighters": {
+        "tags": [],
+        "fighters": [
+            "graze_h",
+            "shiden_bazooka_p",
+        ],
+    },
+    "priorityFighters": {
+        "tags": [],
+        "fighters": [
+            "graze_h",
+            "shiden_bazooka_p",
+        ],
+    },
+}

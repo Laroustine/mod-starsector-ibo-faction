@@ -1,0 +1,18 @@
+{
+	id: "pirates",
+	"variantOverrides": {
+		"rodi_man": 100,
+	},
+	"knownFighters": {
+		"tags": [],
+		"fighters": [
+			"rodi_man",
+		]
+	},
+	"priorityFighters": {
+		"tags": [],
+		"fighters": [
+			"rodi_man",
+		]
+	},
+}
