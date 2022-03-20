@@ -1,11 +1,9 @@
 {
-  "displayName": "Assault",
+  "displayName": "Artillery",
   "fluxCapacitors": 0,
   "fluxVents": 0,
-  "hullId": "graze_bazooka",
-  "hullMods": [
-    
-  ],
+  "hullId": "graze",
+  "hullMods": [],
   "quality": 0,
   "variantId": "graze_bazooka",
   "weaponGroups": [
@@ -13,15 +11,15 @@
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0001": "graze_head"
+        "HEAD": "graze_head"
       }
     },
     {
       "autofire": false,
       "mode": "LINKED",
-      "weapons": {        
-        "WS0002": "graze_bazooka_right"
-	  }
+      "weapons": {
+        "WP": "graze_bazooka_right"
+      }
     },
   ]
 }

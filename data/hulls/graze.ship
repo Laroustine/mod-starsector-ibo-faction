@@ -52,7 +52,7 @@
   ],
   "height": 36,
   "hullId": "graze",
-  "hullName": "graze",
+  "hullName": "Graze",
   "hullSize": "FIGHTER",
   "shieldCenter": [
     0,
@@ -62,23 +62,26 @@
   "spriteName": "graphics/ships/graze/graze.png",
   "style": "LOW_TECH",
   "viewOffset": 0,
+  "builtInWeapons": {
+    "HEAD": "graze_head",
+  },
   "weaponSlots": [
     {
       "angle": 0,
       "arc": 106,
-      "id": "WS0001",
+      "id": "HEAD",
       "locations": [
         0,
         -0
       ],
       "mount": "TURRET",
       "size": "SMALL",
-      "type": "BUILT_IN"
+      "type": "DECORATIVE"
     },
     {
       "angle": 0,
       "arc": 46,
-      "id": "WS0002",
+      "id": "WP",
       "locations": [
         3,
         -11.5
