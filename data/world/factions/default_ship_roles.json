@@ -17,8 +17,10 @@
 		},
 	},
 	"combatLarge": {
-		"halfbeack_Original": 15,
-		"halfbeack_Cannon": 15,
+		"isaribi_strike": 1,
+		"isaribi_elite_p": 1,
+		"halfbeack_original": 15,
+		"halfbeack_cannon": 15,
 		"fallback": {
 			"combatMedium": 1
 		},
@@ -32,21 +34,34 @@
 	
 	# hybrid ships with good combat and cargo capacity
 	"combatFreighterSmall": {
+		"isaribi_strike": 7,
+		"isaribi_strike_p": 7,
+		"isaribi_strike_h": 7,
 		"fallback": {
 			"freighterSmall": 1
 		},
 	},
 	"combatFreighterMedium": {
+		"isaribi_strike": 9,
+		"isaribi_strike_p": 9,
+		"isaribi_strike_h": 9,
 		"fallback": {
 			"combatFreighterSmall": 1
 		},
 	},
 	"combatFreighterLarge": {
+		"isaribi_strike": 1,
+		"isaribi_strike_p": 20,
+		"isaribi_strike_h": 20,
 		"fallback": {
 			"combatFreighterMedium": 1
 		},
 	},
-	"civilianRandom": {},
+	"civilianRandom": {
+		"isaribi_strike": 2,
+		"isaribi_strike_p": 3,
+		"isaribi_strike_h": 3,
+	},
 
 	# carriers
 	"carrierSmall": {
@@ -58,6 +73,9 @@
 		},
 	},
 	"carrierMedium": {
+		"isaribi_strike": 2,
+		"isaribi_strike_p": 5,
+		"isaribi_strike_h": 5,
 		"fallback": {
 			"carrierSmall": 1
 		},
@@ -119,6 +137,9 @@
 		},
 	},
 	"freighterLarge": {
+		"isaribi_strike": 2,
+		"isaribi_strike_p": 10,
+		"isaribi_strike_h": 10,
 		"fallback": {
 			"freighterMedium": 1
 		},

@@ -1,0 +1,27 @@
+{
+  "displayName": "Escort",
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "hullId": "mobile_worker",
+  "hullMods": [
+    
+  ],
+  "quality": 0,
+  "variantId": "mobile_worker",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "rifle_right"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {        
+        "WS0002": "rifle_left"
+	  }
+    }
+  ]
+}
