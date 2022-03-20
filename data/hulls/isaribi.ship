@@ -122,6 +122,9 @@
   "spriteName": "graphics/ships/isaribi/isaribi.png",
   "style": "MIDLINE",
   "viewOffset": 0,
+  "builtInMods": [
+    "nano_armor"
+  ],
   "weaponSlots": [
     {
       "angle": 0,
