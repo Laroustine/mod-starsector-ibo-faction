@@ -1,0 +1,30 @@
+{
+  "displayName": "Assault",
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "hullId": "ryusei_go",
+  "variantId": "ryusei_go",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "HEAD": "ryusei_go_head"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "LWP": "ryusei_go_left"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "RWP": "ryusei_go_right"
+      }
+    }
+  ]
+}

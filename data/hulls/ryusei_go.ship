@@ -71,14 +71,14 @@
   ],
   "height": 36,
   "hullId": "ryusei_go",
-  "hullName": "Ryusei-Go",
+  "hullName": "Ryusei-Go II",
   "hullSize": "FIGHTER",
   "shieldCenter": [
     0,
     -0
   ],
   "shieldRadius": 0,
-  "spriteName": "graphics/ships/ryusei_go.png",
+  "spriteName": "graphics/ships/graze/ryusei_go.png",
   "style": "LOW_TECH",
   "viewOffset": 0,
   "weaponSlots": [

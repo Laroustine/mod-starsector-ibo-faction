@@ -1,0 +1,7 @@
+{
+    "baseHullId": "shiden_custom",
+    "skinHullId": "shiden_ryusei",
+    "hullName": "Ryusei-Go III",
+    "descriptionId": "shiden_ryusei",
+    "spriteName": "graphics/ships/shiden/shiden_ryusei.png",
+}

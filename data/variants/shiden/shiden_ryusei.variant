@@ -2,31 +2,22 @@
   "displayName": "Assault",
   "fluxCapacitors": 0,
   "fluxVents": 0,
-  "hullId": "ryusei_go",
-  "hullMods": [],
-  "quality": 0,
-  "variantId": "ryusei_go",
+  "hullId": "shiden_ryusei",
+  "variantId": "shiden_ryusei",
   "weaponGroups": [
     {
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "HEAD": "ryusei_go_head"
+        "HEAD": "shiden_head_ryusei"
       }
     },
     {
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "LWP": "ryusei_go_left"
+        "WP": "shiden_right_ryusei"
       }
     },
-    {
-      "autofire": false,
-      "mode": "LINKED",
-      "weapons": {
-        "RWP": "ryusei_go_right"
-      }
-    }
   ]
 }

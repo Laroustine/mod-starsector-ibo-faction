@@ -12,6 +12,7 @@ Head,shiden_head_p,,,,1000,,,,,90,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,106
 Head,shiden_custom_head,,,,1000,,,,,90,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,107
 Head,shiden_custom_head_p,,,,1000,,,,,90,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,108
 Head,graze_dainsleif_head,,,,8000,,,,,90,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,109
+Head,shiden_head_ryusei,,,,1000,,,,,90,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,106
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 GR-W02 320mm Bazooka,graze_custom_left,,,,600,,450,,50,30,4,7,,,HIGH_EXPLOSIVE,0,,0,0.5,1,,0,30,1,10,,400,50,3.75,50,,,SYSTEM,,,,,,,,,,,,,,,200
 GR-W02 320mm Bazooka,graze_bazooka_right,,,,600,,450,,50,30,4,7,,,HIGH_EXPLOSIVE,0,,0,0.5,1,,0,30,1,10,,400,50,3.75,50,,,SYSTEM,,,,,,,,,,,,,,,201
@@ -22,8 +23,9 @@ GR-W02 320mm Bazooka,shiden_bazooka_right_p,,,,600,,450,,50,30,4,7,,,HIGH_EXPLOS
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 JEE-205 130mm Assault Rifle,shiden_right,,,,470,,40,,,30,,90,,,KINETIC,2,,0,0.25,1,,3,7,5,8,,690,,,10,,,SYSTEM,,,,,,,,,,,,,,,300
 JEE-205 130mm Assault Rifle,shiden_custom_right,,,,470,,60,,,30,,90,,,KINETIC,2,,0,0.25,1,,3,7,5,8,,690,,,10,,,SYSTEM,,,,,,,,,,,,,,,301
-JEE-205 130mm Assault Rifle,shiden_right_p,,,,470,,60,,,30,,90,,,KINETIC,2,,0,0.25,1,,3,7,5,8,,690,,,10,,,SYSTEM,,,,,,,,,,,,,,,302
-JEE-205 130mm Assault Rifle,shiden_custom_right_p,,,,470,,50,,,30,,90,,,KINETIC,2,,0,0.25,1,,3,7,5,8,,690,,,10,,,SYSTEM,,,,,,,,,,,,,,,303
+JEE-205 130mm Assault Rifle,shiden_right_p,,,,470,,50,,,30,,90,,,KINETIC,2,,0,0.25,1,,3,7,5,8,,690,,,10,,,SYSTEM,,,,,,,,,,,,,,,302
+JEE-205 130mm Assault Rifle,shiden_custom_right_p,,,,470,,60,,,30,,90,,,KINETIC,2,,0,0.25,1,,3,7,5,8,,690,,,10,,,SYSTEM,,,,,,,,,,,,,,,303
+JEE-205 130mm Assault Rifle,shiden_right_ryusei,,,,470,,60,,,30,,90,,,KINETIC,2,,0,0.25,1,,3,7,5,8,,690,,,10,,,SYSTEM,,,,,,,,,,,,,,,304
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 GR-W01 120mm Rifle,graze_custom_right,,,,450,,60,,,30,,90,,,KINETIC,2,,0,0.25,1,,3,7,5,8,,700,,,10,,,SYSTEM,,,,,,,,,,,,,,,400
 GR-W01 120mm Rifle,graze_right,,,,450,,40,,,30,,90,,,KINETIC,2,,0,0.25,1,,3,7,5,8,,700,,,10,,,SYSTEM,,,,,,,,,,,,,,,401
