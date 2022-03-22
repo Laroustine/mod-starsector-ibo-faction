@@ -9,6 +9,13 @@
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
+        "HEAD": "shiden_head"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
         "WP": "shiden_right"
       }
     },

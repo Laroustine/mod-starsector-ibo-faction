@@ -1,25 +1,32 @@
 {
-	"specClass":"projectile",
-	"id":"shiden_custom_head_p",
-	"type":"BALLISTIC",
-	"size":"SMALL",
-	"displayArcRadius":250,
-	"turretSprite":"graphics/weapons/shiden_custom_head_p.png",
-	"hardpointSprite":"graphics/weapons/shiden_custom_head_p.png",
-	"turretOffsets":[3, -2, 3, 2],
-	"turretAngleOffsets":[0, 0],
-	"hardpointOffsets":[4, -2, 4, 2],
-	"hardpointAngleOffsets":[0, 0],
-	"barrelMode":"ALTERNATING", # or LINKED.  whether barrels fire at the same time or alternate.
-	"animationType":"MUZZLE_FLASH",
-	"muzzleFlashSpec":{"length":20.0,   # only used if animationType = MUZZLE_FLASH
-					   "spread":6.0,
-					   "particleSizeMin":6.0,
-					   "particleSizeRange":8.0,
-					   "particleDuration":0.15,
-					   "particleCount":7,
-					   "particleColor":[255,240,165,200]},
-	"projectileSpecId":"vulcan_shot",  # projectile that will be fired
-	#"fireSoundOne":"vulcan_cannon_intro",
-	"fireSoundTwo":"vulcan_cannon_fire",
+	"turretSprite": "graphics/weapons/shiden_custom_head_p.png",
+	"hardpointSprite": "graphics/weapons/shiden_custom_head_p.png",
+	"id": "shiden_custom_head_p",
+	"specClass": "projectile",
+	"barrelMode": "ALTERNATING",
+	"animationType": "NONE",
+	"type": "BALLISTIC",
+	"size": "SMALL",
+	"projectileSpecId": "vulcan_shot",
+	"displayArcRadius": 650,
+	"turretOffsets": [
+		3,
+		-2,
+		3,
+		2
+	],
+	"turretAngleOffsets": [
+		0,
+		0
+	],
+	"hardpointOffsets": [
+		4,
+		-2,
+		4,
+		2
+	],
+	"hardpointAngleOffsets": [
+		0,
+		0
+	],
 }

@@ -109,6 +109,56 @@
 				]
 			}
 		],
-	}
-}
+	},
+	"ibo_dainsleif_fire": [
+		{
+			"file": "sounds/sfx_wpn_guns/dainsleif_shot_01.wav",
+			"pitch": 1,
+			"volume": 0.30
+		},
+		{
+			"file": "sounds/sfx_wpn_guns/dainsleif_shot_01.wav",
+			"pitch": 0.8,
+			"volume": 0.30
+		},
+		{
+			"file": "sounds/sfx_wpn_guns/dainsleif_shot_01.wav",
+			"pitch": 0.6,
+			"volume": 0.30
+		},
+	],
+	"ibo_dainsleif_spinup": [
+		{
+			"file": "sounds/sfx_wpn_guns/dainsleif_spin_01.wav",
+			"pitch": 0.6,
+			"volume": 0.08
+		},
+		{
+			"file": "sounds/sfx_wpn_guns/dainsleif_spin_02.wav",
+			"pitch": 1,
+			"volume": 0.08
+		},
+		{
+			"file": "sounds/sfx_wpn_guns/dainsleif_spin_03.wav",
+			"pitch": 1,
+			"volume": 0.2
+		},
+	],
+	"ibo_120mm_rifle": [
+		{
+			"file": "sounds/sfx_wpn_guns/rifle_01.wav",
+			"pitch": 0.6,
+			"volume": 0.08
+		},
+		{
+			"file": "sounds/sfx_wpn_guns/rifle_01.wav",
+			"pitch": 0.65,
+			"volume": 0.08
+		},
+		{
+			"file": "sounds/sfx_wpn_guns/rifle_01.wav",
+			"pitch": 0.7,
+			"volume": 0.08
+		},
+	],
 }

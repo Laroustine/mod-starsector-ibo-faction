@@ -72,20 +72,20 @@
   "weaponSlots": [
     {
       "angle": 0,
-      "arc": 53,
-      "id": "WS0001",
+      "arc": 75,
+      "id": "HEAD",
       "locations": [
         0,
         -0
       ],
       "mount": "TURRET",
       "size": "SMALL",
-      "type": "DECORATIVE"
+      "type": "BUILT_IN"
     },
     {
       "angle": 0,
       "arc": 0,
-      "id": "WS0002",
+      "id": "WP",
       "locations": [
         3,
         10

@@ -29,9 +29,6 @@
     "nano_armor",
     "av_system"
   ],
-  "builtInWeapons": {
-    "WS0001": "graze_custom_head"
-  },
   "center": [
     18,
     16.5
@@ -88,7 +85,7 @@
     {
       "angle": 0,
       "arc": 75,
-      "id": "WS0001",
+      "id": "HEAD",
       "locations": [
         0,
         -0
@@ -100,7 +97,7 @@
     {
       "angle": 0,
       "arc": 26,
-      "id": "WS0002",
+      "id": "LWP",
       "locations": [
         5,
         10.5
@@ -112,7 +109,7 @@
     {
       "angle": 0,
       "arc": 46,
-      "id": "WS0003",
+      "id": "RWP",
       "locations": [
         1.5,
         -11.5

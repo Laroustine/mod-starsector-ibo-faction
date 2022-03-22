@@ -66,14 +66,10 @@
   "spriteName": "graphics/ships/shiden/shiden_custom.png",
   "style": "LOW_TECH",
   "viewOffset": 0,
-  "builtInWeapons": {
-    "HEAD": "shiden_custom_head",
-    "WP": "shiden_custom_right"
-  },
   "weaponSlots": [
     {
       "angle": 0,
-      "arc": 106,
+      "arc": 75,
       "id": "HEAD",
       "locations": [
         1.5,
@@ -81,7 +77,7 @@
       ],
       "mount": "TURRET",
       "size": "SMALL",
-      "type": "DECORATIVE"
+      "type": "BUILT_IN"
     },
     {
       "angle": 0,

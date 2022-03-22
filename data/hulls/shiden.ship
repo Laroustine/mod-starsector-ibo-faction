@@ -65,13 +65,10 @@
   "builtInMods": [
     "nano_armor"
   ],
-  "builtInWeapons": {
-    "HEAD": "shiden_head",
-  },
   "weaponSlots": [
     {
       "angle": 0,
-      "arc": 106,
+      "arc": 75,
       "id": "HEAD",
       "locations": [
         0,
@@ -79,7 +76,7 @@
       ],
       "mount": "TURRET",
       "size": "SMALL",
-      "type": "DECORATIVE"
+      "type": "BUILT_IN"
     },
     {
       "angle": 0,
