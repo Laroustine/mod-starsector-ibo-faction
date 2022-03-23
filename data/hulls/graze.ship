@@ -65,13 +65,10 @@
   "builtInMods": [
     "nano_armor"
   ],
-  "builtInWeapons": {
-    "HEAD": "graze_head",
-  },
   "weaponSlots": [
     {
       "angle": 0,
-      "arc": 106,
+      "arc": 75,
       "id": "HEAD",
       "locations": [
         0,

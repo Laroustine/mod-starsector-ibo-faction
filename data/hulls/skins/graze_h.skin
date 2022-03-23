@@ -6,8 +6,4 @@
     "descriptionPrefix": "This Graze Mobile Suit model is a part of the the Hegemony expeditionary auxiliary fleet and as such its systems have been upgraded to meet Hegemony regulations.",
     "spriteName": "graphics/ships/graze/graze_h.png",
     "systemId": "maneuveringjets",
-    "removeBuiltInWeapons": [],
-    "builtInWeapons": {
-        "HEAD": "graze_head_h",
-    },
 }

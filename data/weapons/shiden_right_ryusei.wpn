@@ -1,11 +1,11 @@
 {
 	"specClass": "projectile",
-	"id": "man_rodi_right",
+	"id": "shiden_right_ryusei",
 	"type": "BALLISTIC",
 	"size": "SMALL",
 	"displayArcRadius": 450,
-	"turretSprite": "graphics/weapons/man_rodi_right.png",
-	"hardpointSprite": "graphics/weapons/man_rodi_right.png",
+	"turretSprite": "graphics/weapons/shiden_right_ryusei.png",
+	"hardpointSprite": "graphics/weapons/shiden_right_ryusei.png",
 	"turretOffsets": [
 		13,
 		-1

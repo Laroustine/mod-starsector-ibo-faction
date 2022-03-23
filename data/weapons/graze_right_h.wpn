@@ -2,7 +2,7 @@
   "animationType": "MUZZLE_FLASH",
   "barrelMode": "ALTERNATING",
   "displayArcRadius": 450,
-  "fireSoundTwo": "light_machinegun_fire",
+  "fireSoundTwo": "ibo_120mm_rifle",
   "hardpointAngleOffsets": [
     0
   ],

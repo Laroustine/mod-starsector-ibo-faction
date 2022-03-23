@@ -4,5 +4,20 @@
   "fluxVents": 0,
   "hullId": "shiden_custom",
   "variantId": "shiden_custom",
-  "weaponGroups": []
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "HEAD": "shiden_custom_head"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WP": "shiden_custom_right"
+      }
+    },
+  ]
 }

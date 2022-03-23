@@ -1,7 +1,7 @@
 {
-	"turretSprite": "graphics/weapons/graze_space_head.png",
-	"hardpointSprite": "graphics/weapons/graze_space_head.png",
-	"id": "graze_space_head",
+	"turretSprite": "graphics/weapons/shiden_head_ryusei.png",
+	"hardpointSprite": "graphics/weapons/shiden_head_ryusei.png",
+	"id": "shiden_head_ryusei",
 	"specClass": "projectile",
 	"barrelMode": "ALTERNATING",
 	"animationType": "NONE",

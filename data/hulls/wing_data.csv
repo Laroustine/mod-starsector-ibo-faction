@@ -1,7 +1,9 @@
 id,variant,tags,tier,rarity,fleet pts,op cost,formation,range,attackRunRange,num,role,role desc,refit,base value,Column,Column [1],Column [2],Column [3],Column [4],Column [5],Column [6],Column [7],Column [8],Column [9],Column [10],Column [11],number
 mobile_worker,mobile_worker,"fighter1, escort, mid",0,,0,0,BOX,4000,500,6,FIGHTER,Fighter,35,800,,,,,,,,,,,,,1195
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
 rodi_man,rodi_man,"fighter2, interceptor, mid",0,,9,7,V,4000,500,2,FIGHTER,Multirole Fighter,15,3000,,,,,,,,,,,,,1193
 rodi_landman,rodi_landman,"fighter2, interceptor, mid",0,,9,7,V,4000,500,2,FIGHTER,Multirole Fighter,15,3000,,,,,,,,,,,,,1194
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
 graze,graze,"fighter2, interceptor, mid",0,,8,5,V,4000,500,3,FIGHTER,Multirole Fighter,25,2000,,,,,,,,,,,,,1195
 graze_h,graze_h,"fighter2, interceptor, mid",2,,8,5,V,4000,500,3,FIGHTER,Multirole Fighter,25,2500,,,,,,,,,,,,,1207
 graze_space,graze_space,"fighter2, interceptor, mid",2,,8,5,V,4000,500,3,FIGHTER,Multirole Fighter,25,2500,,,,,,,,,,,,,1199
@@ -9,8 +11,11 @@ graze_bazooka,graze_bazooka,"fighter2, interceptor, mid",2,,8,5,V,4000,500,2,FIG
 graze_bazooka_h,graze_bazooka_h,"fighter2, interceptor, mid",2,,8,5,V,4000,500,2,FIGHTER,Multirole Fighter,25,2500,,,,,,,,,,,,,1208
 graze_space_bazooka,graze_space_bazooka,"fighter2, interceptor, mid",2,,8,5,V,4000,500,2,FIGHTER,Multirole Fighter,25,2500,,,,,,,,,,,,,1201
 graze_dainsleif,graze_dainsleif,"fighter2, interceptor, mid",4,0.025,15,20,V,4000,500,2,FIGHTER,Anti-Ship,25,8500,,,,,,,,,,,,,1200
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
 graze_custom,graze_custom,"fighter4, interceptor, mid",3,0.25,12,10,V,5000,500,1,FIGHTER,Multirole Fighter,10,8000,,,,,,,,,,,,,1192
 ryusei_go,ryusei_go,"fighter4, interceptor, mid",3,0.05,12,10,V,5000,500,1,FIGHTER,Multirole Fighter,10,8000,,,,,,,,,,,,,1196
+shiden_ryusei,shiden_ryusei,"fighter4, interceptor, mid",3,0.05,12,10,V,5000,500,1,FIGHTER,Multirole Fighter,10,8000,,,,,,,,,,,,,1198
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
 shiden,shiden,"fighter2, interceptor, mid",0,,7,6,V,4000,500,3,FIGHTER,Multirole Fighter,25,1500,,,,,,,,,,,,,1197
 shiden_p,shiden_p,"fighter2, interceptor, mid",0,,7,6,V,4000,500,3,FIGHTER,Multirole Fighter,25,1500,,,,,,,,,,,,,1204
 shiden_custom,shiden_custom,"fighter4, interceptor, mid",3,0.05,12,10,V,5000,500,1,FIGHTER,Multirole Fighter,10,8000,,,,,,,,,,,,,1198

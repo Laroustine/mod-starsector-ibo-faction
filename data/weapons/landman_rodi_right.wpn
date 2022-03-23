@@ -1,25 +1,42 @@
 {
-	"specClass":"projectile",
-	"id":"landman_rodi_right",
-	"type":"BALLISTIC",
-	"size":"SMALL",
-	"displayArcRadius":450,
-	"turretSprite":"graphics/weapons/landman_rodi_right.png",
-	"hardpointSprite":"graphics/weapons/landman_rodi_right.png",
-	"turretOffsets":[13, -1],
-	"turretAngleOffsets":[0],
-	"hardpointOffsets":[13, -1],
-	"hardpointAngleOffsets":[0],
-	"barrelMode":"ALTERNATING", # or LINKED.  whether barrels fire at the same time or alternate.
-	"animationType":"MUZZLE_FLASH",  # NONE, GLOW, MUZZLE_FLASH, SMOKE
-	"muzzleFlashSpec":{"length":34.0,   # only used if animationType = MUZZLE_FLASH
-					   "spread":10.0,
-					   "particleSizeMin":18.0,
-					   "particleSizeRange":24.0,
-					   "particleDuration":0.02,
-					   "particleCount":12,
-					   "particleColor":[199,93,76,215]},
-	"projectileSpecId":"lightmg_shot",
-	#"fireSoundOne":"light_machinegun_intro",
-	"fireSoundTwo":"light_machinegun_fire",
+	"specClass": "projectile",
+	"id": "landman_rodi_right",
+	"type": "BALLISTIC",
+	"size": "SMALL",
+	"displayArcRadius": 450,
+	"turretSprite": "graphics/weapons/landman_rodi_right.png",
+	"hardpointSprite": "graphics/weapons/landman_rodi_right.png",
+	"turretOffsets": [
+		13,
+		-1
+	],
+	"turretAngleOffsets": [
+		0
+	],
+	"hardpointOffsets": [
+		13,
+		-1
+	],
+	"hardpointAngleOffsets": [
+		0
+	],
+	"barrelMode": "ALTERNATING", # or LINKED.  whether barrels fire at the same time or alternate.
+	"animationType": "MUZZLE_FLASH",  # NONE, GLOW, MUZZLE_FLASH, SMOKE
+	"muzzleFlashSpec": {
+		"length": 34.0,   # only used if animationType = MUZZLE_FLASH
+					   "spread": 10.0,
+		"particleSizeMin": 18.0,
+		"particleSizeRange": 24.0,
+		"particleDuration": 0.02,
+		"particleCount": 12,
+		"particleColor": [
+			199,
+			93,
+			76,
+			215
+		]
+	},
+	"projectileSpecId": "lightmg_shot",
+	#"fireSoundOne": "light_machinegun_intro",
+	"fireSoundTwo": "ibo_120mm_rifle",
 }
