@@ -4,4 +4,7 @@
     "hullName": "Ryusei-Go III",
     "descriptionId": "shiden_ryusei",
     "spriteName": "graphics/ships/shiden/shiden_ryusei.png",
+    "builtInMods": [
+        "av_system"
+    ],
 }
