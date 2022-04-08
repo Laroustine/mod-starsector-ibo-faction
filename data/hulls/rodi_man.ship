@@ -59,6 +59,7 @@
   "style": "LOW_TECH",
   "viewOffset": 0,
   "builtInMods": [
+    "ah_reactor",
     "av_system",
     "nano_armor"
   ],

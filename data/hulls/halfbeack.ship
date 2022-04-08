@@ -57,6 +57,7 @@
         20
     ],
     "builtInMods": [
+        "ah_reactor",
         "nano_armor"
     ],
     "builtInWeapons": {
