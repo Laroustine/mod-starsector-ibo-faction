@@ -67,6 +67,7 @@
   "style": "LOW_TECH",
   "viewOffset": 0,
   "builtInMods": [
+    "ah_reactor",
     "nano_armor"
   ],
   "weaponSlots": [
