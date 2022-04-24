@@ -58,7 +58,10 @@
     ],
     "builtInMods": [
         "nano_armor",
-        "catapult_ms"
+        "catapult_ms",
+        "ah_reactor",
+        "ah_reactor",
+        "nano_armor"
     ],
     "builtInWeapons": {
         "STH01": "vulcan",

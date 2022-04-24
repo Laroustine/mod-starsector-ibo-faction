@@ -26,6 +26,7 @@
     4.5
   ],
   "builtInMods": [
+    "ah_reactor",
     "nano_armor",
     "av_system"
   ],
