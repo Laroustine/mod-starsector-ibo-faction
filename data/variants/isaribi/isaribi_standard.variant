@@ -16,9 +16,8 @@
         "WS0005": "anti-aircraft_gun",
         "WS0006": "anti-aircraft_gun",
         "WS0007": "autocannon_rear"
-            }
-        }
-    ],
-    "wings": [
-    ]
+      }
+    }
+  ],
+  "wings": []
 }

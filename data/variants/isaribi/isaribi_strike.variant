@@ -6,6 +6,7 @@
   "hullMods": [],
   "quality": 0,
   "variantId": "isaribi_strike",
+  "goalVariant": true,
   "weaponGroups": [
     {
       "autofire": false,
@@ -16,11 +17,11 @@
         "WS0005": "anti-aircraft_gun",
         "WS0006": "anti-aircraft_gun",
         "WS0007": "autocannon_rear"
-            }
-        }
-    ],
-    "wings": [
-        "shiden",
-		"shiden_bazooka"
-    ]
+      }
+    }
+  ],
+  "wings": [
+    "shiden_wing",
+    "shiden_bazooka_wing"
+  ]
 }

@@ -3,9 +3,7 @@
   "fluxCapacitors": 0,
   "fluxVents": 0,
   "hullId": "mobile_worker",
-  "hullMods": [
-    
-  ],
+  "hullMods": [],
   "quality": 0,
   "variantId": "mobile_worker",
   "weaponGroups": [
@@ -19,9 +17,9 @@
     {
       "autofire": false,
       "mode": "LINKED",
-      "weapons": {        
+      "weapons": {
         "WS0002": "rifle_left"
-	  }
+      }
     }
   ]
 }
