@@ -26,8 +26,9 @@
     4.5
   ],
   "builtInMods": [
-    "av_system",
-    "nano_armor"
+    "ah_reactor",
+    "nano_armor",
+    "av_system"
   ],
   "center": [
     18,

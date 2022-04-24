@@ -3,7 +3,7 @@
     "width": 172,
     "hullId": "halfbeack",
     "hullName": "Halfbeack",
-    "hullSize": "DESTROYER",
+    "hullSize": "CRUISER",
     "bounds": [
         370, # TH
         0,  # TW
@@ -57,6 +57,10 @@
         20
     ],
     "builtInMods": [
+        "nano_armor",
+        "catapult_ms",
+        "ah_reactor",
+        "ah_reactor",
         "nano_armor"
     ],
     "builtInWeapons": {

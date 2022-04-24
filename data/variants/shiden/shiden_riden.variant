@@ -1,25 +1,23 @@
 {
-  "displayName": "Escort",
+  "displayName": "Assault",
   "fluxCapacitors": 0,
   "fluxVents": 0,
-  "hullId": "mobile_worker",
-  "hullMods": [],
-  "quality": 0,
-  "variantId": "mobile_worker",
+  "hullId": "shiden_riden",
+  "variantId": "shiden_riden",
   "weaponGroups": [
     {
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0001": "rifle_right"
+        "HEAD": "shiden_head_riden"
       }
     },
     {
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0002": "rifle_left"
+        "WP": "shiden_right_riden"
       }
-    }
+    },
   ]
 }

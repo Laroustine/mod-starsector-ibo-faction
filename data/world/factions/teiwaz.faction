@@ -73,13 +73,13 @@
 		"tags": [
 			"base_bp",
 			"midline_bp",
-			"shiden"
+			"shiden_wing"
 		],
 		"fighters": []
 	},
 	"priorityFighters": {
 		"tags": [
-			"shiden"
+			"shiden_wing"
 		],
 		"fighters": []
 	},

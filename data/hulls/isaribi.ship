@@ -123,6 +123,7 @@
   "style": "MIDLINE",
   "viewOffset": 0,
   "builtInMods": [
+    "ah_reactor",
     "nano_armor"
   ],
   "weaponSlots": [
