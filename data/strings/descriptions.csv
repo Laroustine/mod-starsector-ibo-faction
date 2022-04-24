@@ -24,6 +24,7 @@ shiden,SHIP,"A mass production, general purpose model developed by Teiwaz based 
 shiden_custom,SHIP,A customized Shiden Mobile Suit with a shield shoulder mount and a modified single horn faceplate.,,,
 graze_dainsleif,SHIP,"A Graze unit equipped with a Dáinsleif railgun mounted in place of it's left arm. A railgun modified to fire special projectiles made from the rare alloy used on mobile suit frames due to the use of superior mechanism, and during the Calamity War, they were heavily used as weapons that could even pierce nanolaminate armor.",,,
 shiden_ryusei,SHIP,"A customized Shiden Mobile Suit with a shield shoulder mount. This is a Shiden customized for Norba Shino's use, and at his request, shoulder thrusters were added and a gauntlet is equipped as part of its standard equipment.",,,
+shiden_riden,SHIP,"A customized Shiden Mobile Suit with a shield shoulder mount. After Shino switched to the Gundam Flauros, his Shiden Custom was given to Ride Mass. It was then painted in a yellow-gold color scheme with a blue lightning motif on the left shoulder based on Ride's preferences.",,,
 ,,,,,
 anti-aircraft_gun,WEAPON,"This is an Anti-Aircraft gun. It was primarily made to counter mobile suits. This makes sure that mobile suits stay far away from you.","Point Defense",,
 autocannon_rear,WEAPON,"This cannon is commonly present and attached to Isaribi models. Because of it's small stature those cannons are not good to attack any ships.","Point Defense",,

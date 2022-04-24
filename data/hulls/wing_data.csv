@@ -15,6 +15,7 @@ graze_dainsleif,graze_dainsleif,"fighter2, interceptor, mid",4,0.025,15,20,V,400
 graze_custom,graze_custom,"fighter4, interceptor, mid",3,0.25,12,10,V,5000,500,1,FIGHTER,Multirole Fighter,10,8000,,,,,,,,,,,,,1192
 ryusei_go,ryusei_go,"fighter4, interceptor, mid",3,0.05,12,10,V,5000,500,1,FIGHTER,Multirole Fighter,10,8000,,,,,,,,,,,,,1196
 shiden_ryusei,shiden_ryusei,"fighter4, interceptor, mid",3,0.05,12,10,V,5000,500,1,FIGHTER,Multirole Fighter,10,8000,,,,,,,,,,,,,1198
+shiden_riden,shiden_riden,"fighter4, interceptor, mid",3,0.05,12,10,V,5000,500,1,FIGHTER,Multirole Fighter,10,8000,,,,,,,,,,,,,1198
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,
 shiden,shiden,"fighter2, interceptor, mid",0,,7,6,V,4000,500,3,FIGHTER,Multirole Fighter,25,1500,,,,,,,,,,,,,1197
 shiden_p,shiden_p,"fighter2, interceptor, mid",0,,7,6,V,4000,500,3,FIGHTER,Multirole Fighter,25,1500,,,,,,,,,,,,,1204
