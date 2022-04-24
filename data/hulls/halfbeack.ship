@@ -57,7 +57,8 @@
         20
     ],
     "builtInMods": [
-        "nano_armor"
+        "nano_armor",
+        "catapult_ms"
     ],
     "builtInWeapons": {
         "STH01": "vulcan",
