@@ -7,15 +7,15 @@
     "knownFighters": {
         "tags": [],
         "fighters": [
-            "graze_h",
-            "shiden_bazooka_p",
+            "graze_h_wing",
+            "shiden_bazooka_p_wing",
         ],
     },
     "priorityFighters": {
         "tags": [],
         "fighters": [
-            "graze_h",
-            "shiden_bazooka_p",
+            "graze_h_wing",
+            "shiden_bazooka_p_wing",
         ],
     },
 }
