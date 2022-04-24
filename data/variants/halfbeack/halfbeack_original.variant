@@ -72,7 +72,7 @@
         }
     ],
     "wings": [
-        "graze",
-        "graze"
+        "graze_wing",
+        "graze_wing"
     ]
 }

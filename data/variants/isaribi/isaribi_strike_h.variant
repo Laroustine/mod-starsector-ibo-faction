@@ -16,11 +16,11 @@
         "WS0005": "anti-aircraft_gun",
         "WS0006": "anti-aircraft_gun",
         "WS0007": "autocannon_rear"
-            }
-        }
-    ],
-    "wings": [
-        "graze_h",
-		"graze_bazooka_h"
-    ]
+      }
+    }
+  ],
+  "wings": [
+    "graze_h_wing",
+    "graze_bazooka_h_wing"
+  ]
 }

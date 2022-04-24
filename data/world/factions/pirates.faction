@@ -6,13 +6,13 @@
 	"knownFighters": {
 		"tags": [],
 		"fighters": [
-			"rodi_man",
+			"rodi_man_wing",
 		]
 	},
 	"priorityFighters": {
 		"tags": [],
 		"fighters": [
-			"rodi_man",
+			"rodi_man_wing",
 		]
 	},
 }

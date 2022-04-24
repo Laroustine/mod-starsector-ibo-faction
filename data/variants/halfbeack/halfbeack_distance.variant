@@ -68,7 +68,7 @@
         }
     ],
     "wings": [
-        "graze",
-        "graze_bazooka"
+        "graze_wing",
+        "graze_bazooka_wing"
     ]
 }
