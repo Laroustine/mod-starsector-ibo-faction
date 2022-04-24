@@ -1,0 +1,32 @@
+{
+	"turretSprite": "graphics/weapons/shiden_head_riden.png",
+	"hardpointSprite": "graphics/weapons/shiden_head_riden.png",
+	"id": "shiden_head_riden",
+	"specClass": "projectile",
+	"barrelMode": "ALTERNATING",
+	"animationType": "NONE",
+	"type": "BALLISTIC",
+	"size": "SMALL",
+	"projectileSpecId": "vulcan_shot",
+	"displayArcRadius": 650,
+	"turretOffsets": [
+		3,
+		-2,
+		3,
+		2
+	],
+	"turretAngleOffsets": [
+		0,
+		0
+	],
+	"hardpointOffsets": [
+		4,
+		-2,
+		4,
+		2
+	],
+	"hardpointAngleOffsets": [
+		0,
+		0
+	],
+}
