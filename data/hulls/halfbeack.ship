@@ -3,7 +3,7 @@
     "width": 172,
     "hullId": "halfbeack",
     "hullName": "Halfbeack",
-    "hullSize": "DESTROYER",
+    "hullSize": "CRUISER",
     "bounds": [
         370, # TH
         0,  # TW

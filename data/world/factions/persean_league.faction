@@ -8,13 +8,13 @@
 	},
 	"knownFighters": {
 		"tags": [
-			"shiden",
+			"shiden_wing",
 		],
 		"fighters": [],
 	},
 	"priorityFighters": {
 		"tags": [
-			"shiden",
+			"shiden_wing",
 		],
 		"fighters": [],
 	},
