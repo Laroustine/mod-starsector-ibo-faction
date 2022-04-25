@@ -10,7 +10,6 @@
   - [Mod Information](#mod-information)
     - [Latest Information](#latest-information)
     - [Present Feature](#present-feature)
-  - [- 4 hullmods added](#--4-hullmods-added)
     - [Future Feature](#future-feature)
     - [Potential Feature](#potential-feature)
   - [Update](#update)
@@ -78,6 +77,7 @@ Saisei - Station:
 - 9 mobile suits added
 - 2 ship added
 - 4 hullmods added
+
 ---
 ### Future Feature
 - New ship Variant
