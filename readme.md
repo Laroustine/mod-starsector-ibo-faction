@@ -65,8 +65,6 @@ Saisei - Station:
 - Teiwaz: They only have a single space station, they don't have a black market but have a reduced tarif.
 - Gjallarhorn: They have a space stations almost everywhere. They have their own system but next to ennemy. They think you are suspisious. You can barely buy anything from them.
 
----
-
 ## Mod Information
 
 ### Latest Information
