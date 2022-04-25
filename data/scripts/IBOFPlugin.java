@@ -15,12 +15,12 @@ import data.scripts.world.IBOFGen;
 
 public class IBOFPlugin extends BaseModPlugin {
 
-  private static void initIBOF() {
+  private void initIBOF() {
     new IBOFGen().generate(Global.getSector());
   }
 
-  private static void initExerelinIBO() {
-    if (false) { // This is to change for not random mode | Global.getSector().getStarSystem("Corvus")
+  private void initExerelinIBO() {
+    if (false) { // This is to change for not random mode
       new IBOFGen().generate(Global.getSector());
     }
   }
