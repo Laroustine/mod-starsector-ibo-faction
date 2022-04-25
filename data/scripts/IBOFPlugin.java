@@ -19,8 +19,23 @@ public class IBOFPlugin extends BaseModPlugin {
     new IBOFGen().generate(Global.getSector());
   }
 
+  private static void initExerelinIBO() {
+    if (false) { // This is to change for not random mode | Global.getSector().getStarSystem("Corvus")
+      new IBOFGen().generate(Global.getSector());
+    }
+  }
+
   @Override
   public void onNewGame() {
-    initIBOF();
+    boolean haveNexerelin = Global
+      .getSettings()
+      .getModManager()
+      .isModEnabled("nexerelin");
+
+    if (haveNexerelin) {
+      initExerelinIBO();
+    } else {
+      initIBOF();
+    }
   }
 }
