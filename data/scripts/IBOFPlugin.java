@@ -15,12 +15,27 @@ import data.scripts.world.IBOFGen;
 
 public class IBOFPlugin extends BaseModPlugin {
 
-  private static void initIBOF() {
+  private void initIBOF() {
     new IBOFGen().generate(Global.getSector());
+  }
+
+  private void initExerelinIBO() {
+    if (false) { // This is to change for not random mode
+      new IBOFGen().generate(Global.getSector());
+    }
   }
 
   @Override
   public void onNewGame() {
-    initIBOF();
+    boolean haveNexerelin = Global
+      .getSettings()
+      .getModManager()
+      .isModEnabled("nexerelin");
+
+    if (haveNexerelin) {
+      initExerelinIBO();
+    } else {
+      initIBOF();
+    }
   }
 }

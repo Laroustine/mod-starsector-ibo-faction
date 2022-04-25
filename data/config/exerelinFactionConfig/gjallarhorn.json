@@ -1,0 +1,179 @@
+{
+    # General tags
+    "corvusCompatible": false,
+    "playableFaction": true,
+    "rebelFleetSuffix": "Exile",
+
+    # Diplomacy tags
+    "startRelationships": {
+        "player": -0.25,
+        "tritachyon": -1,
+        "hegemony": 0.5,
+        "persean": 0.5
+    },
+    "minRelationships": {
+        "hegemony": -0.3,
+        "persean": -0.3
+    },
+    "maxRelationships": {
+        "tritachyon": -0.1,
+    },
+    "diplomacyPositiveChance": {},
+    "diplomacyNegativeChance": {},
+    "morality": "amoral",
+    "alignments": {
+        "technocratic": 0.2,
+        "hierarchical": -0.1,
+        "militarist": 1,
+        "diplomatic": 0.4,
+        "ideological": -0.6,
+    },
+    "diplomacyTraits": [
+        "pacifist",
+        "helps_allies",
+        "stalwart",
+        "hates_ai",
+        "neutralist",
+        "law_and_order",
+    ],
+
+    # Market
+    "freeMarket": true,
+    "tariffMult": 1.1,
+    "marketSpawnWeight": 1.1,
+    "bonusSeeds": [
+        {
+            "id": "nanoforge_corrupted",
+            "count": 2
+        },
+        {
+            "id": "synchrotron",
+            "count": 1
+        },
+    ],
+    "industrySeeds": [
+        {
+            "id": "orbitalworks",
+            "mult": 0.2
+        },
+    ],
+
+    # Defense Station
+    "defenceStations": [
+        {
+            "ids": [
+                "battlestation",
+                "starfortress"
+            ],
+            "weight": 0.8
+        },
+        {
+            "ids": [
+                "battlestation_mid",
+                "starfortress_mid"
+            ],
+            "weight": 1.2
+        },
+    ],
+
+    # Colonies
+    "colonyExpeditionChance": 0.1,
+    "noHomeworld": false,
+
+    # Miscellaneous
+    "customStations": [
+        "station_gja"
+    ],
+    "groundBattleSettings": {
+        "moraleDamageTakenMult": 0.8,
+    },
+    "startSpecialItems": [
+        [
+            [
+                "low_tech_package",
+                ""
+            ],
+            [
+                "midline_package",
+                ""
+            ]
+        ],
+        [
+            [
+                "pirate_package",
+                ""
+            ]
+        ],
+    ],
+
+    # Start Ships
+    "startShipsSolo": [
+        [
+            "lasher_Starting"
+        ]
+    ],
+    "startShipsCombatSmall": [
+        [
+            "enforcer_Balanced",
+            "swp_brawler_hegemony_ass",
+            "lasher_CS"
+        ],
+        [
+            "enforcer_Balanced",
+            "lasher_CS",
+            "wolf_hegemony_CS"
+        ]
+    ],
+    "startShipsTradeSmall": [
+        [
+            "mule_Starting",
+            "hound_hegemony_Standard",
+            "kite_hegemony_Interceptor"
+        ]
+    ],
+    "startShipsCombatLarge": [
+        [
+            "swp_punisher_cs",
+            "swp_vanguard_sta",
+            "wolf_hegemony_CS"
+        ],
+        [
+            "dominator_Assault",
+            "enforcer_Escort",
+            "kite_hegemony_Interceptor"
+        ]
+    ],
+    "startShipsTradeLarge": [
+        [
+            "colossus_Standard",
+            "mule_Standard",
+            "kite_Starting"
+        ]
+    ],
+    "startShipsExplorerLarge": [
+        [
+            "venture_Balanced",
+            "buffalo_hegemony_Standard",
+            "shepherd_Frontier"
+        ]
+    ],
+    "startShipsCarrierSmall": [
+        [
+            "condor_Attack",
+            "lasher_Standard",
+            "hound_hegemony_Standard"
+        ]
+    ],
+    "startShipsCarrierLarge": [
+        [
+            "mora_Assault",
+            "enforcer_Escort",
+            "lasher_Strike"
+        ]
+    ],
+    "startShipsGrandFleet": [
+        [
+            "onslaught_xiv_Elite"
+        ]
+    ],
+}
