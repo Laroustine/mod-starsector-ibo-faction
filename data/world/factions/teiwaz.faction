@@ -11,6 +11,7 @@
 	"logo": "graphics/factions/teiwaz.png",
 	"crest": "graphics/factions/crest_teiwaz.png",
 	"shipNamePrefix": "JEE",
+	"showInIntelTab": false,
 	"shipNameSources": {
 		"JAPANESE": 2,
 		"BRITISH_NAVY": 1,

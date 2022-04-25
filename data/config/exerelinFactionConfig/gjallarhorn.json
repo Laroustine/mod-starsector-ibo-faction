@@ -5,9 +5,19 @@
     "rebelFleetSuffix": "Exile",
 
     # Diplomacy tags
-    "startRelationships": {},
-    "minRelationships": {},
-    "maxRelationships": {},
+    "startRelationships": {
+        "player": -0.25,
+        "tritachyon": -1,
+        "hegemony": 0.5,
+        "persean": 0.5
+    },
+    "minRelationships": {
+        "hegemony": -0.3,
+        "persean": -0.3
+    },
+    "maxRelationships": {
+        "tritachyon": -0.1,
+    },
     "diplomacyPositiveChance": {},
     "diplomacyNegativeChance": {},
     "morality": "amoral",
