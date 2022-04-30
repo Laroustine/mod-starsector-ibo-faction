@@ -55,14 +55,14 @@
 	},
 	"knownFighters": {
 		"tags": [
-			"graze",
+			"graze_bp",
 			"gja_bp"
 		],
 		"fighters": []
 	},
 	"priorityFighters": {
 		"tags": [
-			"graze",
+			"graze_bp",
 			"gja_bp"
 		],
 		"fighters": []

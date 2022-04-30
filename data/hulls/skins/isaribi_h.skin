@@ -7,6 +7,9 @@
 	"spriteName": "graphics/ships/isaribi/isaribi_h.png",
 	"baseValueMult": 1.3,
 	"ordnancePoints": 80,
+	"tags": [
+		"hegemony"
+	],
 	"builtInMods": [
 		"heg_militarized"
 	],
