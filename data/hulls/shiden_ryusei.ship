@@ -1,29 +1,25 @@
 {
   "bounds": [
-    11.5,
-    -4.5,
-    6.5,
+    13.5,
+    -3,
+    8.5,
+    -10.5,
+    2.5,
+    -16.5,
+    -6,
+    -14.5,
+    -15,
     -9,
-    4.5,
-    -14.5,
-    -4,
-    -14.5,
+    -15,
+    7,
     -6.5,
-    -10,
-    -13.5,
-    -7.5,
-    -13.5,
-    7.5,
-    -6.5,
+    17.5,
+    5.5,
+    18.5,
+    19.5,
     10,
-    -4,
-    14.5,
-    4.5,
-    14.5,
-    6.5,
-    9,
-    11.5,
-    4.5
+    18.5,
+    -0.5
   ],
   "builtInMods": [
     "ah_reactor",
@@ -31,51 +27,40 @@
     "av_system"
   ],
   "center": [
-    18,
+    20,
     16.5
   ],
-  "collisionRadius": 18,
+  "collisionRadius": 25.5,
   "engineSlots": [
     {
-      "angle": 180,
-      "contrailSize": 6,
-      "length": 18,
+      "angle": 175,
+      "contrailSize": 6.351555,
+      "length": 10.206099,
       "location": [
-        -11,
-        -0
+        -10.5,
+        3.5
       ],
       "style": "LOW_TECH",
-      "width": 6
+      "width": 6.351555
     },
     {
-      "angle": -139.5,
-      "contrailSize": 6,
-      "length": 10,
+      "angle": -175,
+      "contrailSize": 6.351555,
+      "length": 10.206099,
       "location": [
-        -11.5,
-        -1
+        -10.5,
+        -3.5
       ],
       "style": "LOW_TECH",
-      "width": 6
-    },
-    {
-      "angle": 139.5,
-      "contrailSize": 6,
-      "length": 10,
-      "location": [
-        -11.5,
-        0.5
-      ],
-      "style": "LOW_TECH",
-      "width": 6
+      "width": 6.351555
     },
     {
       "angle": -70,
       "contrailSize": 6,
       "length": 10,
       "location": [
-        -3,
-        24
+        0,
+        21
       ],
       "style": "LOW_TECH",
       "width": 6
@@ -85,23 +70,23 @@
       "contrailSize": 6,
       "length": 10,
       "location": [
-        -3,
-        -24
+        0,
+        -21
       ],
       "style": "LOW_TECH",
       "width": 6
     }
   ],
   "height": 36,
-  "hullId": "ryusei_go",
-  "hullName": "Ryusei-Go II",
+  "hullId": "shiden_ryusei",
+  "hullName": "Ryusei-Go III",
   "hullSize": "FIGHTER",
   "shieldCenter": [
     0,
     -0
   ],
-  "shieldRadius": 0,
-  "spriteName": "graphics/ships/graze/ryusei_go.png",
+  "shieldRadius": 24,
+  "spriteName": "graphics/ships/shiden/shiden_ryusei.png",
   "style": "LOW_TECH",
   "viewOffset": 0,
   "weaponSlots": [
@@ -110,7 +95,7 @@
       "arc": 75,
       "id": "HEAD",
       "locations": [
-        0,
+        1.5,
         -0
       ],
       "mount": "TURRET",
@@ -119,22 +104,10 @@
     },
     {
       "angle": 0,
-      "arc": 37,
-      "id": "LWP",
+      "arc": 53,
+      "id": "WP",
       "locations": [
-        1,
-        12
-      ],
-      "mount": "TURRET",
-      "size": "SMALL",
-      "type": "BUILT_IN"
-    },
-    {
-      "angle": 0,
-      "arc": 37,
-      "id": "RWP",
-      "locations": [
-        1,
+        3,
         -12
       ],
       "mount": "TURRET",
@@ -142,5 +115,5 @@
       "type": "BUILT_IN"
     }
   ],
-  "width": 36
+  "width": 40
 }
