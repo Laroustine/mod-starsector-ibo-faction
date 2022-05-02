@@ -1,0 +1,18 @@
+{
+    "displayName": "Space",
+    "fluxCapacitors": 3,
+    "fluxVents": 4,
+    "goalVariant": false,
+    "hullId": "biscoe",
+    "hullMods": [
+        "recovery_shuttles",
+        "expanded_deck_crew"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "biscoe_space",
+    "weaponGroups": [],
+    "wings": [
+        "graze_space_wing"
+    ]
+}
