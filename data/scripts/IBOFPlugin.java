@@ -20,7 +20,12 @@ public class IBOFPlugin extends BaseModPlugin {
   }
 
   private void initExerelinIBO() {
-    if (false) { // This is to change for not random mode
+    boolean corvusMode = (boolean) Global
+      .getSector()
+      .getMemoryWithoutUpdate()
+      .get("$nex_corvusMode");
+
+    if (corvusMode) {
       new IBOFGen().generate(Global.getSector());
     }
   }

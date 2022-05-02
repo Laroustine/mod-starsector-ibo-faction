@@ -1,6 +1,6 @@
 {
     # General tags
-    "corvusCompatible": false,
+    "corvusCompatible": true,
     "playableFaction": true,
     "rebelFleetSuffix": "Exile",
 
@@ -90,34 +90,16 @@
     "startSpecialItems": [
         [
             [
-                "high_tech_package",
-                ""
-            ],
-            [
-                "midline_package",
-                ""
-            ]
-        ],
-        [
-            [
                 "gja_package",
                 ""
-            ],
-            [
-                "graze_package",
-                ""
-            ],
-            [
-                "",
-                ""
-            ],
+            ]
         ],
     ],
 
     # Start Ships
     "startShipsSolo": [
         [
-            "lasher_Starting"
+            "biscoe_space"
         ]
     ],
     "startShipsCombatLarge": [
