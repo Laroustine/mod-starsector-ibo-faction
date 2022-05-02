@@ -16,18 +16,13 @@
 			{
 				"source": "sounds/music/",
 				"volume": 0.2,
-				"file": "009-Strengths_Focus.ogg"
+				"file": "009-LONGER-Strengths_Focus.ogg"
 			},
 			{
 				"source": "sounds/music/",
-				"volume": 0.2,
-				"file": "070-Battle_of_the_seven_stars.ogg"
+				"volume": 0.18,
+				"file": "SDGGGCR-LONGER-Strengths_Focus.ogg"
 			},
-			{
-				"source": "sounds/music/",
-				"volume": 0.2,
-				"file": "107-All_out.ogg"
-			}
 		],
 		####################################
 		"ibo_teiwaz_theme": [
