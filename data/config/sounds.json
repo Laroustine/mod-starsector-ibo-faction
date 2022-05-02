@@ -1,11 +1,36 @@
 {
 	"music": {
+		"music_title": [
+			{
+				"source": "sounds/music/",
+				"volume": 0.15,
+				"file": "006-An_Orphan_s_Sorrow.ogg",
+			},
+			{
+				"source": "sounds/music/",
+				"volume": 0.15,
+				"file": "018-Soul_of_Iron_Blooded_Orphans.ogg",
+			}
+		],
+		"music_combat": [
+			{
+				"source": "sounds/music/",
+				"volume": 0.2,
+				"file": "009-LONGER-Strengths_Focus.ogg"
+			},
+			{
+				"source": "sounds/music/",
+				"volume": 0.18,
+				"file": "SDGGGCR-LONGER-Strengths_Focus.ogg"
+			},
+		],
+		####################################
 		"ibo_teiwaz_theme": [
 			{
 				"source": "sounds/music/",
 				"volume": 0.2,
 				"files": [
-					"024-Teiwaz-Gundam_IBO.ogg"
+					"024-Teiwaz.ogg"
 				]
 			}
 		],
@@ -14,7 +39,7 @@
 				"source": "sounds/music/",
 				"volume": 0.2,
 				"files": [
-					"035-Human_or_Not-Gundam_IBO.ogg"
+					"035-Human_or_Not.ogg"
 				]
 			}
 		],
@@ -23,7 +48,7 @@
 				"source": "sounds/music/",
 				"volume": 0.2,
 				"files": [
-					"007-Habitat-Gundam_IBO.ogg"
+					"007-Habitat.ogg"
 				]
 			}
 		],
@@ -32,7 +57,7 @@
 				"source": "sounds/music/",
 				"volume": 0.2,
 				"files": [
-					"022-Military_Scheme-Gundam_IBO.ogg"
+					"022-Military_Scheme.ogg"
 				]
 			}
 		],
@@ -41,7 +66,7 @@
 				"source": "sounds/music/",
 				"volume": 0.2,
 				"files": [
-					"065-Tenderfeet-Gundam_IBO.ogg"
+					"065-Tenderfeet.ogg"
 				]
 			}
 		],
@@ -50,14 +75,14 @@
 				"source": "sounds/music/",
 				"volume": 0.2,
 				"files": [
-					"069-Suite_of_the_seven_stars-Gundam_IBO.ogg"
+					"069-Suite_of_the_seven_stars.ogg"
 				]
 			},
 			{
 				"source": "sounds/music/",
 				"volume": 0.2,
 				"files": [
-					"073-The_lord-Gundam_IBO.ogg"
+					"073-The_lord.ogg"
 				]
 			}
 		],
@@ -66,14 +91,14 @@
 				"source": "sounds/music/",
 				"volume": 0.2,
 				"files": [
-					"097-Confliction-Gundam_IBO.ogg"
+					"097-Confliction.ogg"
 				]
 			},
 			{
 				"source": "sounds/music/",
 				"volume": 0.2,
 				"files": [
-					"098-Betrayal-Gundam_IBO.ogg"
+					"098-Betrayal.ogg"
 				]
 			}
 		],
@@ -82,21 +107,21 @@
 				"source": "sounds/music/",
 				"volume": 0.2,
 				"files": [
-					"107-All_out-Gundam_IBO.ogg"
+					"107-All_out.ogg"
 				]
 			},
 			{
 				"source": "sounds/music/",
 				"volume": 0.2,
 				"files": [
-					"101-The_dignity_of_Lords-Gundam_IBO.ogg"
+					"101-The_dignity_of_Lords.ogg"
 				]
 			},
 			{
 				"source": "sounds/music/",
 				"volume": 0.2,
 				"files": [
-					"070-Battle_of_the_seven_stars-Gundam_IBO.ogg"
+					"070-Battle_of_the_seven_stars.ogg"
 				]
 			}
 		],
@@ -105,7 +130,7 @@
 				"source": "sounds/music/",
 				"volume": 0.2,
 				"files": [
-					"104-The_path_to_the_end-Gundam_IBO.ogg"
+					"104-The_path_to_the_end.ogg"
 				]
 			}
 		],

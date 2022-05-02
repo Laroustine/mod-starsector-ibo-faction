@@ -1,0 +1,33 @@
+{
+	"designTypeColors": {
+		"Gjallarhorn": [
+			255,
+			255,
+			255,
+			255
+		],
+		"Teiwaz": [
+			83,
+			104,
+			114,
+			255
+		],
+		"Tekkadan": [
+			183,
+			83,
+			95,
+			255
+		],
+	},
+	"graphics": {
+		"blueprint_packages": {
+			"gja_package": "graphics/icons/cargo/gja_package.png",
+			"teiwaz_package": "graphics/icons/cargo/teiwaz_package.png",
+			"tek_package": "graphics/icons/cargo/tek_package.png",
+			"graze_package": "graphics/icons/cargo/graze_package.png",
+			"shiden_package": "graphics/icons/cargo/shiden_package.png",
+			"rodi_package": "graphics/icons/cargo/rodi_package.png",
+			"gundam_package": "graphics/icons/cargo/gundam_package.png",
+		},
+	}
+}

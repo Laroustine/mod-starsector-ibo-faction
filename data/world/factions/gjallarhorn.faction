@@ -55,14 +55,14 @@
 	},
 	"knownFighters": {
 		"tags": [
-			"graze",
+			"graze_bp",
 			"gja_bp"
 		],
 		"fighters": []
 	},
 	"priorityFighters": {
 		"tags": [
-			"graze",
+			"graze_bp",
 			"gja_bp"
 		],
 		"fighters": []
@@ -86,6 +86,7 @@
 			"hightech_bp"
 		],
 		"hullMods": [
+			"recovery_shuttles",
 			"advancedshieldemitter",
 			"turretgyros",
 			"armoredweapons",

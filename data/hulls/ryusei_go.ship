@@ -68,6 +68,28 @@
       ],
       "style": "LOW_TECH",
       "width": 6
+    },
+    {
+      "angle": -70,
+      "contrailSize": 6,
+      "length": 10,
+      "location": [
+        -3,
+        24
+      ],
+      "style": "LOW_TECH",
+      "width": 6
+    },
+    {
+      "angle": 70,
+      "contrailSize": 6,
+      "length": 10,
+      "location": [
+        -3,
+        -24
+      ],
+      "style": "LOW_TECH",
+      "width": 6
     }
   ],
   "height": 36,

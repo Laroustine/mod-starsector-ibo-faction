@@ -60,8 +60,6 @@
         "nano_armor",
         "catapult_ms",
         "ah_reactor",
-        "ah_reactor",
-        "nano_armor"
     ],
     "builtInWeapons": {
         "STH01": "vulcan",
@@ -85,6 +83,28 @@
             "location": [
                 -170,
                 0
+            ],
+            "style": "HIGH_TECH",
+            "width": 32
+        },
+        {
+            "angle": 200,
+            "contrailSize": 90,
+            "length": 56,
+            "location": [
+                -160,
+                8
+            ],
+            "style": "HIGH_TECH",
+            "width": 32
+        },
+        {
+            "angle": 160,
+            "contrailSize": 90,
+            "length": 56,
+            "location": [
+                -160,
+                -8
             ],
             "style": "HIGH_TECH",
             "width": 32

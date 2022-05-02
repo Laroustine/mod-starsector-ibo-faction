@@ -1,0 +1,15 @@
+{
+  "displayName": "Rocket",
+  "fluxCapacitors": 2,
+  "fluxVents": 8,
+  "hullId": "biscoe",
+  "variantId": "biscoe_rocket",
+  "goalVariant": true,
+  "hullMods": [
+    "auxiliarythrusters"
+  ],
+  "wings": [
+    "graze_bazooka_wing",
+  ],
+  "weaponGroups": [],
+}

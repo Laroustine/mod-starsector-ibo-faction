@@ -1,10 +1,7 @@
 {
-    "baseHullId": "shiden_custom",
+    "baseHullId": "shiden_ryusei",
     "skinHullId": "shiden_riden",
     "hullName": "Riden-Go",
     "descriptionId": "shiden_riden",
     "spriteName": "graphics/ships/shiden/shiden_riden.png",
-    "builtInMods": [
-        "av_system"
-    ],
 }

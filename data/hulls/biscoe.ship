@@ -1,0 +1,69 @@
+{
+  "bounds": [
+    79,
+    0,
+    60,
+    15,
+    5,
+    27,
+    -5,
+    27,
+    -30,
+    15,
+    -30,
+    -15,
+    -5,
+    -27,
+    5,
+    -27,
+    60,
+    -15,
+  ],
+  "builtInWeapons": {},
+  "height": 109,
+  "width": 54,
+  "hullId": "biscoe",
+  "hullName": "biscoe",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/biscoe/biscoe.png",
+  "style": "HIGH_TECH",
+  "center": [
+    27,
+    30
+  ],
+  "collisionRadius": 50,
+  "shieldRadius": 0,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 2,
+      "length": 16,
+      "location": [
+        -13,
+        -21
+      ],
+      "style": "HIGH_TECH",
+      "width": 6
+    },
+    {
+      "angle": 180,
+      "contrailSize": 2,
+      "length": 16,
+      "location": [
+        -13,
+        21
+      ],
+      "style": "HIGH_TECH",
+      "width": 6
+    },
+  ],
+  "shieldCenter": [
+    0,
+    0
+  ],
+  "weaponSlots": [],
+  "viewOffset": 0,
+  "builtInMods": [
+    "nano_armor",
+  ],
+}
