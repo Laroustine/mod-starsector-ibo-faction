@@ -1,25 +1,25 @@
-id,variant,tags,tier,rarity,fleet pts,op cost,formation,range,attackRunRange,num,role,role desc,refit,base value,Column,Column [1],Column [2],Column [3],Column [4],Column [5],Column [6],Column [7],Column [8],Column [9],Column [10],Column [11],number,
-mobile_worker_wing,mobile_worker,"fighter1, fighter, low, base_bp",0,,0,0,BOX,4000,500,6,FIGHTER,Fighter,35,850,,,,,,,,,,,,,1195,
+id,variant,tags,tier,rarity,fleet pts,op cost,formation,range,attackRunRange,attackPositionOffset,num,role,role desc,refit,base value,Column,Column [1],Column [2],Column [3],Column [4],Column [5],Column [6],Column [7],Column [8],Column [9],Column [10],Column [11],number
+mobile_worker_wing,mobile_worker,"support1, fighter, base_bp, merc",0,,0,0,BOX,4000,500,,6,SUPPORT,Support,35,850,,,,,,,,,,,,,1195
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-rodi_man_wing,rodi_man,"fighter2, fighter, low, rodi_bp, pirate_bp",0,,9,7,V,4000,500,2,FIGHTER,Mobile Suit,15,3000,,,,,,,,,,,,,1193,
-rodi_landman_wing,rodi_landman,"fighter2, fighter, low, rodi_bp, tek_bp",0,,9,7,V,4000,500,2,FIGHTER,Mobile Suit,15,3000,,,,,,,,,,,,,1194,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,
-graze_wing,graze,"fighter2, fighter, high, graze_bp, gja_bp",0,,8,5,V,4000,500,3,FIGHTER,Mobile Suit,25,4000,,,,,,,,,,,,,1195,
-graze_h_wing,graze_h,"fighter2, fighter, high, graze_bp, hegemony",2,,8,5,V,4000,500,3,FIGHTER,Mobile Suit,25,4500,,,,,,,,,,,,,1207,
-graze_space_wing,graze_space,"fighter2, fighter, high, graze_bp, gja_bp",2,,8,5,V,4000,500,3,FIGHTER,Mobile Suit,25,4000,,,,,,,,,,,,,1199,
-graze_bazooka_wing,graze_bazooka,"fighter2, fighter, high, graze_bp, gja_bp",2,,8,5,V,4000,1000,2,BOMBER,Mobile Suit Bazooka,25,5000,,,,,,,,,,,,,1202,
-graze_bazooka_h_wing,graze_bazooka_h,"fighter2, fighter, high, graze_bp, hegemony",2,,8,5,V,4000,1000,2,BOMBER,Mobile Suit Bazooka,25,5500,,,,,,,,,,,,,1208,
-graze_space_bazooka_wing,graze_space_bazooka,"fighter2, fighter, high, graze_bp, gja_bp",2,,8,5,V,4000,1000,2,BOMBER,Mobile Suit Bazooka,25,5000,,,,,,,,,,,,,1201,
-graze_dainsleif_wing,graze_dainsleif,"fighter2, fighter, high, graze_bp, gja_bp, no_bp_drop",4,0.025,15,20,BOX,1000,4000,2,BOMBER,Mobile Suit Anti-Ship,25,16000,,,,,,,,,,,,,1200,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,
-graze_custom_wing,graze_custom,"fighter4, fighter, high, no_bp_drop, tek_bp",3,0.25,12,10,V,5000,500,1,FIGHTER,Mobile Suit Stolen,10,8000,,,,,,,,,,,,,1192
-ryusei_go_wing,ryusei_go,"fighter4, fighter, high, rare_bp, tek_bp",3,0.05,12,10,V,5000,500,1,FIGHTER,Mobile Suit Custom,10,8000,,,,,,,,,,,,,1196
-shiden_ryusei_wing,shiden_ryusei,"fighter4, fighter, mid, shiden_bp, rare_bp, tek_bp",3,0.05,12,10,V,5000,500,1,FIGHTER,Mobile Suit,10,8000,,,,,,,,,,,,,1198
-shiden_riden_wing,shiden_riden,"fighter4, fighter, mid, shiden_bp, rare_bp, tek_bp",3,0.05,12,10,V,5000,500,1,FIGHTER,Mobile Suit,10,8000,,,,,,,,,,,,,1198
-,,,,,,,,,,,,,,,,,,,,,,,,,,,
-shiden_wing,shiden,"fighter2, fighter, mid, shiden_bp, teiwaz_bp",0,,7,6,V,4000,500,3,FIGHTER,Mobile Suit,25,4000,,,,,,,,,,,,,1197,
-shiden_p_wing,shiden_p,"fighter2, fighter, mid, shiden_bp, persean",0,,7,6,V,4000,500,3,FIGHTER,Mobile Suit,25,4500,,,,,,,,,,,,,1204,
-shiden_custom_wing,shiden_custom,"fighter4, fighter, mid, shiden_bp, teiwaz_bp",3,0.05,12,10,V,5000,500,1,FIGHTER,Mobile Suit,10,8000,,,,,,,,,,,,,1198,
-shiden_bazooka_wing,shiden_bazooka,"fighter2, fighter, mid, shiden_bp, teiwaz_bp",2,,8,5,V,4000,500,2,BOMBER,Mobile Suit Bazooka,25,4000,,,,,,,,,,,,,1203,
-shiden_bazooka_p_wing,shiden_bazooka_p,"fighter2, fighter, mid, shiden_bp, persean",2,,8,5,V,4000,500,2,BOMBER,Mobile Suit Bazooka,25,4500,,,,,,,,,,,,,1206,
-shiden_custom_p_wing,shiden_custom_p,"fighter4, fighter, mid, shiden_bp, persean",3,0.05,12,10,V,5000,500,1,FIGHTER,Mobile Suit,10,8000,,,,,,,,,,,,,1205,
+rodi_man_wing,rodi_man,"fighter2, fighter, rodi_bp, pirate_bp, merc",0,,8,7,V,5000,500,-500,2,FIGHTER,Mobile Suit,15,3000,,,,,,,,,,,,,1193
+rodi_landman_wing,rodi_landman,"fighter2, fighter, rodi_bp, tek_bp, merc",0,,8,7,V,5000,500,-500,2,FIGHTER,Mobile Suit,15,3000,,,,,,,,,,,,,1194
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+graze_wing,graze,"interceptor2, interceptor, graze_bp, gja_bp",2,,6,5,V,4000,500,100,3,INTERCEPTOR,Mobile Suit,25,4000,,,,,,,,,,,,,1195
+graze_h_wing,graze_h,"interceptor2, interceptor, graze_bp, hegemony",2,,6,5,V,4000,500,100,3,INTERCEPTOR,Mobile Suit,25,4500,,,,,,,,,,,,,1207
+graze_space_wing,graze_space,"interceptor2, interceptor, graze_bp, gja_bp",2,,6,5,V,4000,500,100,3,INTERCEPTOR,Mobile Suit,25,4000,,,,,,,,,,,,,1199
+graze_bazooka_wing,graze_bazooka,"bomber2, bomber, graze_bp, gja_bp",2,,6,5,V,4000,1000,500,3,BOMBER,Mobile Suit Bazooka,25,5000,,,,,,,,,,,,,1202
+graze_bazooka_h_wing,graze_bazooka_h,"bomber2, bomber, graze_bp, hegemony",2,,6,5,V,4000,1000,500,3,BOMBER,Mobile Suit Bazooka,25,5500,,,,,,,,,,,,,1208
+graze_space_bazooka_wing,graze_space_bazooka,"bomber2, bomber, graze_bp, gja_bp",2,,6,5,V,4000,1000,500,3,BOMBER,Mobile Suit Bazooka,25,5000,,,,,,,,,,,,,1201
+graze_dainsleif_wing,graze_dainsleif,"bomber4, bomber, graze_bp, gja_bp, no_bp_drop",4,0.025,14,20,BOX,500,10000,2000,2,BOMBER,Mobile Suit Anti-Ship,40,18000,,,,,,,,,,,,,1200
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+graze_custom_wing,graze_custom,"fighter4, fighter, no_bp_drop, tek_bp, independent_of_carrier",3,0.25,9,8,V,5000,500,-100,1,FIGHTER,Mobile Suit Stolen,10,8000,,,,,,,,,,,,,1192
+ryusei_go_wing,ryusei_go,"interceptor4, interceptor, rare_bp, hist1t, tek_bp, independent_of_carrier",3,0.05,9,8,V,5000,500,-100,1,INTERCEPTOR,Mobile Suit Custom,10,8000,,,,,,,,,,,,,1196
+shiden_ryusei_wing,shiden_ryusei,"fighter4, fighter, shiden_bp, rare_bp, tek_bp, independent_of_carrier",3,0.05,9,8,V,5000,500,-100,1,FIGHTER,Mobile Suit,10,8000,,,,,,,,,,,,,1198
+shiden_riden_wing,shiden_riden,"fighter4, fighter, shiden_bp, rare_bp, tek_bp, independent_of_carrier",3,0.05,9,8,V,5000,500,-100,1,FIGHTER,Mobile Suit,10,8000,,,,,,,,,,,,,1198
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+shiden_wing,shiden,"interceptor2, interceptor, shiden_bp, teiwaz_bp, merc",2,,6,6,V,4000,500,100,3,INTERCEPTOR,Mobile Suit,25,4000,,,,,,,,,,,,,1197
+shiden_p_wing,shiden_p,"interceptor2, interceptor, shiden_bp, persean",2,,6,6,V,4000,500,100,3,INTERCEPTOR,Mobile Suit,25,4500,,,,,,,,,,,,,1204
+shiden_custom_wing,shiden_custom,"fighter4, fighter, shiden_bp, teiwaz_bp",3,0.05,9,8,V,5000,500,-100,1,FIGHTER,Mobile Suit,10,8000,,,,,,,,,,,,,1198
+shiden_bazooka_wing,shiden_bazooka,"bomber2, bomber, shiden_bp, teiwaz_bp, merc",2,,6,6,V,4000,500,500,3,BOMBER,Mobile Suit Bazooka,25,4000,,,,,,,,,,,,,1203
+shiden_bazooka_p_wing,shiden_bazooka_p,"bomber2, bomber, shiden_bp, persean",2,,6,6,V,4000,500,500,3,BOMBER,Mobile Suit Bazooka,25,4500,,,,,,,,,,,,,1206
+shiden_custom_p_wing,shiden_custom_p,"fighter4, fighter, shiden_bp, persean",3,0.05,9,8,V,5000,500,-100,1,FIGHTER,Mobile Suit,10,8000,,,,,,,,,,,,,1205
