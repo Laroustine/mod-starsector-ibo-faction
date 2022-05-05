@@ -1,15 +1,58 @@
 {
     "displayName": "Cannon",
-    "fluxCapacitors": 5,
-    "fluxVents": 14,
+    "fluxCapacitors": 6,
+    "fluxVents": 10,
     "hullId": "halfbeack",
-    "hullMods": [
-        "ballistic_rangefinder"
-    ],
+    "hullMods": ["ballistic_rangefinder"],
     "permaMods": [],
     "sMods": [],
     "variantId": "halfbeack_cannon",
     "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "MM01": "swarmer",
+                "MM02": "swarmer"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "SMH01": "swarmer",
+                "SMH02": "swarmer"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "BW01": "mjolnir",
+                "BW02": "mjolnir",
+                "BW03": "mjolnir"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "ST05": "lightmortar",
+                "ST06": "lightmortar"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "ST01": "vulcan",
+                "ST02": "vulcan",
+                "STH01": "vulcan",
+                "STH02": "vulcan",
+                "STH03": "vulcan",
+                "STH04": "vulcan"
+            }
+        },
         {
             "autofire": false,
             "mode": "LINKED",
@@ -33,8 +76,8 @@
             "weapons": {
                 "ST01": "vulcan",
                 "ST02": "vulcan",
-                "ST03": "lightneedler",
-                "ST04": "lightneedler",
+                "ST03": "lightmortar",
+                "ST04": "lightmortar",
                 "ST05": "lightmortar",
                 "ST06": "lightmortar"
             }
@@ -42,23 +85,17 @@
         {
             "autofire": false,
             "mode": "LINKED",
-            "weapons": {
-                "STH03": "vulcan"
-            }
+            "weapons": {"STH03": "vulcan"}
         },
         {
             "autofire": false,
             "mode": "LINKED",
-            "weapons": {
-                "SMH01": "swarmer"
-            }
+            "weapons": {"SMH01": "swarmer"}
         },
         {
             "autofire": false,
             "mode": "LINKED",
-            "weapons": {
-                "STH04": "vulcan"
-            }
+            "weapons": {"STH04": "vulcan"}
         },
         {
             "autofire": false,
@@ -71,6 +108,8 @@
         }
     ],
     "wings": [
+        "graze_bazooka_wing",
+        "graze_bazooka_wing",
         "graze_bazooka_wing",
         "graze_bazooka_wing"
     ]

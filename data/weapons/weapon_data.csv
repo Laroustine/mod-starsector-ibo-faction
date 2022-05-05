@@ -1,6 +1,6 @@
 name,id,tier,rarity,base value,range,damage/second,damage/shot,emp,impact,turn rate,OPs,ammo,ammo/sec,reload size,type,energy/shot,energy/second,chargeup,chargedown,burst size,burst delay,min spread,max spread,spread/shot,spread decay/sec,beam speed,proj speed,launch speed,flight time,proj hitpoints,autofireAccBonus,extraArcForAI,hints,tags,groupTag,tech/manufacturer,for weapon tooltip>>,primaryRoleStr,speedStr,trackingStr,turnRateStr,accuracyStr,customPrimary,customPrimaryHL,customAncillary,customAncillaryHL,noDPSInTooltip,number
-Head Vulcan,man_rodi_head,,,,1000,,29,,,90,4,,,,KINETIC,1,,0,0.12,1,,0,12,1,20,,1000,,,10,,,"PD, SYSTEM",,,,,,,,,,,,,,,80
-Head Vulcan,landman_rodi_head,,,,1000,,29,,,90,4,,,,KINETIC,1,,0,0.12,1,,0,12,1,20,,1000,,,10,,,"PD, SYSTEM",,,,,,,,,,,,,,,81
+Head Vulcan,man_rodi_head,,,,300,,15,,,90,,,,,KINETIC,1,,0,0.12,1,,4,12,1,20,,1000,,,10,,,"ANTI_FTR, SYSTEM",,,Pirate,,Point Defense ,,,,,,,,,,80
+Head Vulcan,landman_rodi_head,,,,300,,15,,,90,,,,,KINETIC,1,,0,0.12,1,,4,12,1,20,,1000,,,10,,,"ANTI_FTR, SYSTEM",,,Pirate,,Point Defense ,,,,,,,,,,81
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Head,graze_head,,,,1000,,,,,90,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,100
 Head,graze_head_h,,,,1000,,,,,90,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,101
@@ -15,38 +15,38 @@ Head,graze_dainsleif_head,,,,8000,,,,,90,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,
 Head,shiden_head_ryusei,,,,1000,,,,,90,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,106
 Head,shiden_head_riden,,,,1000,,,,,90,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,110
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-GR-W02 320mm Bazooka,graze_custom_left,,,,600,,450,,50,30,4,7,,,HIGH_EXPLOSIVE,0,,0,0.5,1,,0,30,1,10,,400,50,3.75,50,,,SYSTEM,,,,,,,,,,,,,,,200
-GR-W02 320mm Bazooka,graze_bazooka_right,,,,600,,450,,50,30,4,7,,,HIGH_EXPLOSIVE,0,,0,0.5,1,,0,30,1,10,,400,50,3.75,50,,,SYSTEM,,,,,,,,,,,,,,,201
-GR-W02 320mm Bazooka,graze_space_bazooka_right,,,,600,,450,,50,30,4,7,,,HIGH_EXPLOSIVE,0,,0,0.5,1,,0,30,1,10,,400,50,3.75,50,,,SYSTEM,,,,,,,,,,,,,,,202
-GR-W02 320mm Bazooka,shiden_bazooka_right,,,,600,,450,,50,30,4,7,,,HIGH_EXPLOSIVE,0,,0,0.5,1,,0,30,1,10,,400,50,3.75,50,,,SYSTEM,,,,,,,,,,,,,,,203
-GR-W02 320mm Bazooka,graze_bazooka_right_h,,,,600,,450,,50,30,4,7,,,HIGH_EXPLOSIVE,0,,0,0.5,1,,0,30,1,10,,400,50,3.75,50,,,SYSTEM,,,,,,,,,,,,,,,204
-GR-W02 320mm Bazooka,shiden_bazooka_right_p,,,,600,,450,,50,30,4,7,,,HIGH_EXPLOSIVE,0,,0,0.5,1,,0,30,1,10,,400,50,3.75,50,,,SYSTEM,,,,,,,,,,,,,,,205
+GR-W02 320mm Bazooka,graze_custom_left,,,,600,,450,,50,30,,5,0.35,5,HIGH_EXPLOSIVE,0,,0,0.5,1,,0,15,1,10,,400,50,3.75,50,,,SYSTEM,,,Midline,,Anti Armor,,,,,,,,,,200
+GR-W02 320mm Bazooka,graze_bazooka_right,,,,600,,450,,50,30,,5,0.35,5,HIGH_EXPLOSIVE,0,,0,0.5,1,,0,15,1,10,,400,50,3.75,50,,,SYSTEM,,,Midline,,Anti Armor,,,,,,,,,,201
+GR-W02 320mm Bazooka,graze_space_bazooka_right,,,,600,,450,,50,30,,5,0.35,5,HIGH_EXPLOSIVE,0,,0,0.5,1,,0,15,1,10,,400,50,3.75,50,,,SYSTEM,,,Midline,,Anti Armor,,,,,,,,,,202
+GR-W02 320mm Bazooka,shiden_bazooka_right,,,,600,,450,,50,30,,5,0.35,5,HIGH_EXPLOSIVE,0,,0,0.5,1,,0,15,1,10,,400,50,3.75,50,,,SYSTEM,,,Midline,,Anti Armor,,,,,,,,,,203
+GR-W02 320mm Bazooka,graze_bazooka_right_h,,,,600,,450,,50,30,,5,0.35,5,HIGH_EXPLOSIVE,0,,0,0.5,1,,0,15,1,10,,400,50,3.75,50,,,SYSTEM,,,Midline,,Anti Armor,,,,,,,,,,204
+GR-W02 320mm Bazooka,shiden_bazooka_right_p,,,,600,,450,,50,30,,5,0.35,5,HIGH_EXPLOSIVE,0,,0,0.5,1,,0,15,1,10,,400,50,3.75,50,,,SYSTEM,,,Midline,,Anti Armor,,,,,,,,,,205
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-JEE-205 130mm Assault Rifle,shiden_right,,,,470,,40,,,30,,90,,,KINETIC,2,,0,0.25,1,,3,7,5,8,,690,,,10,,,SYSTEM,,,,,,,,,,,,,,,300
-JEE-205 130mm Assault Rifle,shiden_custom_right,,,,470,,60,,,30,,90,,,KINETIC,2,,0,0.25,1,,3,7,5,8,,690,,,10,,,SYSTEM,,,,,,,,,,,,,,,301
-JEE-205 130mm Assault Rifle,shiden_right_p,,,,470,,50,,,30,,90,,,KINETIC,2,,0,0.25,1,,3,7,5,8,,690,,,10,,,SYSTEM,,,,,,,,,,,,,,,302
-JEE-205 130mm Assault Rifle,shiden_custom_right_p,,,,470,,60,,,30,,90,,,KINETIC,2,,0,0.25,1,,3,7,5,8,,690,,,10,,,SYSTEM,,,,,,,,,,,,,,,303
-JEE-205 130mm Assault Rifle,shiden_right_ryusei,,,,470,,60,,,30,,90,,,KINETIC,2,,0,0.25,1,,3,7,5,8,,690,,,10,,,SYSTEM,,,,,,,,,,,,,,,304
-JEE-205 130mm Assault Rifle,shiden_right_riden,,,,470,,60,,,30,,90,,,KINETIC,2,,0,0.25,1,,3,7,5,8,,690,,,10,,,SYSTEM,,,,,,,,,,,,,,,305
+JEE-205 130mm Assault Rifle,shiden_right,,,,480,,62,,,30,,90,,,KINETIC,2,,0,0.25,1,,1,4,5,8,,690,,,10,,,SYSTEM,,,Midline,,Anti Shield,,,,,,,,,,300
+JEE-205 130mm Assault Rifle,shiden_custom_right,,,,480,,62,,,30,,90,,,KINETIC,2,,0,0.25,1,,1,4,5,8,,690,,,10,,,SYSTEM,,,Midline,,Anti Shield,,,,,,,,,,301
+JEE-205 130mm Assault Rifle,shiden_right_p,,,,480,,62,,,30,,90,,,KINETIC,2,,0,0.25,1,,1,4,5,8,,690,,,10,,,SYSTEM,,,Midline,,Anti Shield,,,,,,,,,,302
+JEE-205 130mm Assault Rifle,shiden_custom_right_p,,,,480,,62,,,30,,90,,,KINETIC,2,,0,0.25,1,,1,4,5,8,,690,,,10,,,SYSTEM,,,Midline,,Anti Shield,,,,,,,,,,303
+JEE-205 130mm Assault Rifle,shiden_right_ryusei,,,,480,,62,,,30,,90,,,KINETIC,2,,0,0.25,1,,1,4,5,8,,690,,,10,,,SYSTEM,,,Midline,,Anti Shield,,,,,,,,,,304
+JEE-205 130mm Assault Rifle,shiden_right_riden,,,,480,,62,,,30,,90,,,KINETIC,2,,0,0.25,1,,1,4,5,8,,690,,,10,,,SYSTEM,,,Midline,,Anti Shield,,,,,,,,,,305
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-GR-W01 120mm Rifle,graze_custom_right,,,,450,,60,,,30,,90,,,KINETIC,2,,0,0.25,1,,3,7,5,8,,700,,,10,,,SYSTEM,,,,,,,,,,,,,,,400
-GR-W01 120mm Rifle,graze_right,,,,450,,40,,,30,,90,,,KINETIC,2,,0,0.25,1,,3,7,5,8,,700,,,10,,,SYSTEM,,,,,,,,,,,,,,,401
-GR-W01 120mm Rifle,ryusei_go_right,,,,450,,60,,,30,,90,,,KINETIC,2,,0,0.25,1,,3,7,5,8,,700,,,10,,,SYSTEM,,,,,,,,,,,,,,,402
-GR-W01 120mm Rifle,ryusei_go_left,,,,450,,60,,,30,,90,,,KINETIC,2,,0,0.25,1,,3,7,5,8,,700,,,10,,,SYSTEM,,,,,,,,,,,,,,,403
-GR-W01 120mm Rifle,graze_space_right,,,,450,,40,,,30,,90,,,KINETIC,2,,0,0.25,1,,3,7,5,8,,700,,,10,,,SYSTEM,,,,,,,,,,,,,,,404
-GR-W01 120mm Rifle,graze_right_h,,,,450,,40,,,30,,90,,,KINETIC,2,,0,0.25,1,,3,7,5,8,,700,,,10,,,SYSTEM,,,,,,,,,,,,,,,405
+GR-W01 120mm Rifle,graze_custom_right,,,,450,,55,,,30,,100,,,KINETIC,2,,0,0.25,1,,1,4,5,8,,700,,,10,,,SYSTEM,,,Midline,,Anti Shield,,,,,,,,,,400
+GR-W01 120mm Rifle,graze_right,,,,450,,55,,,30,,100,,,KINETIC,2,,0,0.25,1,,1,4,5,8,,700,,,10,,,SYSTEM,,,Midline,,Anti Shield,,,,,,,,,,401
+GR-W01 120mm Rifle,ryusei_go_right,,,,450,,55,,,30,,100,,,KINETIC,2,,0,0.25,1,,1,4,5,8,,700,,,10,,,SYSTEM,,,Midline,,Anti Shield,,,,,,,,,,402
+GR-W01 120mm Rifle,ryusei_go_left,,,,450,,55,,,30,,100,,,KINETIC,2,,0,0.25,1,,1,4,5,8,,700,,,10,,,SYSTEM,,,Midline,,Anti Shield,,,,,,,,,,403
+GR-W01 120mm Rifle,graze_space_right,,,,450,,55,,,30,,100,,,KINETIC,2,,0,0.25,1,,1,4,5,8,,700,,,10,,,SYSTEM,,,Midline,,Anti Shield,,,,,,,,,,404
+GR-W01 120mm Rifle,graze_right_h,,,,450,,55,,,30,,100,,,KINETIC,2,,0,0.25,1,,1,4,5,8,,700,,,10,,,SYSTEM,,,Midline,,Anti Shield,,,,,,,,,,405
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-90mm Sub Machine Gun,man_rodi_right,,,,350,,30,,,30,,90,,,KINETIC,2,,0,0.25,1,,3,7,5,8,,1200,,,10,,,SYSTEM,,,,,,,,,,,,,,,500
-90mm Sub Machine Gun,landman_rodi_right,,,,350,,30,,,30,,90,,,KINETIC,2,,0,0.25,1,,3,7,5,8,,1200,,,10,,,SYSTEM,,,,,,,,,,,,,,,501
+90mm Sub Machine Gun,man_rodi_right,,,,350,,40,,,30,,80,,,KINETIC,2,,0,0.25,1,,1,4,5,8,,1200,,,10,,,SYSTEM,,,Low  Tech,,Anti Shield,,,,,,,,,,500
+90mm Sub Machine Gun,landman_rodi_right,,,,350,,40,,,30,,80,,,KINETIC,2,,0,0.25,1,,1,4,5,8,,1200,,,10,,,SYSTEM,,,Low  Tech,,Anti Shield,,,,,,,,,,501
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Hand Grenade,man_rodi_left,,,,2000,,250,,50,15,4,10,,,HIGH_EXPLOSIVE,0,,0,1,1,,0,0,0,0,,170,20,25,150,,,"STRIKE, BOMB, SYSTEM",,,,,,,,,,,,,,,600
-Hand Grenade,landman_rodi_left,,,,2000,,250,,50,15,4,10,,,HIGH_EXPLOSIVE,0,,0,1,1,,0,0,0,0,,170,20,25,150,,,"STRIKE, BOMB, SYSTEM",,,,,,,,,,,,,,,601
+Hand Grenade,man_rodi_left,,,,800,,300,,50,15,,8,,,HIGH_EXPLOSIVE,0,,0,1,1,,0,0,0,0,,170,20,25,150,,,"STRIKE, BOMB, SYSTEM",,,Low  Tech,,Strike,,,,,,,,,,600
+Hand Grenade,landman_rodi_left,,,,800,,300,,50,15,,8,,,HIGH_EXPLOSIVE,0,,0,1,1,,0,0,0,0,,170,20,25,150,,,"STRIKE, BOMB, SYSTEM",,,Low  Tech,,Strike,,,,,,,,,,601
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Dáinsleif,dainsleif,,,,7500,,1150,,200,30,,15,,,HIGH_EXPLOSIVE,140,,4,4,1,,3,7,1,8,,1250,,,100,,,SYSTEM,,,,,,,,,,,,,,,700
+Dáinsleif,dainsleif,,,,7500,,1000,,200,0,,12,,,ENERGY,400,,3.5,1.5,1,,3,10,1,8,,2400,,,100,,,"SYSTEM , SHOW_IN_CODEX, STRIKE",,,Gjallarhorn,,Anti Capital Ship,,,The ship it is mounted needs to turn,,,,,,,700
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Light Machine Gun,rifle_right,,,,250,,20,,,30,,90,,,KINETIC,1,,0,0.25,1,,3,7,5,8,,700,,,10,,,SYSTEM,,,,,,,,,,,,,,,800
-Light Machine Gun,rifle_left,,,,250,,20,,,30,,90,,,KINETIC,1,,0,0.25,1,,3,7,5,8,,700,,,10,,,SYSTEM,,,,,,,,,,,,,,,801
+30mm Machine Gun,rifle_right,,,,250,,20,,,30,,,,,KINETIC,1,,0,0.25,1,,3,7,5,8,,700,,,10,,,SYSTEM,,,Low  Tech,,Anti Armor,,,,,,,,,,800
+30mm Machine Gun,rifle_left,,,,250,,20,,,30,,,,,KINETIC,1,,0,0.25,1,,3,7,5,8,,700,,,10,,,SYSTEM,,,Low  Tech,,Anti Armor,,,,,,,,,,801
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Anti-Aircraft Gun,anti-aircraft_gun,1,,250,250,,25,,,75,4,,,,FRAGMENTATION,1,,0,0.05,1,,0,15,1,15,,800,,,10,,,PD,,,,,,,,,,,,,,,900
-Auto-Cannon,autocannon_fixed,,,125,600,,50,,3,10,4,,,,KINETIC,55,,0,0.5,1,,0,20,3,9,,800,,,20,,,SYSTEM,,,,,,,,,,,,,,,901
-Auto-Cannon,autocannon_rear,1,,300,600,,50,,3,10,5,,,,KINETIC,50,,0,0.6,2,0.1,0,20,3,9,,800,,,20,,,,,,,,,,,,,,,,,,902
+Anti-Aircraft Gun,anti-aircraft_gun,1,,250,250,,25,,,75,4,,,,FRAGMENTATION,1,,0,0.05,1,,0,15,1,15,,800,,,10,,,"ANTI_FTR, PD_ONLY",,,Low  Tech,,Point Defense ,,,,,,,,,,900
+Auto-Cannon,autocannon_fixed,,,125,600,,50,,3,10,4,,,,KINETIC,55,,0,0.5,1,,0,20,3,9,,800,,,20,,,SYSTEM,,,Low  Tech,,Point Defense ,,,,,,,,,,901
+Auto-Cannon,autocannon_rear,1,,300,600,,50,,3,10,5,,,,KINETIC,50,,0,0.6,2,0.1,0,20,3,9,,800,,,20,,,SYSTEM,,,Low  Tech,,Point Defense ,,,,,,,,,,902

@@ -1,7 +1,7 @@
 {
     "displayName": "Dainsleif",
-    "fluxCapacitors": 3,
-    "fluxVents": 20,
+    "fluxCapacitors": 6,
+    "fluxVents": 10,
     "hullId": "halfbeack",
     "hullMods": [
         "fluxdistributor",
@@ -13,61 +13,53 @@
     "weaponGroups": [
         {
             "autofire": false,
-            "mode": "LINKED",
+            "mode": "ALTERNATING",
             "weapons": {
-                "STH03": "vulcan"
-            }
-        },
-        {
-            "autofire": false,
-            "mode": "LINKED",
-            "weapons": {
-                "SMH01": "swarmer"
-            }
-        },
-        {
-            "autofire": false,
-            "mode": "LINKED",
-            "weapons": {
-                "STH04": "vulcan"
-            }
-        },
-        {
-            "autofire": false,
-            "mode": "LINKED",
-            "weapons": {
-                "SMH02": "swarmer",
-                "STH01": "vulcan",
-                "STH02": "vulcan"
-            }
-        },
-        {
-            "autofire": false,
-            "mode": "LINKED",
-            "weapons": {
-                "MM01": "pilum"
-            }
-        },
-        {
-            "autofire": false,
-            "mode": "LINKED",
-            "weapons": {
+                "MM01": "pilum",
                 "MM02": "pilum"
             }
         },
         {
             "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "SMH01": "swarmer",
+                "SMH02": "swarmer"
+            }
+        },
+        {
+            "autofire": true,
             "mode": "LINKED",
             "weapons": {
-                "BW01": "dualflak",
                 "BW02": "heavyneedler",
-                "BW03": "heavyneedler",
+                "BW03": "heavyneedler"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
                 "ST01": "lightmortar",
                 "ST02": "lightmortar",
                 "ST03": "lightmortar",
                 "ST04": "lightmortar",
                 "ST05": "lightmortar",
                 "ST06": "lightmortar"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"BW01": "dualflak"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "STH01": "vulcan",
+                "STH02": "vulcan",
+                "STH03": "vulcan",
+                "STH04": "vulcan"
             }
         }
     ],
