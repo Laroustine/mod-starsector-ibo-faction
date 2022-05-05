@@ -1,7 +1,7 @@
 {
     "displayName": "Distance",
-    "fluxCapacitors": 5,
-    "fluxVents": 20,
+    "fluxCapacitors": 6,
+    "fluxVents": 4,
     "goalVariant": true,
     "hullId": "halfbeack",
     "hullMods": [
@@ -32,16 +32,12 @@
         {
             "autofire": true,
             "mode": "LINKED",
-            "weapons": {
-                "BW03": "gauss"
-            }
+            "weapons": {"BW03": "gauss"}
         },
         {
             "autofire": true,
             "mode": "LINKED",
-            "weapons": {
-                "BW02": "heavyneedler"
-            }
+            "weapons": {"BW02": "heavyneedler"}
         },
         {
             "autofire": true,
