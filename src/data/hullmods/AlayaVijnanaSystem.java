@@ -10,6 +10,7 @@ package data.hullmods;
 
 import com.fs.starfarer.api.combat.BaseHullMod;
 import com.fs.starfarer.api.combat.MutableShipStatsAPI;
+import com.fs.starfarer.api.combat.ShipAPI;
 import com.fs.starfarer.api.combat.ShipAPI.HullSize;
 
 public class AlayaVijnanaSystem extends BaseHullMod {
@@ -37,5 +38,14 @@ public class AlayaVijnanaSystem extends BaseHullMod {
       default:
         return null;
     }
+  }
+
+  @Override
+  public boolean isApplicableToShip(ShipAPI ship) {
+    return false;
+  }
+
+  public String getUnapplicableReason(ShipAPI ship) {
+    return "Cannot be installed on ships";
   }
 }

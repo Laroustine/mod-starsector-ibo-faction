@@ -11,6 +11,7 @@ package data.hullmods;
 import com.fs.starfarer.api.combat.BaseHullMod;
 import com.fs.starfarer.api.combat.ShipAPI;
 import com.fs.starfarer.api.combat.ShipAPI.HullSize;
+import data.scripts.ids.IboColors;
 
 public class CatapultMS extends BaseHullMod {
 
@@ -29,5 +30,14 @@ public class CatapultMS extends BaseHullMod {
     if (index == 0)
       return "" + (int) TIME_BONUS + "";
     return null;
+  }
+
+  @Override
+  public boolean isApplicableToShip(ShipAPI ship) {
+    return ship.getHullSpec().getFighterBays() > 0;
+  }
+
+  public String getUnapplicableReason(ShipAPI ship) {
+    return "Ship does not have fighter bays";
   }
 }
