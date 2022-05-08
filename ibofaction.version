@@ -1,0 +1,10 @@
+{
+    "masterVersionFile": "https://raw.githubusercontent.com/Laroustine/mod-starsector-ibo-faction/master/ibofaction.version",
+    "modName": "IBO - Faction",
+    "modThreadId": 24234,
+    "modVersion": {
+        "major": 2,
+        "minor": 3,
+        "patch": 0
+    }
+}
