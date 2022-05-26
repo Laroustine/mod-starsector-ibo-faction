@@ -12,19 +12,6 @@
 				"file": "018-Soul_of_Iron_Blooded_Orphans.ogg",
 			}
 		],
-		"music_combat": [
-			{
-				"source": "sounds/music/",
-				"volume": 0.2,
-				"file": "009-LONGER-Strengths_Focus.ogg"
-			},
-			{
-				"source": "sounds/music/",
-				"volume": 0.18,
-				"file": "SDGGGCR-LONGER-Strengths_Focus.ogg"
-			},
-		],
-		####################################
 		"ibo_teiwaz_theme": [
 			{
 				"source": "sounds/music/",
@@ -70,6 +57,15 @@
 				]
 			}
 		],
+		"ibo_teiwaz_battle": [
+			{
+				"source": "sounds/music/",
+				"volume": 0.2,
+				"files": [
+					"009-LONG-Strengths_Focus.ogg"
+				]
+			}
+		],
 		"ibo_gja_theme": [
 			{
 				"source": "sounds/music/",
@@ -102,7 +98,16 @@
 				]
 			}
 		],
-		"ibo_gja_enc_hostile": [
+		"ibo_gja_enc_neutral": [
+			{
+				"source": "sounds/music/",
+				"volume": 0.2,
+				"files": [
+					"104-The_path_to_the_end.ogg"
+				]
+			}
+		],
+		"ibo_gja_battle": [
 			{
 				"source": "sounds/music/",
 				"volume": 0.2,
@@ -122,15 +127,6 @@
 				"volume": 0.2,
 				"files": [
 					"070-Battle_of_the_seven_stars.ogg"
-				]
-			}
-		],
-		"ibo_gja_enc_neutral": [
-			{
-				"source": "sounds/music/",
-				"volume": 0.2,
-				"files": [
-					"104-The_path_to_the_end.ogg"
 				]
 			}
 		],
