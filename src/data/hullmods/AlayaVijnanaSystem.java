@@ -18,20 +18,24 @@ public class AlayaVijnanaSystem extends BaseHullMod {
   public static final float ACCURACY_BONUS = 80.0f;
 
   public void applyEffectsBeforeShipCreation(
-    HullSize hullSize,
-    MutableShipStatsAPI stats,
-    String id
-  ) {
-    stats.getAutofireAimAccuracy().modifyPercent(id, 100 + ACCURACY_BONUS);
-    stats.getAcceleration().modifyPercent(id, 100 + MANEUVER_BONUS);
-    stats.getDeceleration().modifyPercent(id, 100 + MANEUVER_BONUS);
-    stats.getTurnAcceleration().modifyPercent(id, 100 + MANEUVER_BONUS);
-    stats.getMaxTurnRate().modifyPercent(id, 100 + MANEUVER_BONUS);
+      HullSize hullSize,
+      MutableShipStatsAPI stats,
+      String id) {
+    stats.getAutofireAimAccuracy().modifyPercent(id, ACCURACY_BONUS);
+    stats.getAcceleration().modifyPercent(id, MANEUVER_BONUS);
+    stats.getDeceleration().modifyPercent(id, MANEUVER_BONUS);
+    stats.getTurnAcceleration().modifyPercent(id, MANEUVER_BONUS);
+    stats.getMaxTurnRate().modifyPercent(id, MANEUVER_BONUS);
   }
 
   public String getDescriptionParam(int index, HullSize hullSize) {
-    if (index == 0) return "" + (int) MANEUVER_BONUS + "%";
-    if (index == 1) return "" + (int) ACCURACY_BONUS + "%";
-    return null;
+    switch (index) {
+      case 0:
+        return "" + (int) MANEUVER_BONUS + "%";
+      case 1:
+        return "" + (int) ACCURACY_BONUS + "%";
+      default:
+        return null;
+    }
   }
 }

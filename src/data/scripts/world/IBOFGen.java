@@ -8,6 +8,7 @@
 
 package data.scripts.world;
 
+import com.fs.starfarer.api.Global;
 import com.fs.starfarer.api.campaign.FactionAPI;
 import com.fs.starfarer.api.campaign.RepLevel;
 import com.fs.starfarer.api.campaign.SectorAPI;
@@ -16,7 +17,6 @@ import com.fs.starfarer.api.campaign.SectorGeneratorPlugin;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-import data.scripts.ConfigJson;
 import data.scripts.world.systems.Don;
 import data.scripts.world.systems.TeiwazSaisei;
 
@@ -26,15 +26,15 @@ public class IBOFGen implements SectorGeneratorPlugin {
 
   @Override
   public void generate(SectorAPI sector) {
-    JSONObject config = new ConfigJson().loadSettings();
 
     try {
-      initFactionRelationships(sector, config);
-      //load systems
-      if (config.getBoolean("Teiwaz")) {
+      JSONObject iboFaction = Global.getSettings().getSettingsJSON().getJSONObject("iboFactions");
+
+      initFactionRelationships(sector, iboFaction);
+      if (iboFaction.getBoolean("Teiwaz")) {
         new TeiwazSaisei().generate(sector);
       }
-      if (config.getBoolean("Gjallarhorn")) {
+      if (iboFaction.getBoolean("Gjallarhorn")) {
         new GjaStationList().generate(sector);
         new Don().generate(sector);
       }
@@ -43,11 +43,7 @@ public class IBOFGen implements SectorGeneratorPlugin {
     }
   }
 
-  public static void initFactionRelationships(
-    SectorAPI sector,
-    JSONObject config
-  )
-    throws JSONException {
+  public static void initFactionRelationships(SectorAPI sector, JSONObject config) throws JSONException {
     FactionAPI teiwaz = sector.getFaction("teiwaz");
     FactionAPI gjallarhorn = sector.getFaction("gjallarhorn");
 

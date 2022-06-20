@@ -1,11 +1,11 @@
 {
-  "id": "IBO Faction",
+  "id": "ibo_faction",
   "name": "IBO - Faction",
   "author": "Laroustine, Buttery & Diable Avionics",
-  "version": "v2.3.0",
-  "description": "Adds various elements from Iron-Blooded Orphans",
+  "version": "v3.0.0",
+  "description": "Adds various elements from the show Gundam Iron-Blooded Orphans",
   "gameVersion": "0.95.1a-RC6",
-  "modPlugin": "data.scripts.IBOFPlugin",
+  "modPlugin": "data.scripts.plugins.IBOFPlugin",
   "jars": [
     "jars/ibo-faction.jar"
   ],

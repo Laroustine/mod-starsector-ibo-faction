@@ -64,6 +64,6 @@
   "weaponSlots": [],
   "viewOffset": 0,
   "builtInMods": [
-    "nano_armor",
+    "ibo_nano_armor",
   ],
 }

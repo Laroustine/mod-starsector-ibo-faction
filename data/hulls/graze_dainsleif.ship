@@ -67,8 +67,8 @@
   "style": "LOW_TECH",
   "viewOffset": 0,
   "builtInMods": [
-    "ah_reactor",
-    "nano_armor"
+    "ibo_ah_reactor",
+    "ibo_nano_armor"
   ],
   "weaponSlots": [
     {

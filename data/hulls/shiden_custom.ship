@@ -22,8 +22,8 @@
     -0.5
   ],
   "builtInMods": [
-    "ah_reactor",
-    "nano_armor"
+    "ibo_ah_reactor",
+    "ibo_nano_armor"
   ],
   "center": [
     20,

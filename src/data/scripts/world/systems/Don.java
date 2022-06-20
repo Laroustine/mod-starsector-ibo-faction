@@ -22,116 +22,106 @@ public class Don {
   final String faction = "gjallarhorn";
 
   public void generate(SectorAPI sector) {
-    StarSystemAPI system = sector.createStarSystem("Dôn");
+    StarSystemAPI system = sector.createStarSystem("Don");
     PlanetAPI star = system.initStar(
-      "don",
-      StarTypes.ORANGE,
-      700,
-      -4500,
-      -8500,
-      100
-    );
+        "don",
+        StarTypes.ORANGE,
+        700,
+        -4500,
+        -8500,
+        100);
     // Agriculture
     PlanetAPI amaethon = system.addPlanet(
-      "amaethon",
-      star,
-      "Amaethon",
-      "terran",
-      260,
-      200,
-      7000,
-      320
-    );
+        "amaethon",
+        star,
+        "Amaethon",
+        "terran",
+        260,
+        200,
+        7000,
+        320);
     // Forgeron
     PlanetAPI gofannon = system.addPlanet(
-      "gofannon",
-      star,
-      "Gofannon",
-      "rocky_metallic",
-      135,
-      140,
-      2000,
-      80
-    );
+        "gofannon",
+        star,
+        "Gofannon",
+        "rocky_metallic",
+        135,
+        140,
+        2000,
+        80);
     // Mother
     PlanetAPI arianrhod = system.addPlanet(
-      "arianrhod",
-      star,
-      "Arianrhod",
-      "water",
-      30,
-      310,
-      16000,
-      830
-    );
+        "arianrhod",
+        star,
+        "Arianrhod",
+        "water",
+        30,
+        310,
+        16000,
+        830);
     // Macicien
     PlanetAPI gwydion = system.addPlanet(
-      "gwydion",
-      star,
-      "Gwydion",
-      "gas_giant",
-      330,
-      360,
-      9000,
-      460
-    );
+        "gwydion",
+        star,
+        "Gwydion",
+        "gas_giant",
+        330,
+        360,
+        9000,
+        460);
 
     // InitMoons
     // Cerf
     PlanetAPI hyddwn = system.addPlanet(
-      "hyddwn",
-      gwydion,
-      "Hyddwn",
-      "arid",
-      15,
-      170,
-      1250,
-      95
-    );
+        "hyddwn",
+        gwydion,
+        "Hyddwn",
+        "arid",
+        15,
+        170,
+        1250,
+        95);
     // Sanglier
     PlanetAPI hychtwn = system.addPlanet(
-      "hychtwn",
-      gwydion,
-      "Hychtwn",
-      "cryovolcanic",
-      75,
-      160,
-      3600,
-      200
-    );
+        "hychtwn",
+        gwydion,
+        "Hychtwn",
+        "cryovolcanic",
+        75,
+        160,
+        3600,
+        200);
     // Loup
     PlanetAPI bleiddwn = system.addPlanet(
-      "bleiddwn",
-      gwydion,
-      "bleiddwn",
-      "tundra",
-      285,
-      140,
-      4000,
-      220
-    );
+        "bleiddwn",
+        gwydion,
+        "bleiddwn",
+        "tundra",
+        285,
+        140,
+        4000,
+        220);
     // ???
     PlanetAPI dylan = system.addPlanet(
-      "dylan",
-      arianrhod,
-      "Dylan Eil Ton",
-      "lava_minor",
-      160,
-      80,
-      820,
-      20
-    );
+        "dylan",
+        arianrhod,
+        "Dylan Eil Ton",
+        "lava_minor",
+        160,
+        80,
+        820,
+        20);
     // Long arm
     PlanetAPI llew = system.addPlanet(
-      "llew",
-      arianrhod,
-      "Llew Llaw Gyffes",
-      "irradiated",
-      300,
-      120,
-      4750,
-      320
-    );
+        "llew",
+        arianrhod,
+        "Llew Llaw Gyffes",
+        "irradiated",
+        300,
+        120,
+        4750,
+        320);
 
     // InitMarket Planet
     Misc.initConditionMarket(amaethon);
@@ -152,80 +142,75 @@ public class Don {
 
     // Utility
     system
-      .addCustomEntity("nav_buoy", "Nav Buoy", "nav_buoy", faction)
-      .setCircularOrbitPointingDown(star, -95, 1100, 23);
+        .addCustomEntity("nav_buoy", "Nav Buoy", "nav_buoy", faction)
+        .setCircularOrbitPointingDown(star, -95, 1100, 23);
     system
-      .addCustomEntity("comm_relay", "Comm Relay", "comm_relay", faction)
-      .setCircularOrbitPointingDown(star, 107, 9000, 187);
+        .addCustomEntity("comm_relay", "Comm Relay", "comm_relay", faction)
+        .setCircularOrbitPointingDown(star, 107, 9000, 187);
     system
-      .addCustomEntity("sensor_array", "Sensor Relay", "sensor_array", faction)
-      .setCircularOrbitPointingDown(star, -18, 18000, 222);
+        .addCustomEntity("sensor_array", "Sensor Relay", "sensor_array", faction)
+        .setCircularOrbitPointingDown(star, -18, 18000, 222);
 
     // Jumps
     arianrhod.setAutogenJumpPointNameInHyper(
-      arianrhod.getName() + " Jump-point"
-    );
+        arianrhod.getName() + " Jump-point");
     arianrhod.setSkipForJumpPointAutoGen(false);
     gwydion.setAutogenJumpPointNameInHyper(gwydion.getName() + " Jump-point");
     gwydion.setSkipForJumpPointAutoGen(false);
     JumpPointAPI jmp1 = Global
-      .getFactory()
-      .createJumpPoint("don_jmp_1", (system.getName() + " Jump-point"));
+        .getFactory()
+        .createJumpPoint("don_jmp_1", (system.getName() + " Jump-point"));
     jmp1.setCircularOrbit(star, 300, 18000, 340);
     system.addEntity(jmp1);
     JumpPointAPI jmp2 = Global
-      .getFactory()
-      .createJumpPoint("don_jmp_2", (arianrhod.getName() + " Jump-point"));
+        .getFactory()
+        .createJumpPoint("don_jmp_2", (arianrhod.getName() + " Jump-point"));
     jmp2.setCircularOrbit(arianrhod, 300, 1600, 127);
     system.addEntity(jmp2);
 
     // Decorations
     system.addAsteroidBelt(
-      star,
-      40,
-      2000,
-      300,
-      50,
-      130,
-      Terrain.ASTEROID_BELT,
-      "Gofannon's Residue"
-    );
+        star,
+        40,
+        2000,
+        300,
+        50,
+        130,
+        Terrain.ASTEROID_BELT,
+        "Gofannon's Residue");
     system.addRingBand(
-      star,
-      "misc",
-      "rings_ice0",
-      256f,
-      4,
-      new Color(0, 0, 139),
-      300,
-      2000,
-      120,
-      null,
-      null
-    );
+        star,
+        "misc",
+        "rings_ice0",
+        256f,
+        4,
+        new Color(0, 0, 139),
+        300,
+        2000,
+        120,
+        null,
+        null);
     system.addAsteroidBelt(
-      gwydion,
-      120,
-      3800,
-      800,
-      120,
-      240,
-      Terrain.ASTEROID_BELT,
-      "Gwydion's Cold Outside"
-    );
+        gwydion,
+        120,
+        3800,
+        800,
+        120,
+        240,
+        Terrain.ASTEROID_BELT,
+        "Gwydion's Cold Outside");
     system.addRingBand(
-      gwydion,
-      "misc",
-      "rings_ice0",
-      256f,
-      2,
-      new Color(0, 0, 139),
-      800,
-      3800,
-      170,
-      null,
-      null
-    );
+        gwydion,
+        "misc",
+        "rings_ice0",
+        256f,
+        2,
+        new Color(0, 0, 139),
+        800,
+        3800,
+        170,
+        null,
+        null);
 
     // System Info
     Misc.setAllPlanetsSurveyed(system, true);
@@ -257,9 +242,8 @@ public class Don {
     market.addIndustry(Industries.ORBITALSTATION_HIGH);
     market.addIndustry(Industries.AQUACULTURE);
     market.addIndustry(
-      Industries.ORBITALWORKS,
-      new ArrayList<String>(Arrays.asList("pristine_nanoforge"))
-    );
+        Industries.ORBITALWORKS,
+        new ArrayList<String>(Arrays.asList("pristine_nanoforge")));
     planet.setMarket(market);
     sector.getEconomy().addMarket(market, false);
   }
@@ -280,9 +264,8 @@ public class Don {
     market.addSubmarket(Submarkets.GENERIC_MILITARY);
     market.addIndustry(Industries.POPULATION);
     market.addIndustry(
-      Industries.MINING,
-      new ArrayList<String>(Arrays.asList("mantle_bore"))
-    );
+        Industries.MINING,
+        new ArrayList<String>(Arrays.asList("mantle_bore")));
     market.addIndustry(Industries.MEGAPORT);
     market.addIndustry(Industries.FARMING);
     market.addIndustry(Industries.LIGHTINDUSTRY);
@@ -309,13 +292,11 @@ public class Don {
     market.addIndustry(Industries.MEGAPORT);
     market.addIndustry(Industries.MINING);
     market.addIndustry(
-      Industries.REFINING,
-      new ArrayList<String>(Arrays.asList("catalytic_core"))
-    );
+        Industries.REFINING,
+        new ArrayList<String>(Arrays.asList("catalytic_core")));
     market.addIndustry(
-      Industries.FUELPROD,
-      new ArrayList<String>(Arrays.asList("synchrotron"))
-    );
+        Industries.FUELPROD,
+        new ArrayList<String>(Arrays.asList("synchrotron")));
     planet.setMarket(market);
     sector.getEconomy().addMarket(market, false);
   }

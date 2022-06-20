@@ -1,4 +1,5 @@
 source.txt
+out/
 *.class
 *~
 build

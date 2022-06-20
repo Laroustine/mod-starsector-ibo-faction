@@ -1,4 +1,8 @@
 {
+	"iboFactions": {
+		"Gjallarhorn": true,
+		"Teiwaz": true
+	},
 	"designTypeColors": {
 		"Gjallarhorn": [
 			255,

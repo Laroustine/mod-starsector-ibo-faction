@@ -26,9 +26,9 @@
     4.5
   ],
   "builtInMods": [
-    "ah_reactor",
-    "nano_armor",
-    "av_system"
+    "ibo_ah_reactor",
+    "ibo_nano_armor",
+    "ibo_av_system"
   ],
   "center": [
     18,

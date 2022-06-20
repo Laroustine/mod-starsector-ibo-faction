@@ -57,9 +57,9 @@
         20
     ],
     "builtInMods": [
-        "nano_armor",
-        "catapult_ms",
-        "ah_reactor",
+        "ibo_nano_armor",
+        "ibo_catapult_ms",
+        "ibo_ah_reactor",
     ],
     "builtInWeapons": {
         "STH01": "vulcan",
