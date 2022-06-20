@@ -142,12 +142,13 @@
 	],
 	"music": {
 		"theme": "ibo_gja_theme",
+		"battle": "ibo_gja_battle",
 		"market_neutral": "ibo_gja_theme",
-		"market_hostile": "ibo_gja_market_hostile",
 		"market_friendly": "ibo_gja_theme",
+		"market_hostile": "ibo_gja_market_hostile",
 		"encounter_neutral": "ibo_gja_enc_neutral",
-		"encounter_hostile": "ibo_gja_enc_hostile",
-		"encounter_friendly": "ibo_gja_enc_neutral"
+		"encounter_friendly": "ibo_gja_enc_neutral",
+		"encounter_hostile": "ibo_gja_enc_neutral"
 	},
 	"internalComms": "hegemony_internal",
 	"portraits": {

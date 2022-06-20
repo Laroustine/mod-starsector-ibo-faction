@@ -4,13 +4,13 @@ ibo_mobile_worker_wing,ibo_mobile_worker,"support1, fighter, base_bp, merc",0,,0
 ibo_rodi_man_wing,ibo_rodi_man,"fighter2, fighter, ibo_rodi_bp, pirate_bp, merc",0,,8,7,V,5000,500,-500,2,FIGHTER,Mobile Suit,15,3000,,,,,,,,,,,,,1193
 ibo_rodi_landman_wing,ibo_rodi_landman,"fighter2, fighter, ibo_rodi_bp, ibo_tek_bp, merc",0,,8,7,V,5000,500,-500,2,FIGHTER,Mobile Suit,15,3000,,,,,,,,,,,,,1194
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ibo_graze_wing,ibo_graze,"interceptor2, interceptor, ibo_graze_bp, ibo_gja_bp",2,,6,5,V,4000,500,100,3,INTERCEPTOR,Mobile Suit,25,4000,,,,,,,,,,,,,1195
-ibo_graze_h_wing,ibo_graze_h,"interceptor2, interceptor, ibo_graze_bp, hegemony",2,,6,5,V,4000,500,100,3,INTERCEPTOR,Mobile Suit,25,4500,,,,,,,,,,,,,1207
-ibo_graze_space_wing,ibo_graze_space,"interceptor2, interceptor, ibo_graze_bp, ibo_gja_bp",2,,6,5,V,4000,500,100,3,INTERCEPTOR,Mobile Suit,25,4000,,,,,,,,,,,,,1199
-ibo_graze_bazooka_wing,ibo_graze_bazooka,"bomber2, bomber, ibo_graze_bp, ibo_gja_bp",2,,6,5,V,4000,1000,500,3,BOMBER,Mobile Suit Bazooka,25,5000,,,,,,,,,,,,,1202
-ibo_graze_bazooka_h_wing,ibo_graze_bazooka_h,"bomber2, bomber, ibo_graze_bp, hegemony",2,,6,5,V,4000,1000,500,3,BOMBER,Mobile Suit Bazooka,25,5500,,,,,,,,,,,,,1208
-ibo_graze_space_bazooka_wing,ibo_graze_space_bazooka,"bomber2, bomber, ibo_graze_bp, ibo_gja_bp",2,,6,5,V,4000,1000,500,3,BOMBER,Mobile Suit Bazooka,25,5000,,,,,,,,,,,,,1201
-ibo_graze_dainsleif_wing,ibo_graze_dainsleif,"bomber4, bomber, ibo_graze_bp, ibo_gja_bp, no_bp_drop",4,0.025,14,20,BOX,500,10000,2000,2,BOMBER,Mobile Suit Anti-Ship,40,18000,,,,,,,,,,,,,1200
+ibo_graze_wing,ibo_graze,"interceptor2, interceptor, graze_bp, gja_bp",2,,6,5,V,4000,500,100,3,INTERCEPTOR,Mobile Suit,25,4000,,,,,,,,,,,,,1195
+ibo_graze_h_wing,ibo_graze_h,"interceptor2, interceptor, graze_bp, hegemony",2,,6,5,V,4000,500,100,3,INTERCEPTOR,Mobile Suit,25,4500,,,,,,,,,,,,,1207
+ibo_graze_space_wing,ibo_graze_space,"interceptor2, interceptor, graze_bp, gja_bp",2,,6,5,V,4000,500,100,3,INTERCEPTOR,Mobile Suit,25,4000,,,,,,,,,,,,,1199
+ibo_graze_bazooka_wing,ibo_graze_bazooka,"bomber2, bomber, graze_bp, gja_bp",2,,6,5,V,4000,1000,500,3,BOMBER,Mobile Suit Bazooka,25,5000,,,,,,,,,,,,,1202
+ibo_graze_bazooka_h_wing,ibo_graze_bazooka_h,"bomber2, bomber, graze_bp, hegemony",2,,6,5,V,4000,1000,500,3,BOMBER,Mobile Suit Bazooka,25,5500,,,,,,,,,,,,,1208
+ibo_graze_space_bazooka_wing,ibo_graze_space_bazooka,"bomber2, bomber, graze_bp, gja_bp",2,,6,5,V,4000,1000,500,3,BOMBER,Mobile Suit Bazooka,25,5000,,,,,,,,,,,,,1201
+ibo_graze_dainsleif_wing,ibo_graze_dainsleif,"bomber4, bomber, graze_bp, gja_bp, no_bp_drop",4,0.025,14,20,BOX,5000,10000,2000,2,BOMBER,Mobile Suit Anti-Ship,40,18000,,,,,,,,,,,,,1200
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ibo_graze_custom_wing,ibo_graze_custom,"fighter4, fighter, no_bp_drop, ibo_tek_bp, independent_of_carrier",3,0.25,9,8,V,5000,500,-100,1,FIGHTER,Mobile Suit Stolen,10,8000,,,,,,,,,,,,,1192
 ibo_ryusei_go_wing,ibo_ryusei_go,"interceptor4, interceptor, rare_bp, hist1t, ibo_tek_bp, independent_of_carrier",3,0.05,9,8,V,5000,500,-100,1,INTERCEPTOR,Mobile Suit Custom,10,8000,,,,,,,,,,,,,1196

@@ -30,4 +30,13 @@ public class CatapultMS extends BaseHullMod {
       return "" + (int) TIME_BONUS + "";
     return null;
   }
+
+  @Override
+  public boolean isApplicableToShip(ShipAPI ship) {
+    return ship.getHullSpec().getFighterBays() > 0;
+  }
+
+  public String getUnapplicableReason(ShipAPI ship) {
+    return "Ship does not have fighter bays";
+  }
 }

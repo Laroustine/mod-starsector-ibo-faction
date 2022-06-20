@@ -154,9 +154,10 @@
 	"illegalCommodities": [],
 	"music": {
 		"theme": "ibo_teiwaz_theme",
+		"battle": "ibo_teiwaz_battle",
 		"market_neutral": "ibo_teiwaz_theme",
-		"market_hostile": "ibo_teiwaz_market_hostile",
 		"market_friendly": "ibo_teiwaz_market_frendly",
+		"market_hostile": "ibo_teiwaz_market_hostile",
 		"encounter_neutral": "ibo_teiwaz_theme",
 		"encounter_hostile": "ibo_teiwaz_enc_hostile",
 		"encounter_friendly": "ibo_teiwaz_enc_frendly"
