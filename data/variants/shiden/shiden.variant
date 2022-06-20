@@ -2,8 +2,8 @@
   "displayName": "Assault",
   "fluxCapacitors": 0,
   "fluxVents": 0,
-  "hullId": "shiden",
-  "variantId": "shiden",
+  "hullId": "ibo_shiden",
+  "variantId": "ibo_shiden",
   "weaponGroups": [
     {
       "autofire": false,
@@ -18,6 +18,6 @@
       "weapons": {
         "WP": "shiden_right"
       }
-    },
+    }
   ]
 }

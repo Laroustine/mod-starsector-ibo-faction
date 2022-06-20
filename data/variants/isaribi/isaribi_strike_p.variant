@@ -2,10 +2,10 @@
   "displayName": "Isaribi (P)",
   "fluxCapacitors": 0,
   "fluxVents": 0,
-  "hullId": "isaribi_p",
+  "hullId": "ibo_isaribi_p",
   "hullMods": [],
   "quality": 0,
-  "variantId": "isaribi_strike_p",
+  "variantId": "ibo_isaribi_strike_p",
   "weaponGroups": [
     {
       "autofire": false,
@@ -20,7 +20,7 @@
     }
   ],
   "wings": [
-    "shiden_p_wing",
-    "shiden_bazooka_p_wing"
+    "ibo_shiden_p_wing",
+    "ibo_shiden_bazooka_p_wing"
   ]
 }

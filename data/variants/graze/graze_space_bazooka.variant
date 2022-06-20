@@ -2,8 +2,8 @@
   "displayName": "Artillery",
   "fluxCapacitors": 0,
   "fluxVents": 0,
-  "hullId": "graze_space",
-  "variantId": "graze_space_bazooka",
+  "hullId": "ibo_graze_space",
+  "variantId": "ibo_graze_space_bazooka",
   "weaponGroups": [
     {
       "autofire": false,
@@ -18,6 +18,6 @@
       "weapons": {
         "WP": "graze_space_bazooka_right"
       }
-    },
+    }
   ]
 }

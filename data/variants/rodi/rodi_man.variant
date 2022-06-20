@@ -2,8 +2,8 @@
   "displayName": "Assault",
   "fluxCapacitors": 0,
   "fluxVents": 0,
-  "hullId": "rodi_man",
-  "variantId": "rodi_man",
+  "hullId": "ibo_rodi_man",
+  "variantId": "ibo_rodi_man",
   "weaponGroups": [
     {
       "autofire": false,

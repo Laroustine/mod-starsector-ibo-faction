@@ -27,17 +27,17 @@
 			31,
 			34,
 			255
-		],
+		]
 	},
 	"graphics": {
 		"blueprint_packages": {
-			"gja_package": "graphics/icons/cargo/gja_package.png",
-			"teiwaz_package": "graphics/icons/cargo/teiwaz_package.png",
-			"tek_package": "graphics/icons/cargo/tek_package.png",
-			"graze_package": "graphics/icons/cargo/graze_package.png",
-			"shiden_package": "graphics/icons/cargo/shiden_package.png",
-			"rodi_package": "graphics/icons/cargo/rodi_package.png",
-			"gundam_package": "graphics/icons/cargo/gundam_package.png",
-		},
+			"ibo_gja_package": "graphics/icons/cargo/gja_package.png",
+			"ibo_teiwaz_package": "graphics/icons/cargo/teiwaz_package.png",
+			"ibo_tek_package": "graphics/icons/cargo/tek_package.png",
+			"ibo_graze_package": "graphics/icons/cargo/graze_package.png",
+			"ibo_shiden_package": "graphics/icons/cargo/shiden_package.png",
+			"ibo_rodi_package": "graphics/icons/cargo/rodi_package.png",
+			"ibo_gundam_package": "graphics/icons/cargo/gundam_package.png"
+		}
 	}
 }

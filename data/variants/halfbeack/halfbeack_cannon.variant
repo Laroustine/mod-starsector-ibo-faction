@@ -2,11 +2,13 @@
     "displayName": "Cannon",
     "fluxCapacitors": 6,
     "fluxVents": 10,
-    "hullId": "halfbeack",
-    "hullMods": ["ballistic_rangefinder"],
+    "hullId": "ibo_halfbeack",
+    "hullMods": [
+        "ballistic_rangefinder"
+    ],
     "permaMods": [],
     "sMods": [],
-    "variantId": "halfbeack_cannon",
+    "variantId": "ibo_halfbeack_cannon",
     "weaponGroups": [
         {
             "autofire": false,
@@ -85,17 +87,23 @@
         {
             "autofire": false,
             "mode": "LINKED",
-            "weapons": {"STH03": "vulcan"}
+            "weapons": {
+                "STH03": "vulcan"
+            }
         },
         {
             "autofire": false,
             "mode": "LINKED",
-            "weapons": {"SMH01": "swarmer"}
+            "weapons": {
+                "SMH01": "swarmer"
+            }
         },
         {
             "autofire": false,
             "mode": "LINKED",
-            "weapons": {"STH04": "vulcan"}
+            "weapons": {
+                "STH04": "vulcan"
+            }
         },
         {
             "autofire": false,
@@ -108,9 +116,7 @@
         }
     ],
     "wings": [
-        "graze_bazooka_wing",
-        "graze_bazooka_wing",
-        "graze_bazooka_wing",
-        "graze_bazooka_wing"
+        "ibo_graze_bazooka_wing",
+        "ibo_graze_bazooka_wing"
     ]
 }

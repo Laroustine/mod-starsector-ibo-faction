@@ -2,8 +2,8 @@
   "displayName": "Assault",
   "fluxCapacitors": 0,
   "fluxVents": 0,
-  "hullId": "graze_dainsleif",
-  "variantId": "graze_dainsleif",
+  "hullId": "ibo_graze_dainsleif",
+  "variantId": "ibo_graze_dainsleif",
   "weaponGroups": [
     {
       "autofire": false,

@@ -1,7 +1,7 @@
 {
-    "baseHullId": "rodi_man",
-    "skinHullId": "rodi_landman",
+    "baseHullId": "ibo_rodi_man",
+    "skinHullId": "ibo_rodi_landman",
     "hullName": "Landman Rodi",
-    "descriptionId": "rodi_landman",
+    "descriptionId": "ibo_rodi_landman",
     "spriteName": "graphics/ships/rodi/rodi_landman.png",
 }
