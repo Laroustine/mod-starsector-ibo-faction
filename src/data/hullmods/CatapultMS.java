@@ -11,7 +11,6 @@ package data.hullmods;
 import com.fs.starfarer.api.combat.BaseHullMod;
 import com.fs.starfarer.api.combat.ShipAPI;
 import com.fs.starfarer.api.combat.ShipAPI.HullSize;
-import data.scripts.ids.IboColors;
 
 public class CatapultMS extends BaseHullMod {
 
