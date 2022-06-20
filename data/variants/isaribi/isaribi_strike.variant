@@ -2,10 +2,10 @@
   "displayName": "Isaribi",
   "fluxCapacitors": 0,
   "fluxVents": 0,
-  "hullId": "isaribi",
+  "hullId": "ibo_isaribi",
   "hullMods": [],
   "quality": 0,
-  "variantId": "isaribi_strike",
+  "variantId": "ibo_isaribi_strike",
   "goalVariant": true,
   "weaponGroups": [
     {
@@ -21,7 +21,7 @@
     }
   ],
   "wings": [
-    "shiden_wing",
-    "shiden_bazooka_wing"
+    "ibo_shiden_wing",
+    "ibo_shiden_bazooka_wing"
   ]
 }

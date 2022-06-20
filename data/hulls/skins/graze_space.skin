@@ -1,8 +1,8 @@
 {
-    "baseHullId": "graze",
-    "skinHullId": "graze_space",
+    "baseHullId": "ibo_graze",
+    "skinHullId": "ibo_graze_space",
     "hullName": "Graze Space Type",
-    "descriptionId": "graze",
+    "descriptionId": "ibo_graze",
     "descriptionPrefix": "A Graze unit equipped with a boost unit on it's back for high speed movement in space.",
     "spriteName": "graphics/ships/graze/graze_space.png",
     "systemId": "maneuveringjets",

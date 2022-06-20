@@ -2,10 +2,10 @@
   "displayName": "Isaribi",
   "fluxCapacitors": 0,
   "fluxVents": 0,
-  "hullId": "isaribi",
+  "hullId": "ibo_isaribi",
   "hullMods": [],
   "quality": 0,
-  "variantId": "isaribi_standard",
+  "variantId": "ibo_isaribi_standard",
   "weaponGroups": [
     {
       "autofire": false,

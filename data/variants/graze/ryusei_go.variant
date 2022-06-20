@@ -2,8 +2,8 @@
   "displayName": "Assault",
   "fluxCapacitors": 0,
   "fluxVents": 0,
-  "hullId": "ryusei_go",
-  "variantId": "ryusei_go",
+  "hullId": "ibo_ryusei_go",
+  "variantId": "ibo_ryusei_go",
   "weaponGroups": [
     {
       "autofire": false,

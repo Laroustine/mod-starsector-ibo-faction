@@ -6,7 +6,7 @@
  * File Created: 07/03/2022
  */
 
-package data.scripts;
+package data.scripts.plugins;
 
 import com.fs.starfarer.api.BaseModPlugin;
 import com.fs.starfarer.api.Global;
@@ -20,10 +20,10 @@ public class IBOFPlugin extends BaseModPlugin {
   }
 
   private void initExerelinIBO() {
-    boolean corvusMode = (boolean) Global
-      .getSector()
-      .getMemoryWithoutUpdate()
-      .get("$nex_corvusMode");
+    boolean corvusMode = Global
+        .getSector()
+        .getMemoryWithoutUpdate()
+        .getBoolean("$nex_corvusMode");
 
     if (corvusMode) {
       new IBOFGen().generate(Global.getSector());
@@ -33,9 +33,9 @@ public class IBOFPlugin extends BaseModPlugin {
   @Override
   public void onNewGame() {
     boolean haveNexerelin = Global
-      .getSettings()
-      .getModManager()
-      .isModEnabled("nexerelin");
+        .getSettings()
+        .getModManager()
+        .isModEnabled("nexerelin");
 
     if (haveNexerelin) {
       initExerelinIBO();

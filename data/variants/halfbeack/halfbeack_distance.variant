@@ -3,7 +3,7 @@
     "fluxCapacitors": 6,
     "fluxVents": 4,
     "goalVariant": true,
-    "hullId": "halfbeack",
+    "hullId": "ibo_halfbeack",
     "hullMods": [
         "armoredweapons",
         "ballistic_rangefinder",
@@ -11,7 +11,7 @@
     ],
     "permaMods": [],
     "sMods": [],
-    "variantId": "halfbeack_distance",
+    "variantId": "ibo_halfbeack_distance",
     "weaponGroups": [
         {
             "autofire": false,
@@ -32,12 +32,16 @@
         {
             "autofire": true,
             "mode": "LINKED",
-            "weapons": {"BW03": "gauss"}
+            "weapons": {
+                "BW03": "gauss"
+            }
         },
         {
             "autofire": true,
             "mode": "LINKED",
-            "weapons": {"BW02": "heavyneedler"}
+            "weapons": {
+                "BW02": "heavyneedler"
+            }
         },
         {
             "autofire": true,
@@ -64,7 +68,7 @@
         }
     ],
     "wings": [
-        "graze_wing",
-        "graze_bazooka_wing"
+        "ibo_graze_wing",
+        "ibo_graze_bazooka_wing"
     ]
 }

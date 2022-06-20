@@ -1,15 +1,15 @@
 {
-  "displayName": "Standard",
-  "fluxCapacitors": 2,
-  "fluxVents": 8,
-  "hullId": "biscoe",
-  "variantId": "biscoe",
-  "goalVariant": true,
-  "hullMods": [
-    "auxiliarythrusters"
-  ],
-  "wings": [
-    "graze_wing",
-  ],
-  "weaponGroups": [],
+    "displayName": "Standard",
+    "fluxCapacitors": 2,
+    "fluxVents": 8,
+    "hullId": "ibo_biscoe",
+    "variantId": "ibo_biscoe",
+    "goalVariant": true,
+    "weaponGroups": [],
+    "hullMods": [
+        "auxiliarythrusters"
+    ],
+    "wings": [
+        "ibo_graze_wing"
+    ]
 }

@@ -1,5 +1,5 @@
 {
-	id: "teiwaz",
+	"id": "teiwaz",
 	"color": [
 		83,
 		104,
@@ -18,15 +18,16 @@
 		"GENERAL": 1
 	},
 	"names": {
+		"gundam_ibo": 1,
 		"gundam": 1,
 		"teiwaz": 1,
 		"modern": 1,
 		"future": 1
 	},
 	"variantOverrides": {
-		"shiden": 100,
-		"shiden_bazooka": 100,
-		"shiden_custom": 100,
+		"ibo_shiden": 100,
+		"ibo_shiden_bazooka": 100,
+		"ibo_shiden_custom": 100
 	},
 	"hullFrequency": {
 		"tags": {
@@ -49,7 +50,7 @@
 		"tags": [
 			"base_bp",
 			"lowtech_bp",
-			"midline_bp",
+			"midline_bp"
 		],
 		"hulls": [
 			"atlas",
@@ -67,20 +68,20 @@
 	"priorityShips": {
 		"tags": [],
 		"hulls": [
-			"atlas",
+			"atlas"
 		]
 	},
 	"knownFighters": {
 		"tags": [
 			"base_bp",
 			"midline_bp",
-			"shiden_wing"
+			"ibo_shiden_wing"
 		],
 		"fighters": []
 	},
 	"priorityFighters": {
 		"tags": [
-			"shiden_wing"
+			"ibo_shiden_wing"
 		],
 		"fighters": []
 	},
@@ -88,7 +89,7 @@
 		"tags": [
 			"base_bp",
 			"lowtech_bp",
-			"midline_bp",
+			"midline_bp"
 		],
 		"weapons": []
 	},
@@ -100,7 +101,7 @@
 		"tags": [
 			"base_bp",
 			"lowtech_bp",
-			"midline_bp",
+			"midline_bp"
 		],
 		"hullMods": [
 			"advancedshieldemitter",
@@ -158,17 +159,17 @@
 		"market_friendly": "ibo_teiwaz_market_frendly",
 		"encounter_neutral": "ibo_teiwaz_theme",
 		"encounter_hostile": "ibo_teiwaz_enc_hostile",
-		"encounter_friendly": "ibo_teiwaz_enc_frendly",
+		"encounter_friendly": "ibo_teiwaz_enc_frendly"
 	},
 	"internalComms": "hegemony_internal",
 	"portraits": {
 		"standard_male": [
 			"graphics/portraits/naze.png",
 			"graphics/portraits/jasley.png",
-			"graphics/portraits/mcmurdo.png",
+			"graphics/portraits/mcmurdo.png"
 		],
 		"standard_female": [
-			"graphics/portraits/amida.png",
+			"graphics/portraits/amida.png"
 		]
 	},
 	"ranks": {
@@ -178,7 +179,7 @@
 			},
 			"spaceCommander": {
 				"name": "Head of Security"
-			},
+			}
 		},
 		"posts": {
 			"factionLeader": {
@@ -192,24 +193,24 @@
 			},
 			"baseCommander": {
 				"name": "Local Representative"
-			},
-		},
+			}
+		}
 	},
 	"voices": {
 		"LOW": {
 			"soldier": 10,
 			"faithful": 5,
-			"spacer": 5,
+			"spacer": 5
 		},
 		"MEDIUM": {
 			"soldier": 10,
-			"official": 5,
+			"official": 5
 		},
 		"HIGH": {
 			"soldier": 5,
 			"official": 10,
-			"aristo": 3,
-		},
+			"aristo": 3
+		}
 	},
 	"custom": {
 		"offersCommissions": true,
@@ -224,7 +225,7 @@
 			"vsCompetitors": true,
 			"vsFreePort": true,
 			"canBombard": false,
-			"territorial": false,
-		},
-	},
+			"territorial": false
+		}
+	}
 }

@@ -2,10 +2,10 @@
   "displayName": "Escort",
   "fluxCapacitors": 0,
   "fluxVents": 0,
-  "hullId": "mobile_worker",
+  "hullId": "ibo_mobile_worker",
   "hullMods": [],
   "quality": 0,
-  "variantId": "mobile_worker",
+  "variantId": "ibo_mobile_worker",
   "weaponGroups": [
     {
       "autofire": false,

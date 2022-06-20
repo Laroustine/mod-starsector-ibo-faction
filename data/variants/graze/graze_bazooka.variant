@@ -2,10 +2,10 @@
   "displayName": "Artillery",
   "fluxCapacitors": 0,
   "fluxVents": 0,
-  "hullId": "graze",
+  "hullId": "ibo_graze",
   "hullMods": [],
   "quality": 0,
-  "variantId": "graze_bazooka",
+  "variantId": "ibo_graze_bazooka",
   "weaponGroups": [
     {
       "autofire": false,

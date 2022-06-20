@@ -2,8 +2,8 @@
   "displayName": "Artillery",
   "fluxCapacitors": 0,
   "fluxVents": 0,
-  "hullId": "shiden",
-  "variantId": "shiden_bazooka",
+  "hullId": "ibo_shiden",
+  "variantId": "ibo_shiden_bazooka",
   "weaponGroups": [
     {
       "autofire": false,
@@ -18,6 +18,6 @@
       "weapons": {
         "WP": "shiden_bazooka_right"
       }
-    },
+    }
   ]
 }

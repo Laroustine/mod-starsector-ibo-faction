@@ -1,5 +1,5 @@
 {
-	id: "gjallarhorn",
+	"id": "gjallarhorn",
 	"color": [
 		255,
 		255,
@@ -17,21 +17,22 @@
 		"GENERAL": 1
 	},
 	"names": {
+		"gundam_ibo": 1,
 		"gundam": 1,
 		"gjallarhorn": 1,
 		"modern": 1,
 		"future": 1
 	},
 	"variantOverrides": {
-		"graze": 100,
-		"graze_bazooka": 100
+		"ibo_graze": 100,
+		"ibo_graze_bazooka": 100
 	},
 	"hullFrequency": {
 		"tags": {
 			"gjallarhorn": 1
 		},
 		"hulls": {
-			"halfbeack": 1
+			"ibo_halfbeack": 1
 		}
 	},
 	"shipsWhenImporting": {
@@ -43,27 +44,27 @@
 			"base_bp",
 			"midline_bp",
 			"hightech_bp",
-			"gja_bp"
+			"ibo_gja_bp"
 		],
 		"hulls": []
 	},
 	"priorityShips": {
 		"tags": [],
 		"hulls": [
-			"halfbeack"
+			"ibo_halfbeack"
 		]
 	},
 	"knownFighters": {
 		"tags": [
-			"graze_bp",
-			"gja_bp"
+			"ibo_graze_bp",
+			"ibo_gja_bp"
 		],
 		"fighters": []
 	},
 	"priorityFighters": {
 		"tags": [
-			"graze_bp",
-			"gja_bp"
+			"ibo_graze_bp",
+			"ibo_gja_bp"
 		],
 		"fighters": []
 	},
@@ -109,7 +110,7 @@
 			"surveying_equipment",
 			"efficiency_overhaul",
 			"converted_fighterbay",
-			"ballistic_rangefinder",
+			"ballistic_rangefinder"
 		]
 	},
 	"factionDoctrine": {
@@ -137,7 +138,7 @@
 		"marines",
 		"hand_weapons",
 		"organs",
-		"ai_cores",
+		"ai_cores"
 	],
 	"music": {
 		"theme": "ibo_gja_theme",
@@ -146,42 +147,42 @@
 		"market_friendly": "ibo_gja_theme",
 		"encounter_neutral": "ibo_gja_enc_neutral",
 		"encounter_hostile": "ibo_gja_enc_hostile",
-		"encounter_friendly": "ibo_gja_enc_neutral",
+		"encounter_friendly": "ibo_gja_enc_neutral"
 	},
 	"internalComms": "hegemony_internal",
 	"portraits": {
 		"standard_male": [
 			"graphics/portraits/gjallarhorn_m.png",
-			"graphics/portraits/rustal.png",
+			"graphics/portraits/rustal.png"
 		],
 		"standard_female": [
 			"graphics/portraits/gjallarhorn_f.png",
-			"graphics/portraits/carta.png",
+			"graphics/portraits/carta.png"
 		]
 	},
 	"ranks": {
 		"ranks": {
 			"factionLeader": {
 				"name": "Seven Stars"
-			},
+			}
 		},
-		"posts": {},
+		"posts": {}
 	},
 	"voices": {
 		"LOW": {
 			"soldier": 10,
 			"faithful": 5,
-			"spacer": 5,
+			"spacer": 5
 		},
 		"MEDIUM": {
 			"soldier": 10,
-			"official": 5,
+			"official": 5
 		},
 		"HIGH": {
 			"soldier": 5,
 			"official": 10,
-			"aristo": 3,
-		},
+			"aristo": 3
+		}
 	},
 	"custom": {
 		"offersCommissions": true,
@@ -198,7 +199,7 @@
 			"vsCompetitors": true,
 			"vsFreePort": true,
 			"canBombard": true,
-			"territorial": true,
-		},
-	},
+			"territorial": true
+		}
+	}
 }

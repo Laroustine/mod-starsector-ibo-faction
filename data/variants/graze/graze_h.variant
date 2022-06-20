@@ -2,8 +2,8 @@
   "displayName": "Assault",
   "fluxCapacitors": 0,
   "fluxVents": 0,
-  "hullId": "graze_h",
-  "variantId": "graze_h",
+  "hullId": "ibo_graze_h",
+  "variantId": "ibo_graze_h",
   "weaponGroups": [
     {
       "autofire": false,

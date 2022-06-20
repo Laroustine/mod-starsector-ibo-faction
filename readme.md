@@ -12,7 +12,6 @@
     - [Present Feature](#present-feature)
     - [Future Feature](#future-feature)
     - [Potential Feature](#potential-feature)
-  - [Update](#update)
 
 ## Informations
 
@@ -92,17 +91,3 @@ Saisei - Station:
 - Adding specific missions
 - Adding Mobile Armor
 - Adding Pluma
-
-## Update
-
-Last Updated: 24/04/2021
-
-Thanks to _[Buttery](https://fractalsoftworks.com/forum/index.php?action=profile;u=5425)_ to let me do a continuation of their mod
-
----
-
-v2.2.0 - _[Changelog](https://github.com/Laroustine/mod-starsector-ibo-faction/releases)_
-
---- 
-
-**[Download](https://github.com/Laroustine/mod-starsector-ibo-faction/releases/download/v2.2.X/IBO-Faction-2.2.0.zip)**

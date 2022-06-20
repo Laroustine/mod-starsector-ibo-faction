@@ -111,8 +111,8 @@
     }
   ],
   "height": 272,
-  "hullId": "isaribi",
-  "hullName": "isaribi",
+  "hullId": "ibo_isaribi",
+  "hullName": "Isaribi",
   "hullSize": "DESTROYER",
   "shieldCenter": [
     0,
@@ -123,8 +123,8 @@
   "style": "MIDLINE",
   "viewOffset": 0,
   "builtInMods": [
-    "ah_reactor",
-    "nano_armor"
+    "ibo_ah_reactor",
+    "ibo_nano_armor"
   ],
   "weaponSlots": [
     {

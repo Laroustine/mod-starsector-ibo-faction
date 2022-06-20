@@ -1,0 +1,86 @@
+name: Make a .ZIP
+
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: "Version Name"
+        required: true
+        type: string
+        default: "X.X.X"
+      draft:
+        description: "Draft"
+        required: true
+        type: boolean
+        default: true
+      prerealease:
+        description: "Pre-Realease"
+        required: true
+        type: boolean
+        default: false
+      description:
+        description: "Description"
+        required: false
+        type: string
+        default: "This release as no current information about it."
+  push:
+    branches: [master, dev]
+
+jobs:
+  zip:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Display Folder
+        run: |
+          ls -R
+      - name: Create mod Folder
+        run: |
+          mkdir IBO-Faction
+      - name: Copy Files
+        run: |
+          rsync -av . IBO-Faction/
+      - name: Move Folder
+        run: |
+          mkdir mod
+          mv -f IBO-Faction mod/
+      - name: Make Artifact (.ZIP)
+        uses: actions/upload-artifact@v2
+        with:
+          name: IBO-Faction
+          path: mod
+          retention-days: 2
+  release:
+    if: ${{ github.event.push }}
+    needs: [zip]
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/download-artifact@v3
+      - name: Display Folder
+        run: |
+          ls -R
+      - name: Make .ZIP for Folders
+        run: |
+          cd IBO-Faction
+          zip -r IBO-Faction.zip ./IBO-Faction
+          mv IBO-Faction.zip ..
+      - name: Create release
+        id: create-new-release
+        uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: v.${{ github.event.inputs.version }}
+          release_name: Version ${{ github.event.inputs.version }}
+          draft: ${{ github.event.inputs.draft }}
+          prerelease: ${{ github.event.inputs.prerealease }}
+          body: ${{ github.event.inputs.description }}
+      - name: Upload Artifact
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create-new-release.outputs.upload_url }}
+          asset_path: ./IBO-Faction.zip
+          asset_name: IBO-Faction.zip
+          asset_content_type: application/zip

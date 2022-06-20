@@ -2,10 +2,10 @@
   "displayName": "Isaribi (A)",
   "fluxCapacitors": 0,
   "fluxVents": 0,
-  "hullId": "isaribi_h",
+  "hullId": "ibo_isaribi_h",
   "hullMods": [],
   "quality": 0,
-  "variantId": "isaribi_strike_h",
+  "variantId": "ibo_isaribi_strike_h",
   "weaponGroups": [
     {
       "autofire": false,
@@ -20,7 +20,7 @@
     }
   ],
   "wings": [
-    "graze_h_wing",
-    "graze_bazooka_h_wing"
+    "ibo_graze_h_wing",
+    "ibo_graze_bazooka_h_wing"
   ]
 }

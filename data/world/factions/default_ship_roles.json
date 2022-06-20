@@ -4,7 +4,7 @@
 	"combatSmallForSmallFleet": {
 		"fallback": {
 			"combatSmall": 1
-		},
+		}
 	},
 	"combatSmall": {
 		"fallback": {
@@ -17,10 +17,10 @@
 		},
 	},
 	"combatLarge": {
-		"isaribi_strike": 1,
-		"isaribi_elite_p": 1,
-		"halfbeack_original": 15,
-		"halfbeack_cannon": 15,
+		"ibo_isaribi_strike": 1,
+		"ibo_isaribi_elite_p": 1,
+		"ibo_halfbeack_original": 15,
+		"ibo_halfbeack_cannon": 15,
 		"fallback": {
 			"combatMedium": 1
 		},
@@ -34,33 +34,33 @@
 	
 	# hybrid ships with good combat and cargo capacity
 	"combatFreighterSmall": {
-		"isaribi_strike": 7,
-		"isaribi_strike_p": 7,
-		"isaribi_strike_h": 7,
+		"ibo_isaribi_strike": 7,
+		"ibo_isaribi_strike_p": 7,
+		"ibo_isaribi_strike_h": 7,
 		"fallback": {
 			"freighterSmall": 1
 		},
 	},
 	"combatFreighterMedium": {
-		"isaribi_strike": 9,
-		"isaribi_strike_p": 9,
-		"isaribi_strike_h": 9,
+		"ibo_isaribi_strike": 9,
+		"ibo_isaribi_strike_p": 9,
+		"ibo_isaribi_strike_h": 9,
 		"fallback": {
 			"combatFreighterSmall": 1
 		},
 	},
 	"combatFreighterLarge": {
-		"isaribi_strike": 1,
-		"isaribi_strike_p": 20,
-		"isaribi_strike_h": 20,
+		"ibo_isaribi_strike": 1,
+		"ibo_isaribi_strike_p": 20,
+		"ibo_isaribi_strike_h": 20,
 		"fallback": {
 			"combatFreighterMedium": 1
 		},
 	},
 	"civilianRandom": {
-		"isaribi_strike": 2,
-		"isaribi_strike_p": 3,
-		"isaribi_strike_h": 3,
+		"ibo_isaribi_strike": 2,
+		"ibo_isaribi_strike_p": 3,
+		"ibo_isaribi_strike_h": 3,
 	},
 
 	# carriers
@@ -73,9 +73,9 @@
 		},
 	},
 	"carrierMedium": {
-		"isaribi_strike": 2,
-		"isaribi_strike_p": 5,
-		"isaribi_strike_h": 5,
+		"ibo_isaribi_strike": 2,
+		"ibo_isaribi_strike_p": 5,
+		"ibo_isaribi_strike_h": 5,
 		"fallback": {
 			"carrierSmall": 1
 		},
@@ -137,9 +137,9 @@
 		},
 	},
 	"freighterLarge": {
-		"isaribi_strike": 2,
-		"isaribi_strike_p": 10,
-		"isaribi_strike_h": 10,
+		"ibo_isaribi_strike": 2,
+		"ibo_isaribi_strike_p": 10,
+		"ibo_isaribi_strike_h": 10,
 		"fallback": {
 			"freighterMedium": 1
 		},
