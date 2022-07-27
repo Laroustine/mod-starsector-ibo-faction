@@ -1,11 +1,16 @@
 {
     "displayName": "Isaribi",
-    "fluxCapacitors": 0,
-    "fluxVents": 0,
+    "fluxCapacitors": 4,
+    "fluxVents": 6,
+    "goalVariant": true,
     "hullId": "ibo_isaribi",
-    "hullMods": [],
-    "quality": 0,
-    "variantId": "ibo_isaribi_standard",
+    "hullMods": [
+        "ballistic_rangefinder",
+        "heavyarmor"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "ibo_isaribi_core",
     "weaponGroups": [
         {
             "autofire": true,
@@ -33,5 +38,8 @@
             }
         }
     ],
-    "wings": []
+    "wings": [
+        "ibo_shiden_wing",
+        "ibo_shiden_bazooka_wing"
+    ]
 }

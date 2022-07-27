@@ -8,6 +8,9 @@
     "removeBuiltInMods": [
         "ibo_nano_armor"
     ],
+    "tags": [
+		"pirates"
+	],
     "builtInMods": [
         "shielded_holds"
     ],

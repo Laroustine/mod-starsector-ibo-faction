@@ -16,14 +16,4 @@
 			"ibo_rodi_man_wing"
 		]
 	},
-	"knownShips": {
-		"tags": [],
-		"hulls": [
-			"ibo_biscoe"
-		]
-	},
-	"priorityShips": {
-		"tags": [],
-		"hulls": []
-	}
 }

@@ -7,6 +7,7 @@ ibo_station_gjallarhorn,CUSTOM,This is a Gjallarhorn administrative station. It 
 ,,,,,
 ibo_halfbeack,SHIP,"The Halfbeak-class is the main battleship of the Gjallarhorn space fleet. It is equipped with an Ahab Reactor and Nanolaminate Armor. During combat, the ship's bridge can retract into the body. The mobile suits are launched from a catapult mounted under the ship, and return through a rear hatch.",,,
 ibo_isaribi,SHIP,"An Armored Assault ship usually found with independant merchants or mercenaries, it's main purpose is typically for light combat encounters or escort. It comes equipped with two fixed auto-cannons on the port and starboard, as well as two torpedo tubes in the front of the ship. At the bottom of the ship is a cargo hold mainly used to send out fighter craft.",,,
+ibo_mercurius,SHIP,"An Armored Assault ship usually found with independant merchants or mercenaries, it's main purpose is typically for light combat encounters or escort. It comes equipped with two fixed auto-cannons on the port and starboard, as well as two torpedo tubes in the front of the ship. At the bottom of the ship is a cargo hold mainly used to send out fighter craft.",,,
 ibo_biscoe,SHIP,"A small ship with the sole purpose to carry a single set of mobile-suits. Gjallarhorn uses it for diplomatic or routine mission where only a few mobile-suits are required.",,,
 ,,,,,
 ibo_graze_custom,SHIP,"Created from the captured Graze units. The Graze is a state of the art mobile suit series built by Gjallarhorn and deployed within the Earth Sphere and space. It is developed based on the Calamity War era mobile suit, V08-1228 Grimgerde and its Valkyrja Frame. An excellent machine with low development and operational cost, the Graze is said to be the culmination of current technology.
@@ -64,4 +65,4 @@ ibo_rifle_left,WEAPON,"The Mobile Worker possess two 30mm machine guns mounted o
 ,,,,,
 ibo_anti-aircraft_gun,WEAPON,This is an Anti-Aircraft gun. It was primarily made to counter Mobile Suits. This makes sure that Mobile Suits stay far away from you.,,,
 ibo_autocannon_fixed,WEAPON,This cannon is commonly present and attached to Isaribi models. Because of it's small stature those cannons are not good to attack any ships.,,,
-ibo_autocannon_rear,WEAPON,This cannon is commonly present and attached to Isaribi models. Because of it's small stature those cannons are not good to attack any ships.,,,
+ibo_autocannon,WEAPON,This cannon is commonly present and attached to Isaribi models. Because of it's small stature those cannons are not good to attack any ships.,,,

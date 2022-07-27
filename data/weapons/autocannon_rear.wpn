@@ -1,5 +1,5 @@
 {
-	"id": "ibo_autocannon_rear",  # this id must match what's in the spreadsheet
+	"id": "ibo_autocannon",  # this id must match what's in the spreadsheet
 	"specClass": "projectile",
 	"type": "BALLISTIC",
 	"size": "MEDIUM",

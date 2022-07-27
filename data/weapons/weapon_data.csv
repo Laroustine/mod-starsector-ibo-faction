@@ -48,5 +48,4 @@ Dáinsleif,ibo_dainsleif,,,,7500,,1000,,200,0,,12,,,ENERGY,400,,3.5,1.5,1,,3,10,
 30mm Machine Gun,ibo_rifle_left,,,,250,,20,,,30,,,,,KINETIC,1,,0,0.25,1,,3,7,5,8,,700,,,10,,,SYSTEM,,,Low  Tech,,Anti Armor,,,,,,,,,,801
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Anti-Aircraft Gun,ibo_anti-aircraft_gun,1,,250,250,,25,,,75,4,,,,FRAGMENTATION,1,,0,0.05,1,,0,15,1,15,,800,,,10,,,"ANTI_FTR, PD_ONLY",,,Low  Tech,,Point Defense ,,,,,,,,,,900
-Auto-Cannon,ibo_autocannon_fixed,,,125,600,,50,,3,10,4,,,,KINETIC,55,,0,0.5,1,,0,20,3,9,,800,,,20,,,SYSTEM,,,Low  Tech,,Point Defense ,,,,,,,,,,901
-Auto-Cannon,ibo_autocannon_rear,1,,300,600,,50,,3,10,5,,,,KINETIC,50,,0,0.6,2,0.1,0,20,3,9,,800,,,20,,,SYSTEM,,,Low  Tech,,Point Defense ,,,,,,,,,,902
+Auto-Cannon,ibo_autocannon,1,,300,600,,50,,3,10,5,,,,KINETIC,50,,0,0.6,2,0.1,0,20,3,9,,800,,,20,,,SYSTEM,,,Low  Tech,,Point Defense ,,,,,,,,,,902

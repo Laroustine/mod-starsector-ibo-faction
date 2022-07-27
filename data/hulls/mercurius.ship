@@ -1,16 +1,16 @@
 {
-  "hullName": "ibo_isaribi",
-  "hullId": "ibo_isaribi",
+  "hullName": "Mercurius",
+  "hullId": "ibo_mercurius",
   "hullSize": "DESTROYER",
-  "spriteName": "graphics/ships/isaribi/ibo_isaribi.png",
+  "spriteName": "graphics/ships/brewers/mercurius.png",
   "style": "MIDLINE",
-  "height": 390,
-  "width": 152,
+  "height": 385,
+  "width": 148,
   "center": [
-    76,
-    196.5
+    74.5,
+    193
   ],
-  "collisionRadius": 193.5,
+  "collisionRadius": 191.5,
   "shieldCenter": [
     0,
     -0
@@ -27,39 +27,39 @@
   },
   "weaponSlots": [
     {
-      "id": "BW01",
+      "id": "MBT01",
       "size": "MEDIUM",
       "type": "BALLISTIC",
       "mount": "TURRET",
       "arc": 120,
       "angle": 20,
       "locations": [
-        108.5,
-        47.5
+        57.5,
+        49
       ]
     },
     {
-      "id": "BW02",
+      "id": "MBT02",
       "size": "MEDIUM",
       "type": "BALLISTIC",
       "mount": "TURRET",
       "arc": 120,
       "angle": -20,
       "locations": [
-        108.5,
-        -47.5
+        57.5,
+        -49
       ]
     },
     {
-      "id": "BW03",
+      "id": "MBT03",
       "size": "MEDIUM",
       "type": "BALLISTIC",
       "mount": "TURRET",
-      "arc": 180,
+      "arc": 160,
       "angle": 180,
       "locations": [
-        4,
-        -0
+        -28.5,
+        0
       ]
     },
     {
@@ -70,8 +70,8 @@
       "arc": 15,
       "angle": 0,
       "locations": [
-        158,
-        -29.5
+        154.5,
+        -27
       ]
     },
     {
@@ -82,8 +82,8 @@
       "arc": 15,
       "angle": -0,
       "locations": [
-        158,
-        29.5
+        154.5,
+        27
       ]
     },
     {
@@ -91,11 +91,11 @@
       "size": "SMALL",
       "type": "BALLISTIC",
       "mount": "TURRET",
-      "arc": 200,
+      "arc": 175,
       "angle": -90,
       "locations": [
-        31,
-        -21.5
+        -4.5,
+        -20
       ]
     },
     {
@@ -103,106 +103,126 @@
       "size": "SMALL",
       "type": "BALLISTIC",
       "mount": "TURRET",
-      "arc": 200,
+      "arc": 175,
       "angle": 90,
       "locations": [
-        31,
-        21.5
+        -4.5,
+        20
       ]
     }
   ],
   "engineSlots": [
     {
       "location": [
-        -8,
-        -33
-      ],
-      "length": 75.5,
-      "width": 38,
-      "angle": 180,
-      "contrailSize": 38,
-      "style": "HIGH_TECH"
-    },
-    {
-      "location": [
-        -8,
-        33
+        -34,
+        29
       ],
       "length": 75.5,
       "width": 38,
       "angle": -180,
       "contrailSize": 38,
-      "style": "HIGH_TECH"
+      "style": "MIDLINE"
+    },
+    {
+      "location": [
+        -34,
+        -29
+      ],
+      "length": 75.5,
+      "width": 38,
+      "angle": 180,
+      "contrailSize": 38,
+      "style": "MIDLINE"
     }
   ],
   "bounds": [
-    -195.5,
-    -2.5,
-    -175.5,
-    -10.5,
-    -116,
-    -16.5,
-    -82,
-    -18,
-    -9,
-    -16.5,
-    1.5,
-    -49.5,
-    11,
-    -62.5,
-    80.5,
-    -74.5,
-    127.5,
-    -76,
-    135.5,
-    -72.5,
-    142,
-    -65.5,
-    147.5,
+    -192,
+    1,
+    -179.5,
+    -8,
+    -155,
+    -12.5,
+    -93,
+    -16,
     -34,
-    162.5,
-    -33,
-    178.5,
-    -24.5,
-    185.5,
-    -19.5,
-    190,
-    -10.5,
-    192.5,
-    0,
-    192.5,
-    -0,
-    190,
-    10.5,
-    185.5,
-    19.5,
-    178.5,
-    24.5,
-    162.5,
-    33,
-    147.5,
-    34,
-    142,
-    65.5,
-    135.5,
-    72.5,
-    127.5,
-    76,
-    80.5,
-    74.5,
-    11,
-    62.5,
-    1.5,
-    49.5,
-    -9,
-    16.5,
-    -82,
+    -16.5,
+    -37.5,
+    -29.5,
+    -28,
+    -44,
+    12,
+    -41.5,
+    26.5,
+    -60,
+    -18.5,
+    -60,
+    -19,
+    -63.5,
+    35,
+    -73,
+    75,
+    -74.5,
+    84,
+    -73,
+    88.5,
+    -66,
+    93,
+    -40,
+    106.5,
+    -38.5,
+    121,
+    -31,
+    173,
+    -30.5,
+    179.5,
+    -27,
+    187,
+    -18,
+    191,
+    -7.5,
+    191,
+    8.5,
+    187,
+    19,
+    179.5,
+    28,
+    173,
+    31.5,
+    121,
+    32,
+    106.5,
+    39.5,
+    93,
+    41,
+    88.5,
+    67,
+    84,
+    74,
+    75,
+    75.5,
+    35,
+    74,
+    -19,
+    64.5,
+    -18.5,
+    61,
+    26.5,
+    61,
+    12,
+    42.5,
+    -28,
+    45,
+    -37.5,
+    30.5,
+    -34,
+    17.5,
+    -93,
     18,
-    -116,
-    16.5,
-    -175.5,
-    10.5,
-    -195.5,
-    2.5
+    -155,
+    14.5,
+    -179.5,
+    10,
+    -192,
+    1
   ]
 }

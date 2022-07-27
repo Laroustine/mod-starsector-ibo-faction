@@ -1,19 +1,24 @@
 {
-    "displayName": "Isaribi",
-    "fluxCapacitors": 0,
-    "fluxVents": 0,
-    "hullId": "ibo_isaribi",
-    "hullMods": [],
-    "quality": 0,
-    "variantId": "ibo_isaribi_standard",
+    "displayName": "Mercurius",
+    "fluxCapacitors": 4,
+    "fluxVents": 6,
+    "goalVariant": true,
+    "hullId": "ibo_mercurius",
+    "hullMods": [
+        "ballistic_rangefinder",
+        "heavyarmor"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "ibo_mercurius_core",
     "weaponGroups": [
         {
             "autofire": true,
             "mode": "ALTERNATING",
             "weapons": {
-                "BW01": "ibo_autocannon",
-                "BW02": "ibo_autocannon",
-                "BW03": "ibo_autocannon"
+                "MBT01": "ibo_autocannon",
+                "MBT02": "ibo_autocannon",
+                "MBT03": "ibo_autocannon"
             }
         },
         {
@@ -33,5 +38,8 @@
             }
         }
     ],
-    "wings": []
+    "wings": [
+        "ibo_shiden_wing",
+        "ibo_shiden_bazooka_wing"
+    ]
 }

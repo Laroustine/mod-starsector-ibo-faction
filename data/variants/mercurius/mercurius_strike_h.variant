@@ -1,0 +1,42 @@
+{
+  "displayName": "Mercurius (A)",
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "hullId": "ibo_mercurius_h",
+  "hullMods": [],
+  "quality": 0,
+  "variantId": "ibo_mercurius_strike_h",
+  "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "MBT01": "ibo_autocannon",
+                "MBT02": "ibo_autocannon",
+                "MBT03": "ibo_autocannon"
+				
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "MMH01": "typhoon",
+				"MMH02": "typhoon"
+			 }
+        },
+
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+				"ST01": "ibo_anti-aircraft_gun",
+				"ST02": "ibo_anti-aircraft_gun"
+            }
+        }
+    ],
+  "wings": [
+    "ibo_graze_h_wing",
+    "ibo_graze_bazooka_h_wing"
+  ]
+}
