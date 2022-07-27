@@ -9,21 +9,21 @@
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "HEAD": "man_rodi_head",
+        "HEAD": "ibo_man_rodi_head",
       }
     },
     {
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "RWP": "man_rodi_right",
+        "RWP": "ibo_man_rodi_right",
       }
     },
     {
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "LWP": "man_rodi_left",
+        "LWP": "ibo_man_rodi_left",
       }
     }
   ]

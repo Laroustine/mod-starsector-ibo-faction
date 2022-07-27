@@ -13,9 +13,9 @@
       "weapons": {
         "WS0003": "typhoon",
         "WS0004": "typhoon",
-        "WS0005": "anti-aircraft_gun",
-        "WS0006": "anti-aircraft_gun",
-        "WS0007": "autocannon_rear"
+        "WS0005": "ibo_anti-aircraft_gun",
+        "WS0006": "ibo_anti-aircraft_gun",
+        "WS0007": "ibo_autocannon_rear"
       }
     }
   ],

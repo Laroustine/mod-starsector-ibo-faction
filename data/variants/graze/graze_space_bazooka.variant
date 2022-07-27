@@ -9,14 +9,14 @@
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "HEAD": "graze_space_head"
+        "HEAD": "ibo_graze_space_head"
       }
     },
     {
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WP": "graze_space_bazooka_right"
+        "WP": "ibo_graze_space_bazooka_right"
       }
     }
   ]

@@ -54,8 +54,8 @@
     2.5
   ],
   "builtInWeapons": {
-    "WS0001": "autocannon_fixed",
-    "WS0002": "autocannon_fixed",
+    "WS0001": "ibo_autocannon_fixed",
+    "WS0002": "ibo_autocannon_fixed",
     "WS0003": "typhoon",
     "WS0004": "typhoon"
   },

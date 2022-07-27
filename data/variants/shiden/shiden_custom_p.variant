@@ -9,14 +9,14 @@
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "HEAD": "shiden_custom_head_p"
+        "HEAD": "ibo_shiden_custom_head_p"
       }
     },
     {
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WP": "shiden_custom_right_p"
+        "WP": "ibo_shiden_custom_right_p"
       }
     }
   ]

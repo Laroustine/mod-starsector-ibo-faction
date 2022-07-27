@@ -1,0 +1,22 @@
+{
+    "baseHullId": "ibo_biscoe",
+    "skinHullId": "ibo_biscoe_p",
+    "hullName": "Biscoe (P)",
+    "descriptionId": "ibo_biscoe",
+    "spriteName": "graphics/ships/biscoe/ibo_biscoe_red.png",
+    "descriptionPrefix": "This simple ship was easy to steal by pirates and manage to find a blueprint for it. They want to make sure Gjallahorn pays the price of angering pirates.",
+    "removeBuiltInMods": [
+        "ibo_nano_armor"
+    ],
+    "builtInMods": [
+        "shielded_holds"
+    ],
+    "engineSlotChanges": {
+        "0": {
+            "style": "MIDLINE"
+        },
+        "1": {
+            "style": "MIDLINE"
+        }
+    }
+}
