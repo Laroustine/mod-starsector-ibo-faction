@@ -3,11 +3,13 @@
     "fluxCapacitors": 5,
     "fluxVents": 8,
     "goalVariant": true,
-    "hullId": "halfbeack",
-    "hullMods": ["heavyarmor"],
+    "hullId": "ibo_halfbeack",
+    "hullMods": [
+        "heavyarmor"
+    ],
     "permaMods": [],
     "sMods": [],
-    "variantId": "halfbeack_original",
+    "variantId": "ibo_halfbeack_original",
     "weaponGroups": [
         {
             "autofire": false,
@@ -58,7 +60,7 @@
         }
     ],
     "wings": [
-        "graze_wing",
-        "graze_wing"
+        "ibo_graze_wing",
+        "ibo_graze_wing"
     ]
 }

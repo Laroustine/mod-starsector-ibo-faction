@@ -18,7 +18,7 @@
     2
   ],
   "builtInMods": [
-    "av_system"
+    "ibo_av_system"
   ],
   "center": [
     23.5,
@@ -72,7 +72,7 @@
     }
   ],
   "height": 57,
-  "hullId": "mobile_worker",
+  "hullId": "ibo_mobile_worker",
   "hullName": "Mobile Worker",
   "hullSize": "FIGHTER",
   "shieldCenter": [

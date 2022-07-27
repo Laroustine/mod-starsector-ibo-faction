@@ -1,230 +1,232 @@
 {
-	id: "teiwaz",
-	"color": [
-		83,
-		104,
-		114,
-		255
-	],
-	"displayName": "Teiwaz",
-	"displayNameWithArticle": "Teiwaz",
-	"logo": "graphics/factions/teiwaz.png",
-	"crest": "graphics/factions/crest_teiwaz.png",
-	"shipNamePrefix": "JEE",
-	"showInIntelTab": false,
-	"shipNameSources": {
-		"JAPANESE": 2,
-		"BRITISH_NAVY": 1,
-		"GENERAL": 1
-	},
-	"names": {
-		"gundam": 1,
-		"teiwaz": 1,
-		"modern": 1,
-		"future": 1
-	},
-	"variantOverrides": {
-		"shiden": 100,
-		"shiden_bazooka": 100,
-		"shiden_custom": 100,
-	},
-	"hullFrequency": {
-		"tags": {
-			"heg_aux_bp": 2,
-			"XIV_bp": 0.25
-		},
-		"hulls": {
-			"buffalo2": 0
-		}
-	},
-	"shipsWhenImporting": {
-		"tags": [
-			"base_bp",
-			"heg_aux_bp",
-			"lowtech_bp"
-		],
-		"hulls": []
-	},
-	"knownShips": {
-		"tags": [
-			"base_bp",
-			"lowtech_bp",
-			"midline_bp",
-		],
-		"hulls": [
-			"atlas",
-			"monitor",
-			"prometheus",
-			"legion",
-			"onslaught",
-			"gryphon",
-			"eagle",
-			"valkyrie",
-			"vanguard",
-			"manticore"
-		]
-	},
-	"priorityShips": {
-		"tags": [],
-		"hulls": [
-			"atlas",
-		]
-	},
-	"knownFighters": {
-		"tags": [
-			"base_bp",
-			"midline_bp",
-			"shiden_wing"
-		],
-		"fighters": []
-	},
-	"priorityFighters": {
-		"tags": [
-			"shiden_wing"
-		],
-		"fighters": []
-	},
-	"knownWeapons": {
-		"tags": [
-			"base_bp",
-			"lowtech_bp",
-			"midline_bp",
-		],
-		"weapons": []
-	},
-	"priorityWeapons": {
-		"tags": [],
-		"weapons": []
-	},
-	"knownHullMods": {
-		"tags": [
-			"base_bp",
-			"lowtech_bp",
-			"midline_bp",
-		],
-		"hullMods": [
-			"advancedshieldemitter",
-			"turretgyros",
-			"armoredweapons",
-			"augmentedengines",
-			"autorepair",
-			"expanded_deck_crew",
-			"magazines",
-			"missleracks",
-			"extendedshieldemitter",
-			"frontemitter",
-			"frontshield",
-			"heavyarmor",
-			"insulatedengine",
-			"targetingunit",
-			"nav_relay",
-			"operations_center",
-			"fluxbreakers",
-			"stabilizedshieldemitter",
-			"frontshield",
-			"surveying_equipment",
-			"efficiency_overhaul",
-			"converted_fighterbay",
-			"ballistic_rangefinder",
-			"shield_shunt"
-		]
-	},
-	"factionDoctrine": {
-		"warships": 1,
-		"carriers": 5,
-		"phaseShips": 1,
-		"officerQuality": 3,
-		"shipQuality": 3,
-		"numShips": 1,
-		"shipSize": 3,
-		"aggression": 2,
-		"combatFreighterProbability": 0.1,
-		"combatFreighterCombatUseFraction": 0,
-		"combatFreighterCombatUseFractionWhenPriority": 0,
-		"autofitRandomizeProbability": 0.1,
-		"commanderSkillsShuffleProbability": 1,
-		"commanderSkills": [
-			"crew_training",
-			"officer_training",
-			"coordinated_maneuvers",
-			"support_doctrine"
-		]
-	},
-	"illegalCommodities": [],
-	"music": {
-		"theme": "ibo_teiwaz_theme",
-		"market_neutral": "ibo_teiwaz_theme",
-		"market_hostile": "ibo_teiwaz_market_hostile",
-		"market_friendly": "ibo_teiwaz_market_frendly",
-		"encounter_neutral": "ibo_teiwaz_theme",
-		"encounter_hostile": "ibo_teiwaz_enc_hostile",
-		"encounter_friendly": "ibo_teiwaz_enc_frendly",
-	},
-	"internalComms": "hegemony_internal",
-	"portraits": {
-		"standard_male": [
-			"graphics/portraits/naze.png",
-			"graphics/portraits/jasley.png",
-			"graphics/portraits/mcmurdo.png",
-		],
-		"standard_female": [
-			"graphics/portraits/amida.png",
-		]
-	},
-	"ranks": {
-		"ranks": {
-			"factionLeader": {
-				"name": "Representative"
-			},
-			"spaceCommander": {
-				"name": "Head of Security"
-			},
-		},
-		"posts": {
-			"factionLeader": {
-				"name": "Representative"
-			},
-			"patrolCommander": {
-				"name": "Head of Local Security"
-			},
-			"fleetCommander": {
-				"name": "Security Administrator"
-			},
-			"baseCommander": {
-				"name": "Local Representative"
-			},
-		},
-	},
-	"voices": {
-		"LOW": {
-			"soldier": 10,
-			"faithful": 5,
-			"spacer": 5,
-		},
-		"MEDIUM": {
-			"soldier": 10,
-			"official": 5,
-		},
-		"HIGH": {
-			"soldier": 5,
-			"official": 10,
-			"aristo": 3,
-		},
-	},
-	"custom": {
-		"offersCommissions": true,
-		"engagesInHostilities": true,
-		"buysAICores": true,
-		"AICoreValueMult": 1,
-		"AICoreRepMult": 2,
-		"buysSurveyData": true,
-		"hostilityImpactOnGrowth": false,
-		"caresAboutAtrocities": true,
-		"punitiveExpeditionData": {
-			"vsCompetitors": true,
-			"vsFreePort": true,
-			"canBombard": false,
-			"territorial": false,
-		},
-	},
+    "id": "teiwaz",
+    "color": [
+        83,
+        104,
+        114,
+        255
+    ],
+    "displayName": "Teiwaz",
+    "displayNameWithArticle": "Teiwaz",
+    "logo": "graphics/factions/teiwaz.png",
+    "crest": "graphics/factions/crest_teiwaz.png",
+    "shipNamePrefix": "JEE",
+    "showInIntelTab": false,
+    "shipNameSources": {
+        "JAPANESE": 2,
+        "BRITISH_NAVY": 1,
+        "GENERAL": 1
+    },
+    "names": {
+        "gundam_ibo": 1,
+        "gundam": 1,
+        "teiwaz": 1,
+        "modern": 1,
+        "future": 1
+    },
+    "variantOverrides": {
+        "ibo_shiden": 100,
+        "ibo_shiden_bazooka": 100,
+        "ibo_shiden_custom": 100
+    },
+    "hullFrequency": {
+        "tags": {
+            "heg_aux_bp": 2,
+            "XIV_bp": 0.25
+        },
+        "hulls": {
+            "buffalo2": 0
+        }
+    },
+    "shipsWhenImporting": {
+        "tags": [
+            "base_bp",
+            "heg_aux_bp",
+            "lowtech_bp"
+        ],
+        "hulls": []
+    },
+    "knownShips": {
+        "tags": [
+            "base_bp",
+            "lowtech_bp",
+            "midline_bp"
+        ],
+        "hulls": [
+            "atlas",
+            "monitor",
+            "prometheus",
+            "legion",
+            "onslaught",
+            "gryphon",
+            "eagle",
+            "valkyrie",
+            "vanguard",
+            "manticore"
+        ]
+    },
+    "priorityShips": {
+        "tags": [],
+        "hulls": [
+            "atlas"
+        ]
+    },
+    "knownFighters": {
+        "tags": [
+            "base_bp",
+            "midline_bp",
+            "ibo_shiden_wing"
+        ],
+        "fighters": []
+    },
+    "priorityFighters": {
+        "tags": [
+            "ibo_shiden_wing"
+        ],
+        "fighters": []
+    },
+    "knownWeapons": {
+        "tags": [
+            "base_bp",
+            "lowtech_bp",
+            "midline_bp"
+        ],
+        "weapons": []
+    },
+    "priorityWeapons": {
+        "tags": [],
+        "weapons": []
+    },
+    "knownHullMods": {
+        "tags": [
+            "base_bp",
+            "lowtech_bp",
+            "midline_bp"
+        ],
+        "hullMods": [
+            "advancedshieldemitter",
+            "turretgyros",
+            "armoredweapons",
+            "augmentedengines",
+            "autorepair",
+            "expanded_deck_crew",
+            "magazines",
+            "missleracks",
+            "extendedshieldemitter",
+            "frontemitter",
+            "frontshield",
+            "heavyarmor",
+            "insulatedengine",
+            "targetingunit",
+            "nav_relay",
+            "operations_center",
+            "fluxbreakers",
+            "stabilizedshieldemitter",
+            "frontshield",
+            "surveying_equipment",
+            "efficiency_overhaul",
+            "converted_fighterbay",
+            "ballistic_rangefinder",
+            "shield_shunt"
+        ]
+    },
+    "factionDoctrine": {
+        "warships": 1,
+        "carriers": 5,
+        "phaseShips": 1,
+        "officerQuality": 3,
+        "shipQuality": 3,
+        "numShips": 1,
+        "shipSize": 3,
+        "aggression": 2,
+        "combatFreighterProbability": 0.1,
+        "combatFreighterCombatUseFraction": 0,
+        "combatFreighterCombatUseFractionWhenPriority": 0,
+        "autofitRandomizeProbability": 0.1,
+        "commanderSkillsShuffleProbability": 1,
+        "commanderSkills": [
+            "crew_training",
+            "officer_training",
+            "coordinated_maneuvers",
+            "support_doctrine"
+        ]
+    },
+    "illegalCommodities": [],
+    "music": {
+        "theme": "ibo_teiwaz_theme",
+        "battle": "ibo_battle",
+        "market_neutral": "ibo_teiwaz_theme",
+        "market_friendly": "ibo_teiwaz_market_frendly",
+        "market_hostile": "ibo_teiwaz_market_hostile",
+        "encounter_neutral": "ibo_teiwaz_theme",
+        "encounter_hostile": "ibo_teiwaz_enc_hostile",
+        "encounter_friendly": "ibo_teiwaz_enc_frendly"
+    },
+    "internalComms": "hegemony_internal",
+    "portraits": {
+        "standard_male": [
+            "graphics/portraits/naze.png",
+            "graphics/portraits/jasley.png",
+            "graphics/portraits/mcmurdo.png"
+        ],
+        "standard_female": [
+            "graphics/portraits/amida.png"
+        ]
+    },
+    "ranks": {
+        "ranks": {
+            "factionLeader": {
+                "name": "Representative"
+            },
+            "spaceCommander": {
+                "name": "Head of Security"
+            }
+        },
+        "posts": {
+            "factionLeader": {
+                "name": "Representative"
+            },
+            "patrolCommander": {
+                "name": "Head of Local Security"
+            },
+            "fleetCommander": {
+                "name": "Security Administrator"
+            },
+            "baseCommander": {
+                "name": "Local Representative"
+            }
+        }
+    },
+    "voices": {
+        "LOW": {
+            "soldier": 10,
+            "faithful": 5,
+            "spacer": 5
+        },
+        "MEDIUM": {
+            "soldier": 10,
+            "official": 5
+        },
+        "HIGH": {
+            "soldier": 5,
+            "official": 10,
+            "aristo": 3
+        }
+    },
+    "custom": {
+        "offersCommissions": true,
+        "engagesInHostilities": true,
+        "buysAICores": true,
+        "AICoreValueMult": 1,
+        "AICoreRepMult": 2,
+        "buysSurveyData": true,
+        "hostilityImpactOnGrowth": false,
+        "caresAboutAtrocities": true,
+        "punitiveExpeditionData": {
+            "vsCompetitors": true,
+            "vsFreePort": true,
+            "canBombard": false,
+            "territorial": false
+        }
+    }
 }

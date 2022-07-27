@@ -1,18 +1,18 @@
 {
 	"variantOverrides": {
-		"shiden_p": 100,
-		"shiden_bazooka_p": 100,
+		"ibo_shiden": 100,
+		"ibo_shiden_bazooka": 100
 	},
 	"knownFighters": {
 		"tags": [
-			"shiden_wing",
+			"ibo_shiden_wing"
 		],
-		"fighters": [],
+		"fighters": []
 	},
 	"priorityFighters": {
 		"tags": [
-			"shiden_wing",
+			"ibo_shiden_wing"
 		],
-		"fighters": [],
-	},
+		"fighters": []
+	}
 }

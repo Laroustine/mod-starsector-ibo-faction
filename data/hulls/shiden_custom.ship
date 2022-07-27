@@ -22,8 +22,8 @@
     -0.5
   ],
   "builtInMods": [
-    "ah_reactor",
-    "nano_armor"
+    "ibo_ah_reactor",
+    "ibo_nano_armor"
   ],
   "center": [
     20,
@@ -55,7 +55,7 @@
     }
   ],
   "height": 36,
-  "hullId": "shiden_custom",
+  "hullId": "ibo_shiden_custom",
   "hullName": "Shiden Custom",
   "hullSize": "FIGHTER",
   "shieldCenter": [

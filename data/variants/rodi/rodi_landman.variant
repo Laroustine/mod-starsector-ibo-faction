@@ -2,28 +2,28 @@
   "displayName": "Assault",
   "fluxCapacitors": 0,
   "fluxVents": 0,
-  "hullId": "rodi_landman",
-  "variantId": "rodi_landman",
+  "hullId": "ibo_rodi_landman",
+  "variantId": "ibo_rodi_landman",
   "weaponGroups": [
     {
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "HEAD": "landman_rodi_head",
+        "HEAD": "ibo_landman_rodi_head",
       }
     },
     {
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "RWP": "landman_rodi_right",
+        "RWP": "ibo_landman_rodi_right",
       }
     },
     {
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "LWP": "landman_rodi_left",
+        "LWP": "ibo_landman_rodi_left",
       }
     }
   ]

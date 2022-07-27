@@ -2,22 +2,22 @@
   "displayName": "Assault",
   "fluxCapacitors": 0,
   "fluxVents": 0,
-  "hullId": "shiden_ryusei",
-  "variantId": "shiden_ryusei",
+  "hullId": "ibo_shiden_ryusei",
+  "variantId": "ibo_shiden_ryusei",
   "weaponGroups": [
     {
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "HEAD": "shiden_head_ryusei"
+        "HEAD": "ibo_shiden_head_ryusei"
       }
     },
     {
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WP": "shiden_right_ryusei"
+        "WP": "ibo_shiden_right_ryusei"
       }
-    },
+    }
   ]
 }

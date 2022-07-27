@@ -1,15 +1,15 @@
 {
-  "displayName": "Rocket",
-  "fluxCapacitors": 2,
-  "fluxVents": 8,
-  "hullId": "biscoe",
-  "variantId": "biscoe_rocket",
-  "goalVariant": true,
-  "hullMods": [
-    "auxiliarythrusters"
-  ],
-  "wings": [
-    "graze_bazooka_wing",
-  ],
-  "weaponGroups": [],
+    "displayName": "Rocket",
+    "fluxCapacitors": 2,
+    "fluxVents": 8,
+    "hullId": "ibo_biscoe",
+    "variantId": "ibo_biscoe_rocket",
+    "goalVariant": true,
+    "weaponGroups": [],
+    "hullMods": [
+        "auxiliarythrusters"
+    ],
+    "wings": [
+        "ibo_graze_bazooka_wing"
+    ]
 }

@@ -1,204 +1,208 @@
 {
-	id: "gjallarhorn",
-	"color": [
-		255,
-		255,
-		255,
-		255
-	],
-	"displayName": "Gjallarhorn",
-	"displayNameWithArticle": "Gjallarhorn",
-	"logo": "graphics/factions/gjallarhorn.png",
-	"crest": "graphics/factions/crest_gjallarhorn.png",
-	"shipNamePrefix": "GDS",
-	"shipNameSources": {
-		"NORSE": 2,
-		"BRITISH_NAVY": 1,
-		"GENERAL": 1
-	},
-	"names": {
-		"gundam": 1,
-		"gjallarhorn": 1,
-		"modern": 1,
-		"future": 1
-	},
-	"variantOverrides": {
-		"graze": 100,
-		"graze_bazooka": 100
-	},
-	"hullFrequency": {
-		"tags": {
-			"gjallarhorn": 1
-		},
-		"hulls": {
-			"halfbeack": 1
-		}
-	},
-	"shipsWhenImporting": {
-		"tags": [],
-		"hulls": []
-	},
-	"knownShips": {
-		"tags": [
-			"base_bp",
-			"midline_bp",
-			"hightech_bp",
-			"gja_bp"
-		],
-		"hulls": []
-	},
-	"priorityShips": {
-		"tags": [],
-		"hulls": [
-			"halfbeack"
-		]
-	},
-	"knownFighters": {
-		"tags": [
-			"graze_bp",
-			"gja_bp"
-		],
-		"fighters": []
-	},
-	"priorityFighters": {
-		"tags": [
-			"graze_bp",
-			"gja_bp"
-		],
-		"fighters": []
-	},
-	"knownWeapons": {
-		"tags": [
-			"base_bp",
-			"midline_bp",
-			"hightech_bp"
-		],
-		"weapons": []
-	},
-	"priorityWeapons": {
-		"tags": [],
-		"weapons": []
-	},
-	"knownHullMods": {
-		"tags": [
-			"base_bp",
-			"midline_bp",
-			"hightech_bp"
-		],
-		"hullMods": [
-			"recovery_shuttles",
-			"advancedshieldemitter",
-			"turretgyros",
-			"armoredweapons",
-			"augmentedengines",
-			"autorepair",
-			"expanded_deck_crew",
-			"magazines",
-			"missleracks",
-			"extendedshieldemitter",
-			"frontemitter",
-			"frontshield",
-			"heavyarmor",
-			"insulatedengine",
-			"targetingunit",
-			"nav_relay",
-			"operations_center",
-			"fluxbreakers",
-			"stabilizedshieldemitter",
-			"frontshield",
-			"surveying_equipment",
-			"efficiency_overhaul",
-			"converted_fighterbay",
-			"ballistic_rangefinder",
-		]
-	},
-	"factionDoctrine": {
-		"warships": 4,
-		"carriers": 2,
-		"phaseShips": 1,
-		"officerQuality": 1,
-		"shipQuality": 3,
-		"numShips": 3,
-		"shipSize": 5,
-		"aggression": 3,
-		"combatFreighterProbability": 0.1,
-		"combatFreighterCombatUseFraction": 0,
-		"combatFreighterCombatUseFractionWhenPriority": 0,
-		"autofitRandomizeProbability": 0.1,
-		"commanderSkillsShuffleProbability": 1,
-		"commanderSkills": [
-			"crew_training",
-			"officer_training",
-			"coordinated_maneuvers",
-			"support_doctrine"
-		]
-	},
-	"illegalCommodities": [
-		"marines",
-		"hand_weapons",
-		"organs",
-		"ai_cores",
-	],
-	"music": {
-		"theme": "ibo_gja_theme",
-		"market_neutral": "ibo_gja_theme",
-		"market_hostile": "ibo_gja_market_hostile",
-		"market_friendly": "ibo_gja_theme",
-		"encounter_neutral": "ibo_gja_enc_neutral",
-		"encounter_hostile": "ibo_gja_enc_hostile",
-		"encounter_friendly": "ibo_gja_enc_neutral",
-	},
-	"internalComms": "hegemony_internal",
-	"portraits": {
-		"standard_male": [
-			"graphics/portraits/gjallarhorn_m.png",
-			"graphics/portraits/rustal.png",
-		],
-		"standard_female": [
-			"graphics/portraits/gjallarhorn_f.png",
-			"graphics/portraits/carta.png",
-		]
-	},
-	"ranks": {
-		"ranks": {
-			"factionLeader": {
-				"name": "Seven Stars"
-			},
-		},
-		"posts": {},
-	},
-	"voices": {
-		"LOW": {
-			"soldier": 10,
-			"faithful": 5,
-			"spacer": 5,
-		},
-		"MEDIUM": {
-			"soldier": 10,
-			"official": 5,
-		},
-		"HIGH": {
-			"soldier": 5,
-			"official": 10,
-			"aristo": 3,
-		},
-	},
-	"custom": {
-		"offersCommissions": true,
-		"engagesInHostilities": true,
-		"buysAICores": true,
-		"AICoreValueMult": 3,
-		"AICoreRepMult": 3,
-		"buysSurveyData": true,
-		"hostilityImpactOnGrowth": true,
-		"worthInvestigatingPlayerForGoodRepWith": true,
-		"investigatesPlayerForGoodRepWithOtherFactions": false,
-		"caresAboutAtrocities": true,
-		"punitiveExpeditionData": {
-			"vsCompetitors": true,
-			"vsFreePort": true,
-			"canBombard": true,
-			"territorial": true,
-		},
-	},
+    "id": "gjallarhorn",
+    "color": [
+        255,
+        255,
+        255,
+        255
+    ],
+    "displayName": "Gjallarhorn",
+    "displayNameWithArticle": "Gjallarhorn",
+    "logo": "graphics/factions/gjallarhorn.png",
+    "crest": "graphics/factions/crest_gjallarhorn.png",
+    "shipNamePrefix": "GDS",
+    "shipNameSources": {
+        "NORSE": 2,
+        "BRITISH_NAVY": 1,
+        "GENERAL": 1
+    },
+    "names": {
+        "gundam_ibo": 1,
+        "gundam": 1,
+        "gjallarhorn": 1,
+        "modern": 1,
+        "future": 1
+    },
+    "variantOverrides": {
+        "ibo_graze": 100,
+        "ibo_graze_bazooka": 100
+    },
+    "hullFrequency": {
+        "tags": {
+            "gjallarhorn": 1
+        },
+        "hulls": {
+            "ibo_halfbeack": 1
+        }
+    },
+    "shipsWhenImporting": {
+        "tags": [],
+        "hulls": []
+    },
+    "knownShips": {
+        "tags": [
+            "base_bp",
+            "midline_bp",
+            "hightech_bp",
+            "ibo_gja_bp"
+        ],
+        "hulls": []
+    },
+    "priorityShips": {
+        "tags": [],
+        "hulls": [
+            "ibo_halfbeack"
+        ]
+    },
+    "knownFighters": {
+        "tags": [
+            "ibo_graze_bp",
+            "ibo_gja_bp"
+        ],
+        "fighters": []
+    },
+    "priorityFighters": {
+        "tags": [
+            "ibo_graze_bp",
+            "ibo_gja_bp"
+        ],
+        "fighters": []
+    },
+    "knownWeapons": {
+        "tags": [
+            "base_bp",
+            "midline_bp",
+            "hightech_bp"
+        ],
+        "weapons": []
+    },
+    "priorityWeapons": {
+        "tags": [],
+        "weapons": []
+    },
+    "knownHullMods": {
+        "tags": [
+            "base_bp",
+            "midline_bp",
+            "hightech_bp"
+        ],
+        "hullMods": [
+            "recovery_shuttles",
+            "advancedshieldemitter",
+            "turretgyros",
+            "armoredweapons",
+            "augmentedengines",
+            "autorepair",
+            "expanded_deck_crew",
+            "magazines",
+            "missleracks",
+            "extendedshieldemitter",
+            "frontemitter",
+            "frontshield",
+            "heavyarmor",
+            "insulatedengine",
+            "targetingunit",
+            "nav_relay",
+            "operations_center",
+            "fluxbreakers",
+            "stabilizedshieldemitter",
+            "frontshield",
+            "surveying_equipment",
+            "efficiency_overhaul",
+            "converted_fighterbay",
+            "ballistic_rangefinder"
+        ]
+    },
+    "factionDoctrine": {
+        "warships": 4,
+        "carriers": 2,
+        "phaseShips": 1,
+        "officerQuality": 1,
+        "shipQuality": 3,
+        "numShips": 3,
+        "shipSize": 5,
+        "aggression": 3,
+        "combatFreighterProbability": 0.1,
+        "combatFreighterCombatUseFraction": 0,
+        "combatFreighterCombatUseFractionWhenPriority": 0,
+        "autofitRandomizeProbability": 0.1,
+        "commanderSkillsShuffleProbability": 1,
+        "commanderSkills": [
+            "crew_training",
+            "officer_training",
+            "coordinated_maneuvers",
+            "support_doctrine"
+        ]
+    },
+    "illegalCommodities": [
+        "marines",
+        "hand_weapons",
+        "organs",
+        "ai_cores"
+    ],
+    "music": {
+        "theme": "ibo_gja_theme",
+        "battle": "gjallarhorn_battle",
+        "market_neutral": "ibo_gja_theme",
+        "market_friendly": "ibo_gja_theme",
+        "market_hostile": "ibo_gja_market_hostile",
+        "encounter_neutral": "ibo_gja_enc_neutral",
+        "encounter_friendly": "ibo_gja_enc_neutral",
+        "encounter_hostile": "ibo_gja_enc_neutral",
+        "battle_advantage": "gjallarhorn_battle_advantage",
+        "battle_losing": "gjallarhorn_battle_losing"
+    },
+    "internalComms": "hegemony_internal",
+    "portraits": {
+        "standard_male": [
+            "graphics/portraits/gjallarhorn_m.png",
+            "graphics/portraits/rustal.png"
+        ],
+        "standard_female": [
+            "graphics/portraits/gjallarhorn_f.png",
+            "graphics/portraits/carta.png"
+        ]
+    },
+    "ranks": {
+        "ranks": {
+            "factionLeader": {
+                "name": "Seven Stars"
+            }
+        },
+        "posts": {}
+    },
+    "voices": {
+        "LOW": {
+            "soldier": 10,
+            "faithful": 5,
+            "spacer": 5
+        },
+        "MEDIUM": {
+            "soldier": 10,
+            "official": 5
+        },
+        "HIGH": {
+            "soldier": 5,
+            "official": 10,
+            "aristo": 3
+        }
+    },
+    "custom": {
+        "offersCommissions": true,
+        "engagesInHostilities": true,
+        "buysAICores": true,
+        "AICoreValueMult": 3,
+        "AICoreRepMult": 3,
+        "buysSurveyData": true,
+        "hostilityImpactOnGrowth": true,
+        "worthInvestigatingPlayerForGoodRepWith": true,
+        "investigatesPlayerForGoodRepWithOtherFactions": false,
+        "caresAboutAtrocities": true,
+        "punitiveExpeditionData": {
+            "vsCompetitors": true,
+            "vsFreePort": true,
+            "canBombard": true,
+            "territorial": true
+        }
+    }
 }

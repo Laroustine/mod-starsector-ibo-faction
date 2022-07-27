@@ -1,0 +1,21 @@
+{
+	"baseHullId": "ibo_mercurius",
+	"skinHullId": "ibo_mercurius_p",
+	"hullName": "Mercurius (P)",
+	"descriptionId": "mercurius",
+	"descriptionPrefix": "An brewers model originally produced by a lone planet that flew the League's colours, they had intended to keep the colour scheme to themselves but were ultimately persuaded by other leaders to let the rest of the League use it. Aside from the paint job there isn't much different from the base model.",
+	"spriteName": "graphics/ships/brewers/brewers_persean.png",
+	"baseValueMult": 1.3,
+	"ordnancePoints": 70,
+	"tags": [
+		"persean"
+	],
+	"engineSlotChanges": {
+        "0": {
+            "style": "HIGH_TECH"
+        },
+        "1": {
+            "style": "HIGH_TECH"
+        }
+    }
+}

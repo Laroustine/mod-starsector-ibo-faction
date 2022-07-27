@@ -2,23 +2,23 @@
   "displayName": "Escort",
   "fluxCapacitors": 0,
   "fluxVents": 0,
-  "hullId": "mobile_worker",
+  "hullId": "ibo_mobile_worker",
   "hullMods": [],
   "quality": 0,
-  "variantId": "mobile_worker",
+  "variantId": "ibo_mobile_worker",
   "weaponGroups": [
     {
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0001": "rifle_right"
+        "WS0001": "ibo_rifle_right"
       }
     },
     {
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0002": "rifle_left"
+        "WS0002": "ibo_rifle_left"
       }
     }
   ]

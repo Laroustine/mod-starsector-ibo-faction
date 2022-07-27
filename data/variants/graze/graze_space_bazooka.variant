@@ -2,22 +2,22 @@
   "displayName": "Artillery",
   "fluxCapacitors": 0,
   "fluxVents": 0,
-  "hullId": "graze_space",
-  "variantId": "graze_space_bazooka",
+  "hullId": "ibo_graze_space",
+  "variantId": "ibo_graze_space_bazooka",
   "weaponGroups": [
     {
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "HEAD": "graze_space_head"
+        "HEAD": "ibo_graze_space_head"
       }
     },
     {
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WP": "graze_space_bazooka_right"
+        "WP": "ibo_graze_space_bazooka_right"
       }
-    },
+    }
   ]
 }

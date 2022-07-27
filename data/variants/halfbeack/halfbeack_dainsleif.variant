@@ -2,14 +2,14 @@
     "displayName": "Dainsleif",
     "fluxCapacitors": 6,
     "fluxVents": 10,
-    "hullId": "halfbeack",
+    "hullId": "ibo_halfbeack",
     "hullMods": [
         "fluxdistributor",
         "armoredweapons"
     ],
     "permaMods": [],
     "sMods": [],
-    "variantId": "halfbeack_dainsleif",
+    "variantId": "ibo_halfbeack_dainsleif",
     "weaponGroups": [
         {
             "autofire": false,
@@ -50,7 +50,9 @@
         {
             "autofire": true,
             "mode": "LINKED",
-            "weapons": {"BW01": "dualflak"}
+            "weapons": {
+                "BW01": "dualflak"
+            }
         },
         {
             "autofire": true,
@@ -64,7 +66,7 @@
         }
     ],
     "wings": [
-        "graze_dainsleif_wing",
-        "graze_dainsleif_wing"
+        "ibo_graze_dainsleif_wing",
+        "ibo_graze_dainsleif_wing"
     ]
 }

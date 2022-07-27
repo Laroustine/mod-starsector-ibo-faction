@@ -1,6 +1,6 @@
 {
 	"specClass": "projectile",
-	"id": "ryusei_go_right",
+	"id": "ibo_ryusei_go_right",
 	"type": "BALLISTIC",
 	"size": "SMALL",
 	"displayArcRadius": 450,

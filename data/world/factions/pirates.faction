@@ -1,18 +1,19 @@
 {
-	id: "pirates",
+	"id": "pirates",
 	"variantOverrides": {
-		"rodi_man": 100,
+		"ibo_rodi_man": 100,
+		"ibo_biscoe_p": 100
 	},
 	"knownFighters": {
 		"tags": [],
 		"fighters": [
-			"rodi_man_wing",
+			"ibo_rodi_man_wing"
 		]
 	},
 	"priorityFighters": {
 		"tags": [],
 		"fighters": [
-			"rodi_man_wing",
+			"ibo_rodi_man_wing"
 		]
 	},
 }

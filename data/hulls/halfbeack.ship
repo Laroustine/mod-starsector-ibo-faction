@@ -1,7 +1,7 @@
 {
     "height": 540,
     "width": 172,
-    "hullId": "halfbeack",
+    "hullId": "ibo_halfbeack",
     "hullName": "Halfbeack",
     "hullSize": "CRUISER",
     "bounds": [
@@ -57,9 +57,9 @@
         20
     ],
     "builtInMods": [
-        "nano_armor",
-        "catapult_ms",
-        "ah_reactor",
+        "ibo_nano_armor",
+        "ibo_catapult_ms",
+        "ibo_ah_reactor",
     ],
     "builtInWeapons": {
         "STH01": "vulcan",

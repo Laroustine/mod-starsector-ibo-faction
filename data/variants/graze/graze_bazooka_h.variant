@@ -2,24 +2,24 @@
   "displayName": "Artillery",
   "fluxCapacitors": 0,
   "fluxVents": 0,
-  "hullId": "graze_h",
+  "hullId": "ibo_graze_h",
   "hullMods": [],
   "quality": 0,
-  "variantId": "graze_bazooka_h",
+  "variantId": "ibo_graze_bazooka_h",
   "weaponGroups": [
     {
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "HEAD": "graze_head_h"
+        "HEAD": "ibo_graze_head_h"
       }
     },
     {
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WP": "graze_bazooka_right_h"
+        "WP": "ibo_graze_bazooka_right_h"
       }
-    },
+    }
   ]
 }

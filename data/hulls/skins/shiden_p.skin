@@ -1,8 +1,8 @@
 {
-    "baseHullId": "shiden",
-    "skinHullId": "shiden_p",
+    "baseHullId": "ibo_shiden",
+    "skinHullId": "ibo_shiden_p",
     "hullName": "Shiden (P)",
-    "descriptionId": "shiden",
+    "descriptionId": "ibo_shiden",
     "descriptionPrefix": "A Shiden Mobile Suit model originally produced by a lone planet that flew the League's colours they had intended to keep the colour scheme to themselves but were ultimately persuaded by other leaders to let the rest of the League use it. Aside from the paint job there isn't much different from the base model.",
     "spriteName": "graphics/ships/shiden/shiden_p.png",
 }

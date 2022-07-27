@@ -2,7 +2,7 @@
 	"station_saisei": {
 		"defaultName": "The Saisei",
 		"defaultRadius": 50,
-		"customDescriptionId": "orbital_station_saisei",
+		"customDescriptionId": "ibo_orbital_station_saisei",
 		"interactionImage": "graphics/illustrations/orbital_saisei.png",
 		"icon": "graphics/icons/station0.png",
 		"iconWidth": 20,
@@ -26,7 +26,7 @@
 	"station_gja": {
 		"defaultName": "GJAS",
 		"defaultRadius": 60,
-		"customDescriptionId": "station_gjallarhorn",
+		"customDescriptionId": "ibo_station_gjallarhorn",
 		"interactionImage": "graphics/illustrations/orbital_gjallarhorn.png",
 		"icon": "graphics/icons/station0.png",
 		"iconWidth": 20,

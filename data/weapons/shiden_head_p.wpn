@@ -1,7 +1,7 @@
 {
 	"turretSprite": "graphics/weapons/shiden_head_p.png",
 	"hardpointSprite": "graphics/weapons/shiden_head_p.png",
-	"id": "shiden_head_p",
+	"id": "ibo_shiden_head_p",
 	"specClass": "projectile",
 	"barrelMode": "ALTERNATING",
 	"animationType": "NONE",
