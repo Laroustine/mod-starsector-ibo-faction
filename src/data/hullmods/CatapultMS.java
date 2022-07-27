@@ -1,9 +1,8 @@
-/*
- * Author: Laroustine
- * Project: IBO Faction
- * Version: 1.3.0a
- * Game Version: 0.95.1a-RC6
- * File Created: 19/03/2022
+/**
+ * @ Author: Laroustine
+ * @ Modified time: 27/07 20:06
+ * @ Modified by: Laroustine
+ * @ Description: This script has been made by me ↖(^▽^)↗
  */
 
 package data.hullmods;
@@ -26,9 +25,12 @@ public class CatapultMS extends BaseHullMod {
   }
 
   public String getDescriptionParam(int index, HullSize hullSize) {
-    if (index == 0)
-      return "" + (int) TIME_BONUS + "";
-    return null;
+    switch (index) {
+      case 0:
+        return "" + (int) TIME_BONUS + "";
+      default:
+        return null;
+    }
   }
 
   @Override
