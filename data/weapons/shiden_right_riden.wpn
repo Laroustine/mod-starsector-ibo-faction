@@ -1,6 +1,6 @@
 {
 	"specClass": "projectile",
-	"id": "shiden_right_riden",
+	"id": "ibo_shiden_right_riden",
 	"type": "BALLISTIC",
 	"size": "SMALL",
 	"displayArcRadius": 450,

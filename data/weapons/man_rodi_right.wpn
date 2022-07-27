@@ -1,6 +1,6 @@
 {
 	"specClass": "projectile",
-	"id": "man_rodi_right",
+	"id": "ibo_man_rodi_right",
 	"type": "BALLISTIC",
 	"size": "SMALL",
 	"displayArcRadius": 450,

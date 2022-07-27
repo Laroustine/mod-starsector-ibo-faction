@@ -1,6 +1,6 @@
 {
 	"specClass": "projectile",
-	"id": "graze_custom_right",
+	"id": "ibo_graze_custom_right",
 	"type": "BALLISTIC",
 	"size": "SMALL",
 	"displayArcRadius": 450,

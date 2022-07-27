@@ -1,7 +1,7 @@
 {
 	"turretSprite": "graphics/weapons/ryusei_go_head.png",
 	"hardpointSprite": "graphics/weapons/ryusei_go_head.png",
-	"id": "ryusei_go_head",
+	"id": "ibo_ryusei_go_head",
 	"specClass": "projectile",
 	"barrelMode": "ALTERNATING",
 	"animationType": "NONE",

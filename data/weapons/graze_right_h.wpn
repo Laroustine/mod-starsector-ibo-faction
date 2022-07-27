@@ -11,7 +11,7 @@
     -1
   ],
   "hardpointSprite": "graphics/weapons/graze_right_h.png",
-  "id": "graze_right_h",
+  "id": "ibo_graze_right_h",
   "muzzleFlashSpec": {
     "length": 34,
     "particleColor": [

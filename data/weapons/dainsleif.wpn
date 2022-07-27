@@ -1,6 +1,6 @@
 {
 	"specClass": "projectile",
-	"id": "dainsleif",
+	"id": "ibo_dainsleif",
 	"type": "BALLISTIC",
 	"size": "MEDIUM",
 	"displayArcRadius": 40,
@@ -45,5 +45,5 @@
 	},
 	"projectileSpecId": "dainsleif_shot",
 	"fireSoundOne": "ibo_dainsleif_spinup",
-	"fireSoundTwo": "ibo_dainsleif_fire",
+	"fireSoundTwo": "ibo_dainsleif_fire"
 }

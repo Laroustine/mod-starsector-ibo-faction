@@ -1,6 +1,6 @@
 {
 	"specClass": "projectile",
-	"id": "landman_rodi_right",
+	"id": "ibo_landman_rodi_right",
 	"type": "BALLISTIC",
 	"size": "SMALL",
 	"displayArcRadius": 450,

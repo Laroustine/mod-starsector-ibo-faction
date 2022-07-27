@@ -1,7 +1,7 @@
 {
 	"turretSprite": "graphics/weapons/graze_head.png",
 	"hardpointSprite": "graphics/weapons/graze_head.png",
-	"id": "graze_head",
+	"id": "ibo_graze_head",
 	"specClass": "projectile",
 	"barrelMode": "ALTERNATING",
 	"animationType": "NONE",
