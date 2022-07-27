@@ -1,9 +1,8 @@
-/*
- * Author: Laroustine
- * Project: IBO Faction
- * Version: 1.1.0a
- * Game Version: 0.95.1a-RC6
- * File Created: 09/03/2022
+/**
+ * @ Author: Laroustine
+ * @ Modified time: 27/07 20:09
+ * @ Modified by: Laroustine
+ * @ Description: This script has been made by me ↖(^▽^)↗
  */
 
 package data.scripts.world;
@@ -26,7 +25,6 @@ public class IBOFGen implements SectorGeneratorPlugin {
 
   @Override
   public void generate(SectorAPI sector) {
-
     try {
       JSONObject iboFaction = Global.getSettings().getSettingsJSON().getJSONObject("iboFactions");
 

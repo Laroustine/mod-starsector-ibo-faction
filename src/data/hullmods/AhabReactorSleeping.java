@@ -1,6 +1,6 @@
 /**
  * @ Author: Laroustine
- * @ Modified time: 27/07 20:04
+ * @ Modified time: 27/07 22:13
  * @ Modified by: Laroustine
  * @ Description: This script has been made by me ↖(^▽^)↗
  */
@@ -75,9 +75,9 @@ public class AhabReactorSleeping extends BaseHullMod {
             (int) (((Float) AhabReactor.FLUX_DISPATION.get(HullSize.CAPITAL_SHIP)).intValue() *
                 mult));
       case 8:
-        return ("" + (int) (-AhabReactor.DETECTION * mult) + "%");
+        return ("" + (int) (AhabReactor.DETECTION * mult) + "%");
       case 9:
-        return ("" + (int) (-AhabReactor.DETECTION * mult) + "%");
+        return ("" + (int) (AhabReactor.DETECTION * mult) + "%");
       default:
         return null;
     }
