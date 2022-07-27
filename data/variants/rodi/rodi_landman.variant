@@ -9,21 +9,21 @@
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "HEAD": "landman_rodi_head",
+        "HEAD": "ibo_landman_rodi_head",
       }
     },
     {
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "RWP": "landman_rodi_right",
+        "RWP": "ibo_landman_rodi_right",
       }
     },
     {
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "LWP": "landman_rodi_left",
+        "LWP": "ibo_landman_rodi_left",
       }
     }
   ]

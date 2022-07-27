@@ -1,0 +1,17 @@
+{
+    "displayName": "Recovery",
+    "fluxCapacitors": 2,
+    "fluxVents": 7,
+    "goalVariant": true,
+    "hullId": "ibo_biscoe_p",
+    "variantId": "ibo_biscoe_p_recov",
+    "hullMods": [
+        "auxiliarythrusters",
+        "recovery_shuttles",
+        "efficiency_overhaul"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "weaponGroups": [],
+    "wings": ["ibo_mobile_worker_wing"]
+}

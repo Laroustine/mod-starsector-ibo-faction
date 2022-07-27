@@ -1,3 +1,10 @@
+/**
+ * @ Author: Laroustine
+ * @ Modified time: 27/07 20:05
+ * @ Modified by: Laroustine
+ * @ Description: This script has been made by me ↖(^▽^)↗
+ */
+
 package data.hullmods;
 
 import com.fs.starfarer.api.combat.BaseHullMod;
@@ -26,13 +33,15 @@ public class NanolaminateArmor extends BaseHullMod {
   }
 
   public String getDescriptionParam(int index, HullSize hullSize) {
-    if (index == 0)
-      return "" + (int) -BEAM_RED + "%";
-    if (index == 1)
-      return "" + (int) -ENERGY_RED + "%";
-    // if (index == 2) return "" + (int) EMP_INCREASE + "%";
-    if (index == 2)
-      return "" + (int) FLUX_INC + "%";
-    return null;
+    switch (index) {
+      case 0:
+        return "" + (int) -BEAM_RED + "%";
+      case 1:
+        return "" + (int) -ENERGY_RED + "%";
+      case 2:
+        return "" + (int) FLUX_INC + "%";
+      default:
+        return null;
+    }
   }
 }

@@ -1,9 +1,9 @@
 {
   "bounds": [
     79,
-    0,
+    6,
     60,
-    15,
+    18,
     5,
     27,
     -5,
@@ -17,7 +17,9 @@
     5,
     -27,
     60,
-    -15,
+    -18,
+    79,
+    -6
   ],
   "builtInWeapons": {},
   "height": 109,
@@ -25,7 +27,7 @@
   "hullId": "ibo_biscoe",
   "hullName": "Biscoe",
   "hullSize": "FRIGATE",
-  "spriteName": "graphics/ships/biscoe/biscoe.png",
+  "spriteName": "graphics/ships/biscoe/ibo_biscoe.png",
   "style": "HIGH_TECH",
   "center": [
     27,
@@ -39,23 +41,23 @@
       "contrailSize": 2,
       "length": 16,
       "location": [
-        -13,
-        -21
+        -16.5,
+        -23
       ],
       "style": "HIGH_TECH",
-      "width": 6
+      "width": 8
     },
     {
       "angle": 180,
       "contrailSize": 2,
       "length": 16,
       "location": [
-        -13,
-        21
+        -16.5,
+        23
       ],
       "style": "HIGH_TECH",
-      "width": 6
-    },
+      "width": 8
+    }
   ],
   "shieldCenter": [
     0,
@@ -64,6 +66,6 @@
   "weaponSlots": [],
   "viewOffset": 0,
   "builtInMods": [
-    "ibo_nano_armor",
-  ],
+    "ibo_nano_armor"
+  ]
 }

@@ -1,7 +1,7 @@
 {
 	"turretSprite": "graphics/weapons/graze_custom_head.png",
 	"hardpointSprite": "graphics/weapons/graze_custom_head.png",
-	"id": "graze_custom_head",
+	"id": "ibo_graze_custom_head",
 	"specClass": "projectile",
 	"barrelMode": "ALTERNATING",
 	"animationType": "NONE",
@@ -28,5 +28,5 @@
 	"hardpointAngleOffsets": [
 		0,
 		0
-	],
+	]
 }

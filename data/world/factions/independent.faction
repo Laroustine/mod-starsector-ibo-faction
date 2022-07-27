@@ -1,7 +1,7 @@
 {
 	"variantOverrides": {
-		"ibo_shiden_p": 100,
-		"ibo_shiden_bazooka_p": 100
+		"ibo_shiden": 100,
+		"ibo_shiden_bazooka": 100
 	},
 	"knownFighters": {
 		"tags": [

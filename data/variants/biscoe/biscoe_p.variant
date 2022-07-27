@@ -1,0 +1,15 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 2,
+    "fluxVents": 6,
+    "hullId": "ibo_biscoe_p",
+    "variantId": "ibo_biscoe_p",
+    "goalVariant": true,
+    "weaponGroups": [],
+    "hullMods": [
+        "auxiliarythrusters"
+    ],
+    "wings": [
+        "ibo_rodi_man_wing"
+    ]
+}

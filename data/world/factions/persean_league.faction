@@ -3,8 +3,8 @@
 		"ibo_shiden_p": 100,
 		"ibo_shiden_bazooka_p": 100,
 		"ibo_shiden_custom_p": 100,
-		"ibo_isaribi_elite_p": 50,
-		"ibo_isaribi_strike_p": 50
+		"ibo_mercurius_elite_p": 50,
+		"ibo_mercurius_strike_p": 50
 	},
 	"knownFighters": {
 		"tags": [

@@ -1,8 +1,8 @@
 {
     "id": "sindrian_diktat",
     "variantOverrides": {
-        "ibo_isaribi_strike_p": 50,
-        "ibo_isaribi_strike_h": 50
+        "ibo_mercurius_strike_p": 50,
+        "ibo_mercurius_strike_h": 50
     },
     "knownFighters": {
         "tags": [],

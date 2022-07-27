@@ -1,9 +1,8 @@
-/*
- * Author: Laroustine
- * Project: IBO Faction
- * Version: 1.0.0a
- * Game Version: 0.95.1a-RC6
- * File Created: 07/03/2022
+/**
+ * @ Author: Laroustine
+ * @ Modified time: 27/07 20:07
+ * @ Modified by: Laroustine
+ * @ Description: This script has been made by me ↖(^▽^)↗
  */
 
 package data.scripts.world.systems;

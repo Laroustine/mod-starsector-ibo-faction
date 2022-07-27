@@ -1,3 +1,10 @@
+/**
+ * @ Author: Laroustine
+ * @ Modified time: 27/07 20:11
+ * @ Modified by: Laroustine
+ * @ Description: This script has been made by me ↖(^▽^)↗
+ */
+
 package data.scripts.world.systems;
 
 import java.awt.Color;
