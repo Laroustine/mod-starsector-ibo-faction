@@ -154,22 +154,24 @@
     "illegalCommodities": [],
     "music": {
         "theme": "ibo_teiwaz_theme",
-        "battle": "ibo_battle",
         "market_neutral": "ibo_teiwaz_theme",
         "market_friendly": "ibo_teiwaz_market_frendly",
         "market_hostile": "ibo_teiwaz_market_hostile",
         "encounter_neutral": "ibo_teiwaz_theme",
         "encounter_hostile": "ibo_teiwaz_enc_hostile",
-        "encounter_friendly": "ibo_teiwaz_enc_frendly"
+        "encounter_friendly": "ibo_teiwaz_enc_frendly",
+        "music_combat_set": "ibo_battle"
     },
     "internalComms": "hegemony_internal",
     "portraits": {
         "standard_male": [
+            "graphics/portraits/tekkadan_m.png",
             "graphics/portraits/naze.png",
             "graphics/portraits/jasley.png",
             "graphics/portraits/mcmurdo.png"
         ],
         "standard_female": [
+            "graphics/portraits/tekkadan_f.png",
             "graphics/portraits/amida.png"
         ]
     },

@@ -1,6 +1,6 @@
 /**
  * @ Author: Laroustine
- * @ Modified time: 27/07 20:07
+ * @ Modified time: 22/04/2025 18:15
  * @ Modified by: Laroustine
  * @ Description: This script has been made by me ↖(^▽^)↗
  */
@@ -31,21 +31,19 @@ public class TeiwazSaisei {
     PersonAPI mc = makeAdmin();
     StarSystemAPI system = sector.getStarSystem(starSystem);
     SectorEntityToken saisei = system.addCustomEntity(
-      null,
-      null,
-      "station_saisei",
-      faction
-    );
+        null,
+        null,
+        "station_saisei",
+        faction);
     MarketAPI market = Global
-      .getFactory()
-      .createMarket("saisei_market", "Saisei", 4);
+        .getFactory()
+        .createMarket("saisei_market", "Saisei", 4);
 
     saisei.setCircularOrbitPointingDown(
-      system.getEntityById(planetId),
-      225,
-      730,
-      30
-    );
+        system.getEntityById(planetId),
+        225,
+        730,
+        30);
 
     mc.setMarket(market);
 

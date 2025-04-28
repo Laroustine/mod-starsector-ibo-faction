@@ -1,0 +1,14 @@
+{
+	"baseHullId": "ibo_isaribi",
+	"skinHullId": "ibo_isaribi_pl",
+	"hullName": "Isaribi (PL)",
+	"descriptionId": "ibo_isaribi",
+	"descriptionPrefix": "An Isaribi model originally produced by a lone planet that flew the League's colours, they had intended to keep the colour scheme to themselves but were ultimately persuaded by other leaders to let the rest of the League use it. Aside from the paint job there isn't much different from the base model.",
+	"spriteName": "graphics/ships/isaribi/isaribi_pl.png",
+	"baseValueMult": 1.3,
+	"ordnancePoints": 70,
+	"tags": [
+		"persean"
+	],
+	"tech":"Persean League"
+}

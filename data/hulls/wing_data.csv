@@ -18,8 +18,8 @@ ibo_shiden_ryusei_wing,ibo_shiden_ryusei,"fighter4, fighter, ibo_shiden_bp, rare
 ibo_shiden_riden_wing,ibo_shiden_riden,"fighter4, fighter, ibo_shiden_bp, rare_bp, ibo_tek_bp, independent_of_carrier",3,0.05,9,8,V,5000,500,-100,1,FIGHTER,Mobile Suit,10,8000,,,,,,,,,,,,,1198
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ibo_shiden_wing,ibo_shiden,"interceptor2, interceptor, ibo_shiden_bp, ibo_teiwaz_bp, merc",2,,6,6,V,4000,500,100,3,INTERCEPTOR,Mobile Suit,25,4000,,,,,,,,,,,,,1197
-ibo_shiden_p_wing,ibo_shiden_p,"interceptor2, interceptor, ibo_shiden_bp, persean",2,,6,6,V,4000,500,100,3,INTERCEPTOR,Mobile Suit,25,4500,,,,,,,,,,,,,1204
+ibo_shiden_pl_wing,ibo_shiden_pl,"interceptor2, interceptor, ibo_shiden_bp, persean",2,,6,6,V,4000,500,100,3,INTERCEPTOR,Mobile Suit,25,4500,,,,,,,,,,,,,1204
 ibo_shiden_custom_wing,ibo_shiden_custom,"fighter4, fighter, ibo_shiden_bp, ibo_teiwaz_bp",3,0.05,9,8,V,5000,500,-100,1,FIGHTER,Mobile Suit,10,8000,,,,,,,,,,,,,1198
 ibo_shiden_bazooka_wing,ibo_shiden_bazooka,"bomber2, bomber, ibo_shiden_bp, ibo_teiwaz_bp, merc",2,,6,6,V,4000,500,500,3,BOMBER,Mobile Suit Bazooka,25,4000,,,,,,,,,,,,,1203
-ibo_shiden_bazooka_p_wing,ibo_shiden_bazooka_p,"bomber2, bomber, ibo_shiden_bp, persean",2,,6,6,V,4000,500,500,3,BOMBER,Mobile Suit Bazooka,25,4500,,,,,,,,,,,,,1206
-ibo_shiden_custom_p_wing,ibo_shiden_custom_p,"fighter4, fighter, ibo_shiden_bp, persean",3,0.05,9,8,V,5000,500,-100,1,FIGHTER,Mobile Suit,10,8000,,,,,,,,,,,,,1205
+ibo_shiden_bazooka_pl_wing,ibo_shiden_bazooka_pl,"bomber2, bomber, ibo_shiden_bp, persean",2,,6,6,V,4000,500,500,3,BOMBER,Mobile Suit Bazooka,25,4500,,,,,,,,,,,,,1206
+ibo_shiden_custom_pl_wing,ibo_shiden_custom_pl,"fighter4, fighter, ibo_shiden_bp, persean",3,0.05,9,8,V,5000,500,-100,1,FIGHTER,Mobile Suit,10,8000,,,,,,,,,,,,,1205

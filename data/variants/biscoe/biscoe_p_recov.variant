@@ -13,5 +13,7 @@
     "permaMods": [],
     "sMods": [],
     "weaponGroups": [],
-    "wings": ["ibo_mobile_worker_wing"]
+    "wings": [
+        "ibo_mobile_worker_wing"
+    ]
 }

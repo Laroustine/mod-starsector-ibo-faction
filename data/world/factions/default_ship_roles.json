@@ -1,6 +1,4 @@
 {
-	# should be a copy of "combatSmall", minus variants that are annoying to fight in low numbers
-	# for example, no Hyperions or fast beam-based kiting loadouts, or ships with damper field
 	"combatSmallForSmallFleet": {
 		"fallback": {
 			"combatSmall": 1
@@ -9,7 +7,7 @@
 	"combatSmall": {
 		"fallback": {
 			"combatMedium": 0.5
-		},
+		}
 	},
 	"combatMedium": {
 		"fallback": {
@@ -17,7 +15,6 @@
 		},
 	},
 	"combatLarge": {
-		"ibo_mercurius_elite_p": 1,
 		"ibo_halfbeack_original": 15,
 		"ibo_halfbeack_cannon": 15,
 		"fallback": {
@@ -29,36 +26,23 @@
 			"combatLarge": 1
 		},
 	},
-	
-	
-	# hybrid ships with good combat and cargo capacity
 	"combatFreighterSmall": {
-		"ibo_mercurius_strike_p": 7,
-		"ibo_mercurius_strike_h": 7,
 		"fallback": {
 			"freighterSmall": 1
 		},
 	},
 	"combatFreighterMedium": {
-		"ibo_mercurius_strike_p": 9,
-		"ibo_mercurius_strike_h": 9,
 		"fallback": {
 			"combatFreighterSmall": 1
 		},
 	},
 	"combatFreighterLarge": {
-		"ibo_mercurius_strike_p": 20,
-		"ibo_mercurius_strike_h": 20,
 		"fallback": {
 			"combatFreighterMedium": 1
 		},
 	},
 	"civilianRandom": {
-		"ibo_mercurius_strike_p": 3,
-		"ibo_mercurius_strike_h": 3,
 	},
-
-	# carriers
 	"carrierSmall": {
 		"fallback": {
 			"carrierMedium": 0.5
@@ -68,8 +52,6 @@
 		},
 	},
 	"carrierMedium": {
-		"ibo_mercurius_strike_p": 5,
-		"ibo_mercurius_strike_h": 5,
 		"fallback": {
 			"carrierSmall": 1
 		},
@@ -85,8 +67,6 @@
 			"carrierSmall": 1
 		},
 	},
-
-	# phase ships
 	"phaseSmall": {
 		"fallback": {
 			"phaseMedium": 0.5
@@ -112,8 +92,6 @@
 		},
 	},
 	"phaseCapital": {},
-
-	# freighters and such
 	"freighterSmall": {
 		"fallback": {
 			"freighterMedium": 0.5
@@ -131,8 +109,6 @@
 		},
 	},
 	"freighterLarge": {
-		"ibo_mercurius_strike_p": 10,
-		"ibo_mercurius_strike_h": 10,
 		"fallback": {
 			"freighterMedium": 1
 		},
@@ -212,8 +188,6 @@
 			"linerSmall": 1
 		},
 	},
-	
-	# utility ships
 	"tug": {
 		"fallback": {
 			"utility": 1

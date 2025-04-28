@@ -1,6 +1,6 @@
 /**
  * @ Author: Laroustine
- * @ Modified time: 27/07 22:13
+ * @ Modified time: 2025/04/23 00:22
  * @ Modified by: Laroustine
  * @ Description: This script has been made by me ↖(^▽^)↗
  */
@@ -17,29 +17,23 @@ import data.scripts.ids.IboHullmods;
 
 public class AhabReactorSleeping extends BaseHullMod {
 
-  public void applyEffectsBeforeShipCreation(
-      HullSize hullSize,
-      MutableShipStatsAPI stats,
-      String id) {
-    float fxc = (Float) AhabReactor.FLUX_CAPACITY.get(hullSize);
-    float fxd = (Float) AhabReactor.FLUX_DISPATION.get(hullSize);
-    float mult = stats.getDynamic().getValue(Stats.DMOD_EFFECT_MULT);
+    public void applyEffectsBeforeShipCreation(HullSize hullSize, MutableShipStatsAPI stats, String id) {
+        float fxc = (Float) AhabReactor.FLUX_CAPACITY.get(hullSize);
+        float fxd = (Float) AhabReactor.FLUX_DISPATION.get(hullSize);
+        float mult = stats.getDynamic().getValue(Stats.DMOD_EFFECT_MULT);
 
-    stats.getFluxCapacity().modifyFlat(id, -fxc * mult);
-    stats.getFluxDissipation().modifyFlat(id, -fxd * mult);
-    stats.getSensorProfile().modifyFlat(id, -AhabReactor.DETECTION * mult);
-    stats.getSensorStrength().modifyFlat(id, -AhabReactor.DETECTION * mult);
-  }
+        stats.getFluxCapacity().modifyFlat(id, -fxc * mult);
+        stats.getFluxDissipation().modifyFlat(id, -fxd * mult);
+        stats.getSensorProfile().modifyFlat(id, -AhabReactor.DETECTION * mult);
+        stats.getSensorStrength().modifyFlat(id, -AhabReactor.DETECTION * mult);
+    }
 
-  public boolean isApplicableToShip(ShipAPI ship) {
-    return ship.getHullSpec().getBuiltInMods().contains(IboHullmods.AHAB_REACTOR);
-  }
+    public boolean isApplicableToShip(ShipAPI ship) {
+        return ship.getHullSpec().getBuiltInMods().contains(IboHullmods.AHAB_REACTOR);
+    }
 
-  public String getDescriptionParam(
-      int index,
-      HullSize hullSize,
-      ShipAPI ship) {
-    float mult = ship.getMutableStats().getDynamic().getValue(Stats.DMOD_EFFECT_MULT);
+  public String getDescriptionParam(int index, HullSize hullSize, ShipAPI ship) {
+    float mult = ship == null ? 1f : ship.getMutableStats().getDynamic().getValue(Stats.DMOD_EFFECT_MULT);
     // FLUX CAPACITY
     switch (index) {
       case 0:

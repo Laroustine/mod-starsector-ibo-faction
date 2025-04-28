@@ -20,11 +20,11 @@
 	"hardpointAngleOffsets": [
 		0
 	],
-	"barrelMode": "ALTERNATING", # or LINKED.  whether barrels fire at the same time or alternate.
-	"animationType": "MUZZLE_FLASH",  # NONE, GLOW, MUZZLE_FLASH, SMOKE
+	"barrelMode": "ALTERNATING",
+	"animationType": "MUZZLE_FLASH",
 	"muzzleFlashSpec": {
-		"length": 34.0,   # only used if animationType = MUZZLE_FLASH
-					   "spread": 10.0,
+		"length": 34.0,
+		"spread": 10.0,
 		"particleSizeMin": 18.0,
 		"particleSizeRange": 24.0,
 		"particleDuration": 0.02,
@@ -38,5 +38,5 @@
 	},
 	"projectileSpecId": "lightmg_shot",
 	#"fireSoundOne": "light_machinegun_intro",
-	"fireSoundTwo": "ibo_120mm_rifle",
+	"fireSoundTwo": "ibo_130mm_rifle"
 }

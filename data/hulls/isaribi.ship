@@ -1,208 +1,294 @@
 {
-  "hullName": "ibo_isaribi",
-  "hullId": "ibo_isaribi",
-  "hullSize": "DESTROYER",
-  "spriteName": "graphics/ships/isaribi/ibo_isaribi.png",
-  "style": "MIDLINE",
-  "height": 390,
-  "width": 152,
-  "center": [
-    76,
-    196.5
+  "bounds": [
+    79.5,
+    -2.5,
+    75.5,
+    -8.5,
+    72,
+    -13.5,
+    66,
+    -19,
+    59.5,
+    -21.5,
+    53,
+    -22,
+    40.5,
+    -34,
+    37.5,
+    -43.5,
+    -3,
+    -44.5,
+    -20.5,
+    -43,
+    -19,
+    -29.5,
+    -62.5,
+    -19,
+    -172.5,
+    -10.5,
+    -172.5,
+    10.5,
+    -62.5,
+    19,
+    -19,
+    29.5,
+    -20.5,
+    43,
+    -3,
+    44.5,
+    37.5,
+    43.5,
+    40.5,
+    34,
+    53,
+    22,
+    59.5,
+    21.5,
+    66,
+    19,
+    72,
+    13.5,
+    75.5,
+    8.5,
+    79.5,
+    2.5
   ],
-  "collisionRadius": 193.5,
+  "builtInWeapons": {
+    "WS0001": "ibo_autocannon_fixed",
+    "WS0002": "ibo_autocannon_fixed",
+    "WS0003": "typhoon",
+    "WS0004": "typhoon"
+  },
+  "center": [
+    48.5,
+    170.5
+  ],
+  "collisionRadius": 178.5,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 12,
+      "length": 28,
+      "location": [
+        -36.5,
+        -20
+      ],
+      "style": "MIDLINE",
+      "width": 12
+    },
+    {
+      "angle": -180,
+      "contrailSize": 12,
+      "length": 28,
+      "location": [
+        -36.5,
+        20
+      ],
+      "style": "MIDLINE",
+      "width": 12
+    },
+    {
+      "angle": -166,
+      "contrailSize": 2.918712,
+      "length": 6.54754,
+      "location": [
+        -148.5,
+        -9.5
+      ],
+      "style": "MIDLINE",
+      "width": 2.918712
+    },
+    {
+      "angle": 166,
+      "contrailSize": 2.918712,
+      "length": 6.54754,
+      "location": [
+        -148.5,
+        9.5
+      ],
+      "style": "MIDLINE",
+      "width": 2.918712
+    }
+  ],
+  "height": 272,
+  "hullId": "ibo_isaribi",
+  "hullName": "isaribi",
+  "hullSize": "DESTROYER",
   "shieldCenter": [
     0,
     -0
   ],
-  "shieldRadius": 219.5,
+  "shieldRadius": 172,
+  "spriteName": "graphics/ships/isaribi/isaribi.png",
+  "style": "MIDLINE",
   "viewOffset": 0,
   "builtInMods": [
     "ibo_ah_reactor",
     "ibo_nano_armor"
   ],
-  "builtInWeapons": {
-    "MMH01": "typhoon",
-    "MMH02": "typhoon"
-  },
   "weaponSlots": [
     {
-      "id": "BW01",
-      "size": "MEDIUM",
-      "type": "BALLISTIC",
-      "mount": "TURRET",
-      "arc": 120,
-      "angle": 20,
-      "locations": [
-        108.5,
-        47.5
-      ]
-    },
-    {
-      "id": "BW02",
-      "size": "MEDIUM",
-      "type": "BALLISTIC",
-      "mount": "TURRET",
-      "arc": 120,
-      "angle": -20,
-      "locations": [
-        108.5,
-        -47.5
-      ]
-    },
-    {
-      "id": "BW03",
-      "size": "MEDIUM",
-      "type": "BALLISTIC",
-      "mount": "TURRET",
-      "arc": 180,
-      "angle": 180,
-      "locations": [
-        4,
-        -0
-      ]
-    },
-    {
-      "id": "MMH01",
-      "size": "MEDIUM",
-      "type": "BUILT_IN",
-      "mount": "HIDDEN",
-      "arc": 15,
       "angle": 0,
+      "arc": 0,
+      "id": "WS0001",
       "locations": [
-        158,
-        -29.5
-      ]
+        33.5,
+        -26
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BUILT_IN"
     },
     {
-      "id": "MMH02",
-      "size": "MEDIUM",
-      "type": "BUILT_IN",
-      "mount": "HIDDEN",
-      "arc": 15,
       "angle": -0,
+      "arc": 0,
+      "id": "WS0002",
       "locations": [
-        158,
-        29.5
-      ]
+        33.5,
+        26
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BUILT_IN"
     },
     {
-      "id": "ST01",
-      "size": "SMALL",
-      "type": "BALLISTIC",
-      "mount": "TURRET",
-      "arc": 200,
+      "angle": 0,
+      "arc": 0,
+      "id": "WS0003",
+      "locations": [
+        65.5,
+        -17.5
+      ],
+      "mount": "HIDDEN",
+      "size": "MEDIUM",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": -0,
+      "arc": 0,
+      "id": "WS0004",
+      "locations": [
+        65.5,
+        17.5
+      ],
+      "mount": "HIDDEN",
+      "size": "MEDIUM",
+      "type": "BUILT_IN"
+    },
+    {
       "angle": -90,
+      "arc": 201,
+      "id": "WS0005",
       "locations": [
-        31,
-        -21.5
-      ]
-    },
-    {
-      "id": "ST02",
-      "size": "SMALL",
-      "type": "BALLISTIC",
+        3.5,
+        -14.5
+      ],
       "mount": "TURRET",
-      "arc": 200,
-      "angle": 90,
-      "locations": [
-        31,
-        21.5
-      ]
-    }
-  ],
-  "engineSlots": [
-    {
-      "location": [
-        -8,
-        -33
-      ],
-      "length": 75.5,
-      "width": 38,
-      "angle": 180,
-      "contrailSize": 38,
-      "style": "HIGH_TECH"
+      "size": "SMALL",
+      "type": "BALLISTIC"
     },
     {
-      "location": [
-        -8,
-        33
+      "angle": 90,
+      "arc": 201,
+      "id": "WS0006",
+      "locations": [
+        3.5,
+        14.5
       ],
-      "length": 75.5,
-      "width": 38,
-      "angle": -180,
-      "contrailSize": 38,
-      "style": "HIGH_TECH"
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 180,
+      "arc": 108,
+      "id": "WS0007",
+      "locations": [
+        -15.5,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 180,
+      "arc": 0,
+      "id": "WS0008",
+      "locations": [
+        -151,
+        -0.5
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "SYSTEM"
+    },
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "WS0009",
+      "locations": [
+        11,
+        -29,
+        11,
+        29,
+        1.5,
+        -28.5,
+        1.5,
+        29.5
+      ],
+      "mount": "HIDDEN",
+      "size": "MEDIUM",
+      "type": "LAUNCH_BAY"
+    },
+    {
+      "angle": -63.5,
+      "arc": 0,
+      "id": "WS0010",
+      "locations": [
+        26,
+        -44
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "SYSTEM"
+    },
+    {
+      "angle": 63.5,
+      "arc": 0,
+      "id": "WS0011",
+      "locations": [
+        26,
+        44
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "SYSTEM"
+    },
+    {
+      "angle": -150.5,
+      "arc": 0,
+      "id": "WS0012",
+      "locations": [
+        -93,
+        -15.5
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "SYSTEM"
+    },
+    {
+      "angle": 150.5,
+      "arc": 0,
+      "id": "WS0013",
+      "locations": [
+        -93,
+        15.5
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "SYSTEM"
     }
   ],
-  "bounds": [
-    -195.5,
-    -2.5,
-    -175.5,
-    -10.5,
-    -116,
-    -16.5,
-    -82,
-    -18,
-    -9,
-    -16.5,
-    1.5,
-    -49.5,
-    11,
-    -62.5,
-    80.5,
-    -74.5,
-    127.5,
-    -76,
-    135.5,
-    -72.5,
-    142,
-    -65.5,
-    147.5,
-    -34,
-    162.5,
-    -33,
-    178.5,
-    -24.5,
-    185.5,
-    -19.5,
-    190,
-    -10.5,
-    192.5,
-    0,
-    192.5,
-    -0,
-    190,
-    10.5,
-    185.5,
-    19.5,
-    178.5,
-    24.5,
-    162.5,
-    33,
-    147.5,
-    34,
-    142,
-    65.5,
-    135.5,
-    72.5,
-    127.5,
-    76,
-    80.5,
-    74.5,
-    11,
-    62.5,
-    1.5,
-    49.5,
-    -9,
-    16.5,
-    -82,
-    18,
-    -116,
-    16.5,
-    -175.5,
-    10.5,
-    -195.5,
-    2.5
-  ]
+  "width": 97
 }

@@ -1,20 +1,20 @@
 {
 	"music": {
-        "ibo_battle": [
-            {
-                "source": "sounds/music/cbm/00/battle",
-                "volume": 0.1,
-                "files": [
-                    "009-LONGER-Strengths_Focus.ogg",
-                    "009-LONG-Strengths_Focus.ogg",
-                    "SDGGGCR-LONGER-Strengths_Focus.ogg"
-                ],
-                "randomStart": false
-            }
-        ],
+		"ibo_battle": [
+			{
+				"source": "sounds/music/00/battle",
+				"volume": 0.1,
+				"files": [
+					"009-LONGER-Strengths_Focus.ogg",
+					"009-LONG-Strengths_Focus.ogg",
+					"SDGGGCR-LONGER-Strengths_Focus.ogg"
+				],
+				"randomStart": false
+			}
+		],
 		"ibo_teiwaz_theme": [
 			{
-				"source": "sounds/music/",
+				"source": "sounds/music/teiwaz",
 				"volume": 0.2,
 				"files": [
 					"024-Teiwaz.ogg"
@@ -23,7 +23,7 @@
 		],
 		"ibo_teiwaz_market_hostile": [
 			{
-				"source": "sounds/music/",
+				"source": "sounds/music/teiwaz",
 				"volume": 0.2,
 				"files": [
 					"035-Human_or_Not.ogg"
@@ -32,7 +32,7 @@
 		],
 		"ibo_teiwaz_market_frendly": [
 			{
-				"source": "sounds/music/",
+				"source": "sounds/music/teiwaz",
 				"volume": 0.2,
 				"files": [
 					"007-Habitat.ogg"
@@ -41,7 +41,7 @@
 		],
 		"ibo_teiwaz_enc_hostile": [
 			{
-				"source": "sounds/music/",
+				"source": "sounds/music/teiwaz",
 				"volume": 0.2,
 				"files": [
 					"022-Military_Scheme.ogg"
@@ -50,7 +50,7 @@
 		],
 		"ibo_teiwaz_enc_frendly": [
 			{
-				"source": "sounds/music/",
+				"source": "sounds/music/teiwaz",
 				"volume": 0.2,
 				"files": [
 					"065-Tenderfeet.ogg"
@@ -59,124 +59,129 @@
 		],
 		"ibo_gja_theme": [
 			{
-				"source": "sounds/music/",
+				"source": "sounds/music/gjallarhorn",
 				"volume": 0.2,
 				"files": [
-					"069-Suite_of_the_seven_stars.ogg"
-				]
-			},
-			{
-				"source": "sounds/music/",
-				"volume": 0.2,
-				"files": [
+					"069-Suite_of_the_seven_stars.ogg",
 					"073-The_lord.ogg"
 				]
 			}
 		],
 		"ibo_gja_market_hostile": [
 			{
-				"source": "sounds/music/",
+				"source": "sounds/music/gjallarhorn",
 				"volume": 0.2,
 				"files": [
-					"097-Confliction.ogg"
-				]
-			},
-			{
-				"source": "sounds/music/",
-				"volume": 0.2,
-				"files": [
+					"097-Confliction.ogg",
 					"098-Betrayal.ogg"
 				]
 			}
 		],
 		"ibo_gja_enc_neutral": [
 			{
-				"source": "sounds/music/",
+				"source": "sounds/music/gjallarhorn",
 				"volume": 0.2,
 				"files": [
 					"104-The_path_to_the_end.ogg"
 				]
 			}
 		],
-        "gjallarhorn_battle_advantage": [
-            {
-                "source": "sounds/music/cbm/gjallarhorn/battle_advantage",
-                "volume": 0.1,
-                "files": [
-                    "101-The_dignity_of_Lords.ogg"
-                ],
-                "randomStart": false
-            }
-        ],
-        "gjallarhorn_battle": [
-            {
-                "source": "sounds/music/cbm/gjallarhorn/battle",
-                "volume": 0.1,
-                "files": [
-                    "107-All_out.ogg"
-                ],
-                "randomStart": false
-            }
-        ],
-        "gjallarhorn_battle_losing": [
-            {
-                "source": "sounds/music/cbm/gjallarhorn/battle_losing",
-                "volume": 0.1,
-                "files": [
-                    "070-Battle_of_the_seven_stars.ogg"
-                ],
-                "randomStart": false
-            }
-        ]
+		"ibo_gja_battle_advantage": [
+			{
+				"source": "sounds/music/gjallarhorn/battle_advantage",
+				"volume": 0.1,
+				"files": [
+					"101-The_dignity_of_Lords.ogg"
+				],
+				"randomStart": false
+			}
+		],
+		"ibo_gja_battle": [
+			{
+				"source": "sounds/music/gjallarhorn/battle",
+				"volume": 0.1,
+				"files": [
+					"107-All_out.ogg"
+				],
+				"randomStart": false
+			}
+		],
+		"ibo_gja_battle_losing": [
+			{
+				"source": "sounds/music/gjallarhorn/battle_losing",
+				"volume": 0.1,
+				"files": [
+					"070-Battle_of_the_seven_stars.ogg"
+				],
+				"randomStart": false
+			}
+		]
 	},
 	"ibo_dainsleif_fire": [
 		{
-			"file": "sounds/sfx_wpn_guns/dainsleif_shot_01.wav",
+			"file": "sounds/sfx_wpn_guns/dainsleif/dainsleif_shot_01.wav",
 			"pitch": 1,
 			"volume": 0.30
 		},
 		{
-			"file": "sounds/sfx_wpn_guns/dainsleif_shot_01.wav",
+			"file": "sounds/sfx_wpn_guns/dainsleif/dainsleif_shot_01.wav",
 			"pitch": 0.8,
 			"volume": 0.30
 		},
 		{
-			"file": "sounds/sfx_wpn_guns/dainsleif_shot_01.wav",
+			"file": "sounds/sfx_wpn_guns/dainsleif/dainsleif_shot_01.wav",
 			"pitch": 0.6,
 			"volume": 0.30
-		},
+		}
 	],
 	"ibo_dainsleif_spinup": [
 		{
-			"file": "sounds/sfx_wpn_guns/dainsleif_spin_01.wav",
+			"file": "sounds/sfx_wpn_guns/dainsleif/dainsleif_spin_01.wav",
 			"pitch": 0.6,
 			"volume": 0.08
 		},
 		{
-			"file": "sounds/sfx_wpn_guns/dainsleif_spin_02.wav",
+			"file": "sounds/sfx_wpn_guns/dainsleif/dainsleif_spin_02.wav",
 			"pitch": 1,
 			"volume": 0.08
 		},
 		{
-			"file": "sounds/sfx_wpn_guns/dainsleif_spin_03.wav",
+			"file": "sounds/sfx_wpn_guns/dainsleif/dainsleif_spin_03.wav",
 			"pitch": 1,
 			"volume": 0.2
 		}
 	],
 	"ibo_120mm_rifle": [
 		{
-			"file": "sounds/sfx_wpn_guns/rifle_01.wav",
-			"pitch": 0.6,
+			"file": "sounds/sfx_wpn_guns/rifle_120mm.wav",
+			"pitch": 0.9,
 			"volume": 0.08
 		},
 		{
-			"file": "sounds/sfx_wpn_guns/rifle_01.wav",
-			"pitch": 0.65,
+			"file": "sounds/sfx_wpn_guns/rifle_120mm.wav",
+			"pitch": 0.95,
 			"volume": 0.08
 		},
 		{
-			"file": "sounds/sfx_wpn_guns/rifle_01.wav",
-			"pitch": 0.7,
+			"file": "sounds/sfx_wpn_guns/rifle_120mm.wav",
+			"pitch": 1,
+			"volume": 0.08
+		}
+	],
+	"ibo_130mm_rifle": [
+		{
+			"file": "sounds/sfx_wpn_guns/rifle_130mm.wav",
+			"pitch": 0.9,
+			"volume": 0.08
+		},
+		{
+			"file": "sounds/sfx_wpn_guns/rifle_130mm.wav",
+			"pitch": 0.95,
+			"volume": 0.08
+		},
+		{
+			"file": "sounds/sfx_wpn_guns/rifle_130mm.wav",
+			"pitch": 1,
 			"volume": 0.08
 		}
 	]

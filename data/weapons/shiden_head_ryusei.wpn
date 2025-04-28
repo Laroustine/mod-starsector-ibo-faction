@@ -1,12 +1,12 @@
 {
-	"turretSprite": "graphics/weapons/shiden_head_ryusei.png",
-	"hardpointSprite": "graphics/weapons/shiden_head_ryusei.png",
 	"id": "ibo_shiden_head_ryusei",
 	"specClass": "projectile",
 	"barrelMode": "ALTERNATING",
 	"animationType": "NONE",
 	"type": "BALLISTIC",
 	"size": "SMALL",
+	"turretSprite": "graphics/weapons/shiden_head_ryusei.png",
+	"hardpointSprite": "graphics/weapons/shiden_head_ryusei.png",
 	"projectileSpecId": "vulcan_shot",
 	"displayArcRadius": 650,
 	"turretOffsets": [
@@ -28,5 +28,5 @@
 	"hardpointAngleOffsets": [
 		0,
 		0
-	],
+	]
 }

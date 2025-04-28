@@ -1,6 +1,6 @@
 /**
  * @ Author: Laroustine
- * @ Modified time: 27/07 20:07
+ * @ Modified time: 22/04/2025 18:15
  * @ Modified by: Laroustine
  * @ Description: This script has been made by me ↖(^▽^)↗
  */
@@ -25,25 +25,22 @@ public class GjaStationMaker {
   public void generate(SectorAPI sector, String starSystem) {
     StarSystemAPI system = sector.getStarSystem(starSystem);
     SectorEntityToken station = system.addCustomEntity(
-      null,
-      null,
-      "station_gja",
-      faction
-    );
+        null,
+        null,
+        "station_gja",
+        faction);
     MarketAPI market = Global
-      .getFactory()
-      .createMarket(
-        "st_gja_" + starSystem.toLowerCase(),
-        "Admiministrative Station",
-        3
-      );
+        .getFactory()
+        .createMarket(
+            "st_gja_" + starSystem.toLowerCase(),
+            "Admiministrative Station",
+            3);
 
     station.setCircularOrbitPointingDown(
-      system.getStar(),
-      new Random().nextInt(360),
-      new Random().nextInt(2500) + 2800,
-      new Random().nextInt(120) + 60
-    );
+        system.getStar(),
+        new Random().nextInt(360),
+        new Random().nextInt(2500) + 2800,
+        new Random().nextInt(120) + 60);
 
     market.setPrimaryEntity(station);
     market.setFactionId(faction);

@@ -1,10 +1,8 @@
 {
 	"variantOverrides": {
-		"ibo_shiden_p": 100,
-		"ibo_shiden_bazooka_p": 100,
-		"ibo_shiden_custom_p": 100,
-		"ibo_mercurius_elite_p": 50,
-		"ibo_mercurius_strike_p": 50
+		"ibo_shiden_pl": 100,
+		"ibo_shiden_bazooka_pl": 100,
+		"ibo_shiden_custom_pl": 100,
 	},
 	"knownFighters": {
 		"tags": [

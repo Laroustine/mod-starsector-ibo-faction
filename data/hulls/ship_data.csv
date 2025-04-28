@@ -3,15 +3,14 @@ name,id,designation,tech/manufacturer,system id,fleet pts,hitpoints,armor rating
 Mobile Worker,ibo_mobile_worker,,Tekkadan,,,150,65,500,,100,0,,185,135,100,90,180,1,NONE,,0,0,0,,,1,1,,,,,,,,,,,,,,,,,,,,,,0,0,0,,1
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Man Rodi,ibo_rodi_man,,Pirate,,,1250,265,900,,150,0,,165,125,100,90,180,30,NONE,,,,,,,1,1,,,,,,,,,,,,,,,,,,,,,,0.25,0,2,,2
-Ryusei-Go II,ibo_ryusei_go,,Tekkadan,maneuveringjets,,1650,215,2000,,250,0,,275,175,100,90,180,26,NONE,,,,,,,1,1,,,,,,,,,,,,,,,,,,,,,,0.25,0,2,,4
-Shiden,ibo_shiden,,Teiwaz,,,1150,190,700,,140,0,,175,125,100,90,180,28,NONE,,,,,,,1,1,,,,,,,,,,,,,,,,,,,,,,0.25,0,2,,5
-Shiden Custom,ibo_shiden_custom,,Teiwaz,maneuveringjets,,1450,210,2000,,250,0,,265,180,120,90,180,28,NONE,,,,,,,1,1,,,,,,,,,,,,,,,,,,,,,,0.25,0,2,,6
-Ryusei-Go III,ibo_shiden_ryusei,,Tekkadan,maneuveringjets,,1650,250,2100,,250,0,,265,165,125,90,180,28,NONE,,,,,,,1,1,,,,,,,,,,,,,,,,,,,,,,0.25,0,2,,15
-Graze,ibo_graze,,Gjallarhorn,,,1300,200,750,,140,0,,175,125,100,90,180,28,NONE,,,,,,,1,1,,,,,,,,,,,,,,,,,,,,,,0.25,0,2,,11
-Graze Custom,ibo_graze_custom,,Tekkadan,fastmissileracks,,1650,215,2000,,250,0,,265,165,100,90,180,26,NONE,,,,,,,1,1,,,,,,,,,,,,,,,,,,,,,,0.25,0,2,,13
-Graze Dainsleif,ibo_graze_dainsleif,,Gjallarhorn,,,1200,170,800,,150,0,,100,100,100,50,180,38,NONE,,,,,,,1,1,,,,,,,,,,,,,,,,,,,,,,0.25,0,2,,14
+Ryusei-Go II,ibo_ryusei_go,,Tekkadan,maneuveringjets,,1650,215,2000,,250,0,,275,175,100,90,180,26,NONE,,,,,,,1,1,,,,,,,,,,,,,,,,,,,,,,0.25,0,2,,3
+Shiden,ibo_shiden,,Teiwaz,,,1150,190,700,,140,0,,175,125,100,90,180,28,NONE,,,,,,,1,1,,,,,,,,,,,,,,,,,,,,,,0.25,0,2,,4
+Shiden Custom,ibo_shiden_custom,,Teiwaz,maneuveringjets,,1450,210,2000,,250,0,,265,180,120,90,180,28,NONE,,,,,,,1,1,,,,,,,,,,,,,,,,,,,,,,0.25,0,2,,5
+Ryusei-Go III,ibo_shiden_ryusei,,Tekkadan,maneuveringjets,,1650,250,2100,,250,0,,265,165,125,90,180,28,NONE,,,,,,,1,1,,,,,,,,,,,,,,,,,,,,,,0.25,0,2,,6
+Graze,ibo_graze,,Gjallarhorn,,,1300,200,750,,140,0,,175,125,100,90,180,28,NONE,,,,,,,1,1,,,,,,,,,,,,,,,,,,,,,,0.25,0,2,,7
+Graze Custom,ibo_graze_custom,,Tekkadan,fastmissileracks,,1650,215,2000,,250,0,,265,165,100,90,180,26,NONE,,,,,,,1,1,,,,,,,,,,,,,,,,,,,,,,0.25,0,2,,8
+Graze Dainsleif,ibo_graze_dainsleif,,Gjallarhorn,,,1200,170,800,,150,0,,100,100,100,50,180,38,NONE,,,,,,,1,1,,,,,,,,,,,,,,,,,,,,,,0.25,0,2,,9
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Mercurius,ibo_mercurius,Destroyer,Low Tech,flarelauncher,10,4500,850,2250,,300,70,2,80,60,40,25,30,400,NONE,,0,0,0,,,25,80,60,30,2,15,9,80000,5,10,120,0.25,4,4,,,,,,,CARRIER,"lowtech_bp",,0.6,2,3,,19
-Isaribi,ibo_isaribi,Destroyer,Tekkadan,flarelauncher,10,4500,850,2250,,300,70,2,80,60,40,25,30,400,NONE,,0,0,0,,,25,80,60,30,2,15,9,80000,5,10,120,0.25,4,4,,,,,,,CARRIER,"tek_bp",,0.6,2,3,,19
-Halfbeack,ibo_halfbeack,Battleship,Gjallarhorn,,22,8000,1800,8000,5000,180,145,2,100,25,15,20,25,2800,NONE,,0,0,0,,,30,400,420,280,3,100,7,200000,5,15,380,0.22,22,18,,,,,,,"COMBAT, RENDER_ENGINES_BELOW_HULL",gja_bp,,0.6,2,3,,20
-Biscoe,ibo_biscoe,Shuttle,Gjallarhorn,,10,1000,500,1200,,80,20,1,80,50,45,60,40,180,NONE,,0,0,0,,,10,40,22,12,1,15,10,5000,2,5,60,0.25,2,1,,,,,,,CARRIER,gja_bp,,0.4,2,3,,21
+Isaribi,ibo_isaribi,Armored Assault-Ship,Tekkadan,flarelauncher,10,4500,850,2250,,300,70,2,80,60,40,25,30,400,NONE,,0,0,0,,,25,80,60,30,2,15,9,80000,5,10,120,0.25,4,4,,,,,,,CARRIER,ibo_teiwaz_bp,,0.6,2,3,,31
+Halfbeack,ibo_halfbeack,Battleship,Gjallarhorn,,22,8000,1800,8000,5000,180,145,2,100,25,15,20,25,2800,NONE,,0,0,0,,,30,400,420,280,3,100,7,200000,5,15,380,0.22,22,18,,,,,,,"COMBAT, RENDER_ENGINES_BELOW_HULL",ibo_gja_bp,,0.6,2,3,,32
+Biscoe,ibo_biscoe,Cruiser,Gjallarhorn,,10,1000,500,1200,,80,20,1,80,50,45,60,40,180,NONE,,0,0,0,,,10,40,22,12,1,15,10,5000,2,5,60,0.25,2,1,,,,,,,CARRIER,ibo_gja_bp,,0.4,2,3,,33

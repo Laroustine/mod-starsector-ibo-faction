@@ -4,4 +4,5 @@
     "hullName": "Landman Rodi",
     "descriptionId": "ibo_rodi_landman",
     "spriteName": "graphics/ships/rodi/rodi_landman.png",
+	"tech":"Tekkadan",
 }

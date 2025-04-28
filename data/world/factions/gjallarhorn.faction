@@ -56,14 +56,12 @@
     },
     "knownFighters": {
         "tags": [
-            "ibo_graze_bp",
             "ibo_gja_bp"
         ],
         "fighters": []
     },
     "priorityFighters": {
         "tags": [
-            "ibo_graze_bp",
             "ibo_gja_bp"
         ],
         "fighters": []
@@ -142,25 +140,29 @@
     ],
     "music": {
         "theme": "ibo_gja_theme",
-        "battle": "gjallarhorn_battle",
         "market_neutral": "ibo_gja_theme",
         "market_friendly": "ibo_gja_theme",
         "market_hostile": "ibo_gja_market_hostile",
         "encounter_neutral": "ibo_gja_enc_neutral",
         "encounter_friendly": "ibo_gja_enc_neutral",
         "encounter_hostile": "ibo_gja_enc_neutral",
-        "battle_advantage": "gjallarhorn_battle_advantage",
-        "battle_losing": "gjallarhorn_battle_losing"
+        "music_combat_set": "ibo_gja_battle",
+        "battle_xtreme": "ibo_gja_battle_advantage",
+        "player_retreat": "ibo_gja_battle_advantage",
+        "battle_losing": "ibo_gja_battle_losing"
     },
     "internalComms": "hegemony_internal",
     "portraits": {
         "standard_male": [
             "graphics/portraits/gjallarhorn_m.png",
-            "graphics/portraits/rustal.png"
+            "graphics/portraits/gjallarhorn_n.png",
+            "graphics/portraits/gjallarhorn_gekko_1.png",
+            "graphics/portraits/gjallarhorn_gekko_3.png"
         ],
         "standard_female": [
             "graphics/portraits/gjallarhorn_f.png",
-            "graphics/portraits/carta.png"
+            "graphics/portraits/gjallarhorn_n.png",
+            "graphics/portraits/gjallarhorn_gekko_2.png"
         ]
     },
     "ranks": {

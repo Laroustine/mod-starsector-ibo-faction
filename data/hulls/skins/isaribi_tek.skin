@@ -1,0 +1,14 @@
+{
+	"baseHullId": "ibo_isaribi",
+	"skinHullId": "ibo_isaribi_tek",
+	"hullName": "Isaribi (Tekkadan)",
+	"descriptionId": "ibo_isaribi",
+	"descriptionPrefix": "Originally known as the Will-O'-the-Wisp while used by CGS, its name was later changed to coincide with the company's name change. The vessel served as the main flagship of Tekkadan.",
+	"spriteName": "graphics/ships/isaribi/isaribi_tek.png",
+	"baseValueMult": 1.05,
+	"ordnancePoints": 70,
+	"tags": [
+		"ibo_tek_bp"
+	],
+	"tech":"Tekkadan"
+}

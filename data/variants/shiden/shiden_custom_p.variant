@@ -1,9 +1,9 @@
 {
-  "displayName": "Assault",
+  "displayName": "",
   "fluxCapacitors": 0,
   "fluxVents": 0,
-  "hullId": "ibo_shiden_custom_p",
-  "variantId": "ibo_shiden_custom_p",
+  "hullId": "ibo_shiden_custom_pl",
+  "variantId": "ibo_shiden_custom_pl",
   "weaponGroups": [
     {
       "autofire": false,

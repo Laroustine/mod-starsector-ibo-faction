@@ -1,21 +1,19 @@
 {
     "id": "sindrian_diktat",
     "variantOverrides": {
-        "ibo_mercurius_strike_p": 50,
-        "ibo_mercurius_strike_h": 50
     },
     "knownFighters": {
         "tags": [],
         "fighters": [
             "ibo_graze_h_wing",
-            "ibo_shiden_bazooka_p_wing"
+            "ibo_shiden_bazooka_pl_wing"
         ]
     },
     "priorityFighters": {
         "tags": [],
         "fighters": [
             "ibo_graze_h_wing",
-            "ibo_shiden_bazooka_p_wing"
+            "ibo_shiden_bazooka_pl_wing"
         ]
     }
 }

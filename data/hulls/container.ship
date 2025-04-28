@@ -1,0 +1,59 @@
+{
+  "hullName": "Kontainar",
+  "hullId": "ibo_container",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/small_container/small_container_cb.png",
+  "style": "LOW_TECH",
+  "height": 61,
+  "width": 39,
+  "center": [19.5, 34],
+  "collisionRadius": 32,
+  "shieldCenter": [-1, -0],
+  "shieldRadius": 30.5,
+  "viewOffset": 0,
+  "weaponSlots": [],
+  "engineSlots": [
+    {
+      "location": [16, -16.5],
+      "length": 5,
+      "width": 4,
+      "angle": -90,
+      "contrailSize": 4,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [16, 16.5],
+      "length": 5,
+      "width": 4,
+      "angle": 90,
+      "contrailSize": 4,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-32.5, -0],
+      "length": 7.9,
+      "width": 6.34,
+      "angle": 180,
+      "contrailSize": 6.34,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-32.5, 0],
+      "length": 7.902099,
+      "width": 6.342503,
+      "angle": -180,
+      "contrailSize": 6.342503,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -33, -2.5,
+    -28, -10.5,
+    16.5, -18.5,
+    26, -3.5,
+    26, 3.5,
+    16.5, 18.5,
+    -28, 10.5,
+    -33, 2.5
+  ]
+}
