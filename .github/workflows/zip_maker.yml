@@ -45,7 +45,7 @@ jobs:
           mkdir mod
           mv -f IBO-Faction mod/
       - name: Make Artifact (.ZIP)
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v4
         with:
           name: IBO-Faction
           path: mod
@@ -55,7 +55,7 @@ jobs:
     needs: [zip]
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/download-artifact@v3
+      - uses: actions/download-artifact@v4
       - name: Display Folder
         run: |
           ls -R
